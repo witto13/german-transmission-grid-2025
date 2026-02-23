@@ -1,0 +1,415 @@
+jao_osm_id,cluster_id,cluster_name,cluster_osm_id,confidence,tier,distance_km,method,cluster_degree,cluster_voltages
+941453716,osm_941453716,Umspannwerk Siedenbrünzow,941453716,1.0,0,0.0,osm_id,4,[380.0]
+22973052,osm_22973052,Umspannwerk Wuhlheide,22973052,1.0,0,0.0,osm_id,4,[220.0]
+948341123,osm_948341123,Umspannwerk Eisenach,948341123,1.0,0,0.0,osm_id,3,[380.0]
+59026005,osm_59026005,Umspannwerk Hagenwerder,59026005,1.0,0,0.0,osm_id,4,[380.0]
+23583867,osm_23583867,Hamburg/Ost,23583867,1.0,0,0.0,osm_id,3,[380.0]
+170123812,osm_170123812,Umspannwerk Vierraden,170123812,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+940636813,osm_940636813,Umspannwerk Malchow,940636813,1.0,0,0.0,osm_id,1,[380.0]
+517421342,osm_517421342,Umspannwerk Parchim Süd,517421342,1.0,0,0.0,osm_id,3,[220.0]
+30132758,osm_30132758,Umspannwerk Teufelsbruch,30132758,1.0,0,0.0,osm_id,4,[380.0]
+460134233,osm_460134233,Umspannwerk Lubmin,460134233,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+27149550,osm_27149550,Umspannwerk Wustermark,27149550,1.0,0,0.0,osm_id,10,"[220.0, 380.0]"
+943444232,osm_1222597065,Umspannwerk Pasewalk,1222597065,0.851,1,0.135,spatial_0.5km,4,[220.0]
+28729619,osm_28729619,UW Schönewalde,28729619,1.0,0,0.0,osm_id,4,[380.0]
+30039908,osm_30039908,Umspannwerk Bertikow,30039908,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+1691982892,spatial_12587,,,0.9,1,0.0,spatial_0.5km,6,[380.0]
+26472665,osm_26472665,Umspannwerk Wolmirstedt,26472665,1.0,0,0.0,osm_id,10,"[220.0, 380.0]"
+518455594,osm_518455594,Umspannwerk Gransee,518455594,1.0,0,0.0,osm_id,3,[380.0]
+128277645,osm_128277645,Umspannwerk Remptendorf,128277645,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+30164703,osm_30164703,Umspannwerk Graustein,30164703,1.0,0,0.0,osm_id,6,[380.0]
+157328339,osm_157328339,Umspannwerk Streumen,157328339,1.0,0,0.0,osm_id,10,[380.0]
+22973070,osm_22973070,Umspannwerk Marzahn,22973070,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+59707532,osm_59707532,Umspannwerk Perleberg,59707532,1.0,0,0.0,osm_id,1,[380.0]
+941198517,osm_941198517,Umspannwerk Preilack,941198517,1.0,0,0.0,osm_id,10,[380.0]
+143882655,osm_143882655,Umspannwerk Vieselbach,143882655,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+149256409,osm_149256409,Umspannwerk Altenfeld,149256409,1.0,0,0.0,osm_id,5,[380.0]
+30622610,osm_30622610,Umspannwerk Kernkraftwerk Brunsbüttel,30622610,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+942771541,osm_942771541,Umspannwerk Dresden Süd,942771541,1.0,0,0.0,osm_id,4,[380.0]
+32062544,osm_32062544,Umspannwerk Güstrow,32062544,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+32318130,osm_32318130,Bentwisch,32318130,0.8,0,0.0,osm_id_voltage_mismatch,4,[220.0]
+29331499,osm_29331499,Umspannwerk Thyrow,29331499,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+157806991,osm_157806991,Schaltwerk Bärwalde,157806991,1.0,0,0.0,osm_id,8,[380.0]
+52983550,osm_52983550,Eisenhüttenstadt,52983550,1.0,0,0.0,osm_id,2,[380.0]
+1731698972,osm_414169327,Umspannwerk Heinersdorf,414169327,0.826,1,0.206,spatial_0.5km,4,[380.0]
+157164284,osm_157164284,Wolkramshausen,157164284,1.0,0,0.0,osm_id,2,[220.0]
+137197826,osm_137197826,Umspannwerk Neuenhagen,137197826,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+22720647,osm_22720647,Hamburg Nord,22720647,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+947118608,osm_947118608,Umspannwerk Altentreptow Süd,947118608,1.0,0,0.0,osm_id,4,[380.0]
+398680313,osm_398680313,Jessen Nord (Schweinitz) 380 kV,398680313,1.0,0,0.0,osm_id,6,[380.0]
+943939310,osm_943939310,Förderstedt 380 kV,943939310,1.0,0,0.0,osm_id,2,[380.0]
+234171369,osm_234171369,Umspannwerk Wessin,234171369,1.0,0,0.0,osm_id,4,[380.0]
+109917397,osm_109917397,Umspannwerk Freiberg Nord,109917397,1.0,0,0.0,osm_id,4,[380.0]
+32690742,osm_32690742,Umspannwerk Klostermansfeld,32690742,1.0,0,0.0,osm_id,4,[380.0]
+46615737,osm_46615737,Umspannwerk Charlottenburg,46615737,1.0,0,0.0,osm_id,4,[380.0]
+30954714,osm_30954714,Umspannwerk Friedrichshain,30954714,1.0,0,0.0,osm_id,5,[380.0]
+43163132,osm_43163132,Umspannwerk Reuter,43163132,1.0,0,0.0,osm_id,6,[380.0]
+946710698,osm_946710698,Umspannwerk Lüdershagen,946710698,1.0,0,0.0,osm_id,4,[220.0]
+946025110,osm_946025110,Umspannwerk Marke,946025110,1.0,0,0.0,osm_id,2,[380.0]
+11285720,osm_11285720,Hamburg/Süd,11285720,1.0,0,0.0,osm_id,2,[380.0]
+442199284,osm_442199284,Umspannwerk Pulgar,442199284,1.0,0,0.0,osm_id,5,[380.0]
+851299584,osm_851299584,Umspannwerk Putlitz Süd,851299584,1.0,0,0.0,osm_id,2,[380.0]
+1089911132,spatial_39249,,,0.878,1,0.062,spatial_0.5km,3,[380.0]
+156673637,osm_156673637,Umspannwerk Weida,156673637,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+30309989,osm_30309989,Hennigsdorf,30309989,1.0,0,0.0,osm_id,2,[220.0]
+941805476,osm_941805476,Umspannwerk Schmölln,941805476,1.0,0,0.0,osm_id,6,[380.0]
+30040568,osm_30040568,Umspannwerk Görries,30040568,1.0,0,0.0,osm_id,3,[380.0]
+33169401,osm_33169401,Umspannwerk Stendal West,33169401,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+32843531,osm_946206351,Umspannwerk Eula,946206351,0.821,1,0.22,spatial_0.5km,5,"[220.0, 380.0]"
+940922557,osm_940922557,Umspannwerk Ragow,940922557,1.0,0,0.0,osm_id,9,[380.0]
+515358077,osm_515358077,Umspannwerk Altentreptow Nord,515358077,1.0,0,0.0,osm_id,4,[380.0]
+414169327,osm_414169327,Umspannwerk Heinersdorf,414169327,1.0,0,0.0,osm_id,4,[380.0]
+23117075,osm_23117075,Umspannwerk Röhrsdorf,23117075,1.0,0,0.0,osm_id,4,[380.0]
+30303506,osm_30303506,Umspannwerk Mitte,30303506,1.0,0,0.0,osm_id,4,[380.0]
+29713902,osm_29713902,Umspannwerk Lauchstädt,29713902,1.0,0,0.0,osm_id,7,[380.0]
+35763480,spatial_35799,,,0.9,1,0.0,spatial_0.5km,4,[380.0]
+24536328,osm_24536328,Dillenburg,24536328,1.0,0,0.0,osm_id,1,[380.0]
+952346321,osm_952346322,Station Gronau,952346322,0.843,1,0.159,spatial_0.5km,6,[380.0]
+92165128,osm_92165128,Station Linde,92165128,1.0,0,0.0,osm_id,3,[380.0]
+57727004,osm_57727004,Umspannanlage Leupolz,57727004,1.0,0,0.0,osm_id,7,"[220.0, 380.0]"
+59925390,osm_59925390,Station Karnap,59925390,1.0,0,0.0,osm_id,2,[380.0]
+198448981,osm_198448981,Umspannwerk Waldlaubersheim,198448981,1.0,0,0.0,osm_id,4,[380.0]
+26383042,osm_26383042,Station Gütersloh,26383042,1.0,0,0.0,osm_id,3,[380.0]
+24858617,osm_24858617,Station Ratsbusch,24858617,1.0,0,0.0,osm_id,2,[220.0]
+88945213,osm_88945213,Schaltanlage Gundelfingen,88945213,1.0,0,0.0,osm_id,4,[380.0]
+41389594,osm_41389594,Dellmensingen,41389594,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+160584794,osm_160584794,Station Koblenz,160584794,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+121199242,osm_121199242,Station Lippe,121199242,1.0,0,0.0,osm_id,3,[380.0]
+25051880,osm_25051880,Station Gelsenberg,25051880,1.0,0,0.0,osm_id,2,[220.0]
+1474044186,spatial_3260,,,0.9,1,0.0,spatial_0.5km,6,[220.0]
+27919734,osm_27919734,Station Gohrpunkt,27919734,1.0,0,0.0,osm_id,10,"[220.0, 380.0]"
+979801144,osm_979801144,Kottigerhook 380 kV,979801144,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+50898216,osm_50898216,Station Limburg,50898216,1.0,0,0.0,osm_id,4,[380.0]
+27871140,osm_27871140,Station Dünnwald,27871140,1.0,0,0.0,osm_id,2,[220.0]
+114319248,osm_114319248,Station Westerkappeln,114319248,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+38584673,osm_38584673,Station Bellendorf,38584673,1.0,0,0.0,osm_id,4,[220.0]
+1024536785,osm_1024536785,Umspannwerk Rommersheim,1024536785,1.0,0,0.0,osm_id,0,[380.0]
+147521567,osm_147521567,Umspannanlage Pfungstadt,147521567,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+42488850,osm_42488850,Umspannungsanlage Uentrop,42488850,1.0,0,0.0,osm_id,7,[380.0]
+66038431,osm_66038431,Station Laer,66038431,1.0,0,0.0,osm_id,2,[220.0]
+29077623,osm_29077623,Umspannwerk Kusenhorst,29077623,1.0,0,0.0,osm_id,7,"[220.0, 380.0]"
+118928165,osm_118928165,Benteler Stahlwerk,118928165,1.0,0,0.0,osm_id,1,[220.0]
+169244940,osm_169244940,Station Kelsterbach,169244940,1.0,0,0.0,osm_id,2,[380.0]
+269480914,spatial_3826,,,0.898,1,0.007,spatial_0.5km,4,[220.0]
+319868746,spatial_2341,,,0.9,1,0.0,spatial_0.5km,6,[220.0]
+25992879,osm_25992879,Siersdorf,25992879,1.0,0,0.0,osm_id,2,[380.0]
+88916034,osm_88916034,Netzknoten Kühmoos,88916034,1.0,0,0.0,osm_id,14,"[220.0, 380.0]"
+87767098,osm_87767098,Station Mettmann,87767098,1.0,0,0.0,osm_id,2,[380.0]
+24415232,osm_24415232,Station Elmenhorst,24415232,1.0,0,0.0,osm_id,3,[220.0]
+418971276,spatial_5599,,,0.877,1,0.064,spatial_0.5km,4,[220.0]
+272324791,spatial_1815,,,0.9,1,0.0,spatial_0.5km,5,[380.0]
+26291794,osm_26291794,Station Rosenblumendelle,26291794,1.0,0,0.0,osm_id,1,[380.0]
+22944791,osm_22944791,Station Bergmannsglück,22944791,1.0,0,0.0,osm_id,4,[220.0]
+116701004,osm_1118059105,NA,1118059105,0.565,2,1.926,spatial_2.0km,1,[220.0]
+152403632,osm_152403632,Station Dauersberg,152403632,1.0,0,0.0,osm_id,7,"[220.0, 380.0]"
+25802269,spatial_35136,,,0.9,1,0.0,spatial_0.5km,6,[380.0]
+24839976,osm_24839976,Umspannwerk Rommerskirchen,24839976,1.0,0,0.0,osm_id,14,"[220.0, 380.0]"
+787840119,osm_787840119,Ruhrzink,787840119,1.0,0,0.0,osm_id,2,[220.0]
+113546939,osm_113546939,Station Eiberg,113546939,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+61918154,osm_61918154,Hanekenfähr,61918154,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+31367940,osm_31367940,Umspannwerk Tiengen,31367940,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+24280460,osm_24280460,Station Nordlicht,24280460,1.0,0,0.0,osm_id,2,[380.0]
+25043127,osm_25043127,Station Selbeck,25043127,1.0,0,0.0,osm_id,1,[380.0]
+156973363,osm_156973363,Station Welper,156973363,1.0,0,0.0,osm_id,1,[220.0]
+29472852,osm_29472852,Station Ibbenbüren,29472852,1.0,0,0.0,osm_id,3,"[220.0, 380.0]"
+152973139,osm_152973139,Amprion Station Rheinau,152973139,1.0,0,0.0,osm_id,14,"[220.0, 380.0]"
+1014838222,osm_106096507,Station Ohligs,106096507,0.74,1,0.443,spatial_0.5km,2,[380.0]
+37554416,osm_37554416,Station Hamborn,37554416,1.0,0,0.0,osm_id,3,[220.0]
+31762305,osm_31762305,Station Norf,31762305,1.0,0,0.0,osm_id,3,[220.0]
+142487746,osm_142487746,Dörpen West,142487746,1.0,0,0.0,osm_id,5,[380.0]
+49577401,osm_49577401,Station Sankt Peter 220 kV,49577401,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+5865785815,osm_32148946,Station Bollenacker,32148946,0.447,3,2.63,spatial_5.0km,1,[220.0]
+152107815,osm_152107815,Otterbach,152107815,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+89352550,osm_89352550,Schaltanlage St. Barbara,89352550,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+600395952,osm_600395952,Umspannanlage Lambsheim,600395952,1.0,0,0.0,osm_id,4,[380.0]
+796306640,osm_796306640,Öchtel,796306640,1.0,0,0.0,osm_id,3,[380.0]
+24799890,osm_24799890,Station Osterath,24799890,0.8,0,0.0,osm_id_voltage_mismatch,4,[220.0]
+42560068,osm_42560068,Station Enniger,42560068,1.0,0,0.0,osm_id,3,[380.0]
+22796434,osm_22796434,Station Stockem,22796434,1.0,0,0.0,osm_id,2,[220.0]
+1076001174,osm_1076001174,Emscherbruch,1076001174,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+42488855,osm_42488855,Station Lippborg,42488855,1.0,0,0.0,osm_id,1,[380.0]
+24815262,osm_24815262,Station Dülken,24815262,1.0,0,0.0,osm_id,1,[220.0]
+77038371,osm_77038371,Umspannwerk Bidingen,77038371,1.0,0,0.0,osm_id,2,[380.0]
+22765517,osm_22765517,Station Knapsack,22765517,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+25044557,osm_25044557,Station Rath,25044557,1.0,0,0.0,osm_id,1,[380.0]
+22761839,osm_22761839,Station Opladen,22761839,1.0,0,0.0,osm_id,12,"[220.0, 380.0]"
+91854336,osm_91854336,Station Mündelheim,91854336,1.0,0,0.0,osm_id,4,[220.0]
+7447294395,osm_796306640,Öchtel,796306640,0.771,1,0.358,spatial_0.5km,3,[380.0]
+18629425,osm_18629425,Umspannwerk Oberbachern,18629425,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+89215122,osm_89215122,Station Saarwellingen,89215122,1.0,0,0.0,osm_id,5,[220.0]
+42799487,osm_42799487,Station Arpe,42799487,1.0,0,0.0,osm_id,2,[380.0]
+151967291,osm_151967291,Station Quint,151967291,1.0,0,0.0,osm_id,3,[220.0]
+26927264,osm_26927264,Station Paffendorf,26927264,1.0,0,0.0,osm_id,2,[380.0]
+68549340,osm_68549340,Station Bochum,68549340,1.0,0,0.0,osm_id,3,[220.0]
+275138524,osm_275138524,Schaltanlage Datteln 4,275138524,1.0,0,0.0,osm_id,1,[380.0]
+24478889,osm_24478889,Station Walsum,24478889,1.0,0,0.0,osm_id,7,"[220.0, 380.0]"
+273067278,spatial_2394,,,0.9,1,0.0,spatial_0.5km,4,[380.0]
+152018146,osm_152018146,Mittelbexbach,152018146,1.0,0,0.0,osm_id,6,[380.0]
+112695048,osm_112695048,Geithe,112695048,1.0,0,0.0,osm_id,1,[380.0]
+375714534,osm_797009308,Niederlangen,797009308,0.772,1,0.357,spatial_0.5km,2,[380.0]
+395847307,osm_395847307,Station Weißenthurm,395847307,1.0,0,0.0,osm_id,12,"[220.0, 380.0]"
+54359256,osm_54359256,Umspannwerk Uchtelfangen,54359256,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+373967500,osm_373967500,Bacharach,373967500,1.0,0,0.0,osm_id,4,[380.0]
+82773910,osm_82773910,Umspannanlage Ensdorf,82773910,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+22964137,osm_22964137,Station Kruckel,22964137,1.0,0,0.0,osm_id,4,[380.0]
+41232144,osm_41232144,Umspannwerk Twistetal,41232144,1.0,0,0.0,osm_id,3,[380.0]
+42507488,osm_42507488,Station Gersteinwerk,42507488,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+1040551074,spatial_39388,,,0.9,1,0.0,spatial_0.5km,2,[220.0]
+51940126,osm_51940126,Umspannwerk Bixterheide,51940126,1.0,0,0.0,osm_id,1,[220.0]
+22690852,osm_22690852,Umspannwerk Bocklemünd,22690852,1.0,0,0.0,osm_id,2,[220.0]
+276249131,osm_276249131,Umspannwerk Maximiliansau,276249131,1.0,0,0.0,osm_id,2,[220.0]
+530640687,spatial_10424,,,0.9,1,0.0,spatial_0.5km,5,[380.0]
+32148946,osm_32148946,Station Bollenacker,32148946,1.0,0,0.0,osm_id,1,[220.0]
+259561755,osm_259561755,Weingarten,259561755,1.0,0,0.0,osm_id,2,[380.0]
+30613895,osm_30613895,Umspannwerk Oberottmarshausen,30613895,1.0,0,0.0,osm_id,2,[380.0]
+22761692,osm_22761692,UW Fühlingen,22761692,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+89176939,osm_89176939,SA Bauler,89176939,1.0,0,0.0,osm_id,5,[220.0]
+32472806,osm_32472806,Station Mengede,32472806,1.0,0,0.0,osm_id,4,[380.0]
+24414688,osm_24414688,Station Wambel,24414688,1.0,0,0.0,osm_id,3,[220.0]
+42410916,osm_42410916,Großkrotzenburg,42410916,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+37764852,osm_37764852,Lüstringen,37764852,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+149987048,osm_149987048,Station Bürstadt,149987048,1.0,0,0.0,osm_id,11,"[220.0, 380.0]"
+346125661,spatial_12068,,,0.899,1,0.004,spatial_0.5km,3,[380.0]
+42809973,osm_42809973,Station Unna,42809973,1.0,0,0.0,osm_id,2,[380.0]
+152261133,osm_152261133,Karlsruhe-Daxlanden,152261133,1.0,0,0.0,osm_id,12,"[220.0, 380.0]"
+24685992,osm_24685992,Umspannstation Bischofsheim,24685992,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+23084417,osm_23084417,Station Pfalzdorf,23084417,1.0,0,0.0,osm_id,1,[220.0]
+25506770,osm_25506770,Station Roxel,25506770,1.0,0,0.0,osm_id,2,[380.0]
+384862833,spatial_11486,,,0.9,1,0.0,spatial_0.5km,3,[220.0]
+26593929,osm_26593929,Station Oberzier,26593929,1.0,0,0.0,osm_id,8,[380.0]
+23641079,osm_23641079,Farbwerke Höchst Süd (FWH-S),23641079,1.0,0,0.0,osm_id,3,[220.0]
+35833592,osm_35833592,Umspannwerk Schwelgern,35833592,1.0,0,0.0,osm_id,2,[220.0]
+24479984,osm_24479984,Uerdingen,24479984,1.0,0,0.0,osm_id,4,[220.0]
+24536211,osm_24536211,Umspannwerk Aßlar,24536211,1.0,0,0.0,osm_id,3,[380.0]
+132814303,osm_132814303,Umspannwerk Altenkleusheim,132814303,1.0,0,0.0,osm_id,2,[220.0]
+24462317,osm_24462317,Spellen,24462317,1.0,0,0.0,osm_id,2,[220.0]
+42423415,osm_42423415,Meckenheim,42423415,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+82310607,osm_82310607,Diefflen,82310607,1.0,0,0.0,osm_id,6,[220.0]
+23284340,osm_23284340,Umspannwerk Urberach,23284340,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+25306752,osm_25306752,Umspannwerk Herbertingen,25306752,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+28452784,osm_28452784,Station Pöppinghausen,28452784,1.0,0,0.0,osm_id,4,[220.0]
+24264701,osm_957746797,Bechterdissen,957746797,0.875,1,0.07,spatial_0.5km,6,"[220.0, 380.0]"
+23067006,osm_23067006,Station Hüllen,23067006,1.0,0,0.0,osm_id,2,[380.0]
+23022100,osm_23022100,Station Polsum,23022100,1.0,0,0.0,osm_id,11,"[220.0, 380.0]"
+953015049,osm_953015049,Ohlensehlen,953015049,1.0,0,0.0,osm_id,2,[380.0]
+24667346,osm_24667346,Garenfeld,24667346,1.0,0,0.0,osm_id,3,"[220.0, 380.0]"
+24462426,osm_24462426,Station Niederrhein,24462426,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+954413959,spatial_14105,,,0.799,1,0.281,spatial_0.5km,6,[220.0]
+156402422,osm_156402422,Homburg,156402422,1.0,0,0.0,osm_id,4,[220.0]
+152924498,osm_152924498,UA Mutterstadt,152924498,1.0,0,0.0,osm_id,5,[220.0]
+23192640,osm_23192640,Station Reisholz,23192640,1.0,0,0.0,osm_id,2,[220.0]
+53378027,osm_53378027,Umspannwerk Lechhausen,53378027,1.0,0,0.0,osm_id,2,[380.0]
+145680894,osm_145680894,Station Trier,145680894,1.0,0,0.0,osm_id,3,[220.0]
+111973179,osm_111973179,Station Münster,111973179,1.0,0,0.0,osm_id,1,[220.0]
+101997887,spatial_11085,,,0.795,1,0.291,spatial_0.5km,1,[380.0]
+22766160,osm_22766160,Station Sechtem,22766160,1.0,0,0.0,osm_id,13,"[220.0, 380.0]"
+85523877,osm_85523877,Vöhringen Amprion,85523877,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+206289192,osm_206289192,Meppen,206289192,1.0,0,0.0,osm_id,3,[380.0]
+43688805,osm_43688805,Umspannwerk Pulverdingen,43688805,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+739453432,spatial_2495,,,0.9,1,0.0,spatial_0.5km,3,[380.0]
+32904794,osm_32904794,Station Sankt Hülfe,32904794,1.0,0,0.0,osm_id,2,[380.0]
+29374542,osm_29374542,Station Gremberghoven,29374542,1.0,0,0.0,osm_id,2,[220.0]
+106096507,osm_106096507,Station Ohligs,106096507,1.0,0,0.0,osm_id,2,[380.0]
+271226559,spatial_8879,,,0.66,2,0.572,spatial_2.0km,6,[380.0]
+93278553,osm_93278553,Station Edelstahl Krefeld,93278553,1.0,0,0.0,osm_id,4,[220.0]
+42372159,osm_42372159,Umspannwerk Dettingen,42372159,1.0,0,0.0,osm_id,3,[380.0]
+42861703,osm_42861703,Amelsbüren,42861703,1.0,0,0.0,osm_id,3,[220.0]
+32675761,osm_32675761,Station Dahlem,32675761,1.0,0,0.0,osm_id,4,[380.0]
+152924508,osm_152924508,BASF,152924508,1.0,0,0.0,osm_id,4,[220.0]
+33816726,osm_33816726,Station Halfeshof,33816726,1.0,0,0.0,osm_id,3,[380.0]
+42797575,osm_42797575,Station Nehden,42797575,1.0,0,0.0,osm_id,2,[380.0]
+24921206,osm_24921206,Station Büscherhof,24921206,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+39229429,osm_39229429,Station Hesseln,39229429,1.0,0,0.0,osm_id,1,[380.0]
+90148336,osm_90148336,Setzer Wiese,90148336,1.0,0,0.0,osm_id,3,[220.0]
+151967290,osm_151967290,Station Niederstedem,151967290,1.0,0,0.0,osm_id,7,"[220.0, 380.0]"
+89043564,osm_89043564,Station Eiserfeld,89043564,1.0,0,0.0,osm_id,1,[220.0]
+265904339,spatial_7566,,,0.894,1,0.017,spatial_0.5km,3,[220.0]
+62061952,osm_62061952,Umspannwerk Frankfurt Südwest,62061952,1.0,0,0.0,osm_id,3,[380.0]
+26777313,osm_26777313,Station Ließem,26777313,1.0,0,0.0,osm_id,2,[380.0]
+23380800,osm_23380800,Station Utfort,23380800,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+42097854,osm_42097854,Station Osburg,42097854,1.0,0,0.0,osm_id,3,[380.0]
+33411203,osm_33411203,Wehrendorf,33411203,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+38661452,osm_38661452,Umspannwerk Kriftel,38661452,1.0,0,0.0,osm_id,3,[380.0]
+24652261,osm_24652261,Station Meitingen,24652261,1.0,0,0.0,osm_id,4,[380.0]
+63114179,osm_63114179,Station Hattingen,63114179,1.0,0,0.0,osm_id,9,"[220.0, 380.0]"
+8422115751,spatial_9270,,,0.9,1,0.0,spatial_0.5km,4,[380.0]
+23084554,osm_23084554,Umspannanlage Brauweiler,23084554,1.0,0,0.0,osm_id,11,"[220.0, 380.0]"
+66764943,osm_66764943,Station Wengerohr,66764943,1.0,0,0.0,osm_id,2,[220.0]
+23140544,osm_23140544,Station Eller,23140544,1.0,0,0.0,osm_id,2,[220.0]
+683227471,spatial_38973,,,0.899,1,0.002,spatial_0.5km,2,[380.0]
+22767509,osm_22767509,Station Siegburg,22767509,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+820464202,spatial_4010,,,0.9,1,0.0,spatial_0.5km,3,[220.0]
+24462228,osm_24462228,Station Ossenberg,24462228,1.0,0,0.0,osm_id,1,[220.0]
+1138993277,spatial_9908,,,0.883,1,0.048,spatial_0.5km,5,[380.0]
+26455019,osm_26455019,Voslapp,26455019,1.0,0,0.0,osm_id,3,[220.0]
+797009308,osm_797009308,Niederlangen,797009308,1.0,0,0.0,osm_id,2,[380.0]
+637595524,osm_637595524,Fedderwarden,637595524,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+42872354,osm_42872354,Huntorf,42872354,1.0,0,0.0,osm_id,2,[220.0]
+955268863,osm_955268863,Umspannwerk Sottrum,955268863,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+6925335021,osm_559702819,Konverter Station Emden Ost,559702819,0.783,1,0.324,spatial_0.5km,3,"[220.0, 380.0]"
+1102237380,osm_1102237380,Umspannwerk Siems,1102237380,1.0,0,0.0,osm_id,3,"[220.0, 380.0]"
+77694901,osm_77694901,Umspannwerk Altheim,77694901,1.0,0,0.0,osm_id,4,[220.0]
+24237879,osm_24237879,Umspannwerk Oberbrunn,24237879,1.0,0,0.0,osm_id,2,[220.0]
+156960655,osm_156960655,Umspannwerk Bergshausen,156960655,1.0,0,0.0,osm_id,3,[380.0]
+33042984,osm_33042984,Umspannwerk und Betriebszentrum Lehrte,33042984,1.0,0,0.0,osm_id,6,[220.0]
+27739871,osm_27739871,Landesbergen,27739871,1.0,0,0.0,osm_id,7,"[220.0, 380.0]"
+31927411,osm_31927411,Alfstedt,31927411,1.0,0,0.0,osm_id,3,[380.0]
+78441561,osm_78441561,Umspannwerk Plattling,78441561,1.0,0,0.0,osm_id,0,[380.0]
+68532663,osm_68532663,Umspannwerk Krün,68532663,1.0,0,0.0,osm_id,2,[220.0]
+266684854,osm_266684854,Farge,266684854,1.0,0,0.0,osm_id,2,[380.0]
+954971276,osm_954971276,Umspannwerk Ludersheim,954971276,1.0,0,0.0,osm_id,3,[220.0]
+28327356,osm_28327356,Umspannwerk Lüneburg,28327356,1.0,0,0.0,osm_id,2,[380.0]
+25943440,osm_25943440,Elsen,25943440,1.0,0,0.0,osm_id,3,"[220.0, 380.0]"
+75865676,osm_75865676,UW Marienberg,75865676,1.0,0,0.0,osm_id,1,[220.0]
+23881272,osm_23881272,Dörnigheim 220 kV,23881272,1.0,0,0.0,osm_id,3,[220.0]
+156673636,osm_156673636,Borken,156673636,1.0,0,0.0,osm_id,5,[380.0]
+525964629,osm_525964629,Umspannwerk Wilster,525964629,1.0,0,0.0,osm_id,5,[380.0]
+41072584,osm_41072584,Waldeck,41072584,1.0,0,0.0,osm_id,3,[380.0]
+699048438,osm_699048438,Erzhausen,699048438,1.0,0,0.0,osm_id,2,[220.0]
+881636329,osm_881636329,Umspannwerk Stade-West,881636329,1.0,0,0.0,osm_id,3,"[220.0, 380.0]"
+1119527154,spatial_39458,,,0.9,1,0.0,spatial_0.5km,2,[220.0]
+536779518,spatial_1361,,,0.9,1,0.0,spatial_0.5km,4,[220.0]
+24759324,osm_24759324,Umspannwerk Sittling,24759324,1.0,0,0.0,osm_id,3,[220.0]
+108797675,osm_108797675,Grafenrheinfeld,108797675,1.0,0,0.0,osm_id,6,[380.0]
+603661085,osm_603661085,Umspannwerk Heide-West,603661085,1.0,0,0.0,osm_id,2,[380.0]
+952004951,osm_952004951,Hardegsen,952004951,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+145002769,osm_145002769,Umspannwerk Höpfingen,145002769,1.0,0,0.0,osm_id,2,[380.0]
+1128250707,osm_1128250707,Conneforde 380/220 kV,1128250707,1.0,0,0.0,osm_id,12,"[220.0, 380.0]"
+177829920,osm_177829920,Diele,177829920,1.0,0,0.0,osm_id,4,[380.0]
+24758329,osm_24758329,Eltmann,24758329,1.0,0,0.0,osm_id,3,[380.0]
+301158539,osm_301158539,Jardelund,301158539,1.0,0,0.0,osm_id,3,[380.0]
+148446247,osm_148446247,Dipperz,148446247,1.0,0,0.0,osm_id,2,[380.0]
+23899043,osm_23899043,Algermissen,23899043,1.0,0,0.0,osm_id,3,[380.0]
+32042992,osm_32042992,Rhede,32042992,1.0,0,0.0,osm_id,3,[380.0]
+91080806,osm_91080806,Umspannwerk Pirach,91080806,1.0,0,0.0,osm_id,2,[220.0]
+87722999,osm_87722999,Brokdorf,87722999,1.0,0,0.0,osm_id,2,"[220.0, 380.0]"
+136034396,osm_136034396,Umspannwerk Büttel,136034396,1.0,0,0.0,osm_id,2,[380.0]
+23135618,osm_23135618,Umspannwerk Meißen,23135618,1.0,0,0.0,osm_id,2,[220.0]
+499165542,osm_499165542,Umspannwerk Bergrheinfeld/West,499165542,1.0,0,0.0,osm_id,2,[380.0]
+1071504343,osm_1071504343,UW Husum Nord,1071504343,1.0,0,0.0,osm_id,2,[380.0]
+274621059,osm_274621059,Umspannwerk Mehrum,274621059,1.0,0,0.0,osm_id,6,[220.0]
+28397771,osm_28397771,Veltheim,28397771,1.0,0,0.0,osm_id,6,[220.0]
+23682013,osm_23682013,Hannover/West,23682013,1.0,0,0.0,osm_id,1,[220.0]
+28613721,osm_28613721,Umspannwerk Kriegenbrunn,28613721,1.0,0,0.0,osm_id,2,[380.0]
+503851756,spatial_669,,,0.9,1,0.0,spatial_0.5km,4,[380.0]
+1128250704,spatial_39468,,,0.899,1,0.002,spatial_0.5km,3,[380.0]
+24158385,osm_24158385,Umspannwerk Neufinsing,24158385,1.0,0,0.0,osm_id,5,[220.0]
+449010725,osm_449010725,Umspannwerk Handewitt,449010725,1.0,0,0.0,osm_id,4,[380.0]
+24230738,osm_24230738,Eickum,24230738,1.0,0,0.0,osm_id,4,[380.0]
+26474759,osm_26474759,Umspannwerk Helmstedt,26474759,1.0,0,0.0,osm_id,3,[380.0]
+301426399,osm_28227099,Hallendorf,28227099,0.602,2,1.393,spatial_2.0km,6,[220.0]
+24604789,osm_24604789,Schaltanlage Ovenstädt,24604789,1.0,0,0.0,osm_id,5,[380.0]
+4826893,osm_4826893,Umspannwerk Frankfurt Nord,4826893,1.0,0,0.0,osm_id,3,[220.0]
+829116805,osm_829116805,Schaltanlage Elsfleth/West,829116805,1.0,0,0.0,osm_id,4,[380.0]
+288305056,osm_288305056,Lage,288305056,1.0,0,0.0,osm_id,2,[220.0]
+24272339,osm_24272339,Klein Ilsede,24272339,1.0,0,0.0,osm_id,3,[380.0]
+55069713,osm_55069713,Umspannwerk Aschaffenburg,55069713,1.0,0,0.0,osm_id,3,[380.0]
+202747445,osm_202747445,Umspannwerk Gießen Nord,202747445,1.0,0,0.0,osm_id,3,[380.0]
+25306938,osm_25306938,Kummerfeld,25306938,1.0,0,0.0,osm_id,3,[380.0]
+130794504,osm_130794504,Umspannwerk Lübeck,130794504,1.0,0,0.0,osm_id,2,[220.0]
+24413992,osm_24413992,Grohnde,24413992,1.0,0,0.0,osm_id,5,[380.0]
+32076853,osm_32076853,Unterweser,32076853,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+274630377,osm_274630377,Würgassen,274630377,1.0,0,0.0,osm_id,3,"[220.0, 380.0]"
+34835258,osm_34835258,Emden-Borssum,34835258,1.0,0,0.0,osm_id,3,[220.0]
+30109913,osm_30109913,Godenau,30109913,1.0,0,0.0,osm_id,4,[220.0]
+31653753,osm_31653753,Umspannwerk Stalldorf,31653753,1.0,0,0.0,osm_id,2,[380.0]
+1057547856,spatial_11804,,,0.9,1,0.0,spatial_0.5km,7,[220.0]
+24042358,osm_24042358,Umspannwerk Karben,24042358,1.0,0,0.0,osm_id,3,[380.0]
+920516997,osm_78441561,Umspannwerk Plattling,78441561,0.844,1,0.155,spatial_0.5km,0,[380.0]
+30017786,osm_30017786,Gleidingen 220 kV,30017786,1.0,0,0.0,osm_id,4,[220.0]
+24272541,osm_24272541,Umspannwerk Braunschweig Nord,24272541,1.0,0,0.0,osm_id,2,[220.0]
+28956649,osm_28956649,Schwandorf,28956649,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+23744346,osm_23744346,Umspannwerk Maade,23744346,1.0,0,0.0,osm_id,5,[220.0]
+24768051,osm_24768051,Ingolstadt,24768051,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+289836713,osm_289836713,Umspannwerk Süderdonn,289836713,1.0,0,0.0,osm_id,2,[380.0]
+24502420,osm_24502420,Umspannwerk Dollern,24502420,1.0,0,0.0,osm_id,7,[380.0]
+44717036,osm_44717036,Niedervieland,44717036,1.0,0,0.0,osm_id,1,[380.0]
+559702819,osm_559702819,Konverter Station Emden Ost,559702819,1.0,0,0.0,osm_id,3,"[220.0, 380.0]"
+93341407,osm_93341407,Umspannwerk Mechlenreuth,93341407,1.0,0,0.0,osm_id,3,"[220.0, 380.0]"
+24757833,osm_24757833,Umspannwerk Oberhaid,24757833,1.0,0,0.0,osm_id,3,[380.0]
+50643382,osm_50643382,Cloppenburg 220 kV,50643382,1.0,0,0.0,osm_id,1,[220.0]
+24258096,osm_24258096,Umspannwerk Hattorf,24258096,1.0,0,0.0,osm_id,2,[380.0]
+456386244,osm_456386244,Sandershausen/Ost,456386244,1.0,0,0.0,osm_id,6,[380.0]
+28812249,osm_28812249,Wechold,28812249,1.0,0,0.0,osm_id,1,[220.0]
+802246764,osm_802246764,Göttingen,802246764,1.0,0,0.0,osm_id,4,[220.0]
+24705761,osm_24705761,Umspannwerk Raitersaich,24705761,1.0,0,0.0,osm_id,8,"[220.0, 380.0]"
+29084374,osm_29084374,Umspannwerk Etzenricht,29084374,1.0,0,0.0,osm_id,7,"[220.0, 380.0]"
+60032354,osm_60032354,Itzehoe/West,60032354,1.0,0,0.0,osm_id,2,[220.0]
+133342285,osm_133342285,Zolling,133342285,1.0,0,0.0,osm_id,3,[220.0]
+907539360,osm_907539360,Schuby/West,907539360,1.0,0,0.0,osm_id,3,[380.0]
+24493551,osm_24493551,Ganderkesee,24493551,1.0,0,0.0,osm_id,4,[380.0]
+309902667,spatial_10705,,,0.9,1,0.0,spatial_0.5km,5,[220.0]
+27646106,osm_27646106,Kiel West,27646106,1.0,0,0.0,osm_id,3,[220.0]
+24757392,osm_24757392,Umspannwerk Redwitz,24757392,1.0,0,0.0,osm_id,4,[380.0]
+91086220,osm_91086220,Umspannwerk Simbach,91086220,1.0,0,0.0,osm_id,2,[220.0]
+533737514,osm_42681484,Vörden,42681484,0.767,1,0.369,spatial_0.5km,3,[380.0]
+137602559,osm_137602559,Umspannwerk Irsching,137602559,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+151765495,osm_151765495,Götzdorf,151765495,1.0,0,0.0,osm_id,4,[220.0]
+24262656,osm_24262656,Wahle 380 kV,24262656,1.0,0,0.0,osm_id,10,"[220.0, 380.0]"
+26245195,osm_26245195,Umspannwerk Ottenhofen,26245195,1.0,0,0.0,osm_id,7,"[220.0, 380.0]"
+24765111,osm_24765111,Umspannwerk Trennfeld,24765111,1.0,0,0.0,osm_id,2,[220.0]
+28227099,osm_28227099,Hallendorf,28227099,1.0,0,0.0,osm_id,6,[220.0]
+74893659,osm_74893659,Umspannwerk Kraftwerk Herrenwyk,74893659,1.0,0,0.0,osm_id,2,[380.0]
+249797355,spatial_14679,,,0.651,2,0.699,spatial_2.0km,3,[380.0]
+28343121,osm_28343121,Stadorf,28343121,1.0,0,0.0,osm_id,3,[380.0]
+229565743,osm_229565743,Blockland,229565743,1.0,0,0.0,osm_id,2,[220.0]
+35176751,osm_35176751,Audorf Süd,35176751,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+77697810,osm_77697810,Isar,77697810,1.0,0,0.0,osm_id,2,[380.0]
+29309786,osm_29309786,Umspannwerk Mecklar,29309786,1.0,0,0.0,osm_id,3,[380.0]
+29420322,osm_29420322,Inhausen,29420322,1.0,0,0.0,osm_id,2,[220.0]
+27124619,osm_27124619,Kiel-Süd,27124619,1.0,0,0.0,osm_id,3,[220.0]
+42681484,osm_42681484,Vörden,42681484,1.0,0,0.0,osm_id,3,[380.0]
+24976300,osm_24976300,Umspannwerk Pleinting,24976300,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+24757393,osm_24757393,Umspannwerk Würgau,24757393,1.0,0,0.0,osm_id,3,[380.0]
+153328698,osm_153328698,Gemeinschaftskraftwerk Neckarwestheim 2 (GKN2),153328698,1.0,0,0.0,osm_id,1,[380.0]
+1654012132,spatial_13868,,,0.9,1,0.0,spatial_0.5km,3,[380.0]
+272646943,osm_272646944,NA,272646944,0.853,1,0.13,spatial_0.5km,2,[380.0]
+25557397,osm_25557397,Umspannwerk Großgartach,25557397,1.0,0,0.0,osm_id,7,[380.0]
+156676050,osm_156676050,Heidelberg-Süd,156676050,1.0,0,0.0,osm_id,4,[220.0]
+163093653,osm_163093653,GKM Station B,163093653,1.0,0,0.0,osm_id,3,[220.0]
+207248812,osm_207248812,Neurott,207248812,1.0,0,0.0,osm_id,6,"[220.0, 380.0]"
+32725957,osm_32725957,Umspannwerk Oberwald,32725957,1.0,0,0.0,osm_id,3,[220.0]
+409305507,osm_409305507,Umspannwerk Altlußheim,409305507,1.0,0,0.0,osm_id,4,[220.0]
+32966636,osm_32966636,220 kV-Umspannwerk Birkenfeld,32966636,1.0,0,0.0,osm_id,1,[220.0]
+31105067,osm_31105067,Umspannwerk Niederstotzingen,31105067,1.0,0,0.0,osm_id,5,[380.0]
+37721677,osm_37721677,Umspannwerk Altbach 1,37721677,1.0,0,0.0,osm_id,4,[380.0]
+38325076,osm_38325076,Umspannwerk Rotensohl,38325076,1.0,0,0.0,osm_id,4,[380.0]
+42049947,osm_42049947,Umspannwerk Villingen,42049947,1.0,0,0.0,osm_id,1,[380.0]
+31131325,osm_31131325,380kV-Umspannwerk Grünkraut,31131325,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+32725958,osm_32725958,Umspannwerk Karlsruhe Ost,32725958,1.0,0,0.0,osm_id,1,[220.0]
+26404600,osm_26404600,Umspannwerk Laichingen,26404600,1.0,0,0.0,osm_id,5,[380.0]
+1104947187,osm_1104947187,Heilbronn,1104947187,1.0,0,0.0,osm_id,4,[380.0]
+32151621,osm_32151621,220-kV-Umspannwerk Kuppenheim,32151621,1.0,0,0.0,osm_id,4,[220.0]
+102743264,osm_102743264,Beuren,102743264,1.0,0,0.0,osm_id,2,[220.0]
+146962222,osm_933248930,Erweiterung Umspannwerk Weier,933248930,0.872,1,0.077,spatial_0.5km,4,"[220.0, 380.0]"
+160929097,osm_160929097,Umspannwerk Weinheim,160929097,1.0,0,0.0,osm_id,3,[220.0]
+87653464,osm_242756113,380-kV-Umspannwerk Eichstetten,242756113,0.775,1,0.348,spatial_0.5km,6,"[220.0, 380.0]"
+32731290,osm_32731290,Karlsruhe-West,32731290,1.0,0,0.0,osm_id,2,[220.0]
+143854536,osm_143854536,Umspannwerk Kupferzell,143854536,1.0,0,0.0,osm_id,5,"[220.0, 380.0]"
+30734324,osm_30734324,Umspannwerk Metzingen,30734324,1.0,0,0.0,osm_id,2,[380.0]
+990853393,spatial_1256,,,0.9,1,0.0,spatial_0.5km,3,[380.0]
+254326606,osm_254326606,Umspannwerk Bruchsal-Kändelweg,254326606,1.0,0,0.0,osm_id,2,[380.0]
+31367937,osm_31367937,Umspannwerk Gurtweil,31367937,1.0,0,0.0,osm_id,3,[220.0]
+26814283,osm_26814283,Umspannwerk Oberjettingen,26814283,1.0,0,0.0,osm_id,2,[380.0]
+809941086,osm_272646944,NA,272646944,0.873,1,0.074,spatial_0.5km,2,[380.0]
+39011884,osm_39011884,Umspannwerk Bühl,39011884,1.0,0,0.0,osm_id,2,[220.0]
+497073732,spatial_13654,,,0.9,1,0.0,spatial_0.5km,5,[380.0]
+35954395,osm_35954395,Umspannwerk Trossingen,35954395,1.0,0,0.0,osm_id,2,[380.0]
+42736239,osm_42736239,Umspannwerk Engstlatt,42736239,1.0,0,0.0,osm_id,3,[380.0]
+97825259,osm_97825259,Umspannwerk Marbach,97825259,1.0,0,0.0,osm_id,3,[220.0]
+48428875,osm_48428875,380 kV-Umspannwerk Endersbach (TransnetBW GmbH),48428875,1.0,0,0.0,osm_id,2,[380.0]
+46584363,osm_46584363,Umspannwerk Wiesloch,46584363,1.0,0,0.0,osm_id,2,"[220.0, 380.0]"
+31131320,osm_31131320,Obermooweiler,31131320,1.0,0,0.0,osm_id,3,[380.0]
+88901626,osm_88901626,Schwörstadt,88901626,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+26260052,osm_26260052,Umspannwerk Wendlingen,26260052,1.0,0,0.0,osm_id,7,[380.0]
+22960899,osm_22960899,Umspannwerk Mühlhausen,22960899,1.0,0,0.0,osm_id,2,[380.0]
+143903369,osm_143903369,Umspannwerk Hüffenhardt,143903369,1.0,0,0.0,osm_id,7,"[220.0, 380.0]"
+258826698,spatial_8410,,,0.9,1,0.0,spatial_0.5km,3,[380.0]
+48057110,osm_48057110,Philippsburg,48057110,1.0,0,0.0,osm_id,4,[380.0]
+26403575,osm_26403575,Netze BW Umspannwerk Bünzwangen,26403575,1.0,0,0.0,osm_id,1,[380.0]
+42050342,osm_42050342,Umspannwerk Goldshöfe,42050342,1.0,0,0.0,osm_id,4,"[220.0, 380.0]"
+31367936,osm_31367936,Stockach 220kV,31367936,1.0,0,0.0,osm_id,2,[220.0]
+98648381,spatial_14438,,,0.407,3,4.661,spatial_5.0km,1,[380.0]
+50319857,spatial_14889,,,0.751,1,0.414,spatial_0.5km,6,[380.0]
+95840891,spatial_12682,,,0.84,1,0.165,spatial_0.5km,2,[380.0]
+397960460,spatial_11870,,,0.843,1,0.158,spatial_0.5km,2,[380.0]

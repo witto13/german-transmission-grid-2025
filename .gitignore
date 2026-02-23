@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+*.log
+highs_options.txt
+
+# Upstream repositories (read-only dependencies, not part of this project)
+eGon-data/
+eTraGo/
+
+# Large data files (use database dump from GitHub Release instead)
+data/mastr/solar_2025_all.csv
+data/mastr/wind_2025_all.csv
+data/mastr/conventional_2025_all.csv
+data/jao/jao_grid_model_202509.zip
+data/jao/For publication/
+data/tso_grid/
+
+# Database dumps (attached to GitHub Releases)
+german_grid_v3_database.tar.gz
+db_dump/
+
+# v4+ scripts and data (not part of v3 pipeline)
+scripts/build_v4_jao_enhanced.py
+scripts/build_v7_jao_topology.py
+scripts/build_v8_fix_orphans.py
+scripts/v7_repair_and_reconnect.py
+scripts/create_v4_comparison_map.py
+scripts/tso_grid/
+scripts/reduction/
+scripts/04_rewire_network.py.backup
+reduce_network_v4.py
+reduce_network_v5.py
+reduce_network_v6.py
+populate_etrago_v6.py
+
+# v4+ CSV snapshots
+buses_v4.csv
+buses_v5.csv
+buses_v6.csv
+buses_v7.csv
+buses_v8.csv
+lines_v4.csv
+lines_v5.csv
+lines_v6.csv
+lines_v7.csv
+lines_v8.csv
+transformers_v4.csv
+transformers_v5.csv
+transformers_v6.csv
+transformers_v7.csv
+transformers_v8.csv
+links_v7.csv
+orphans_v7.csv
+reduction_info_v4.json
+reduction_info_v5.json
+reduction_info_v6.json
+
+# v4+ results
+results/v4_jao_enhanced/
+results/v7_*.csv
+
+# Large HTML visualizations (>1 MB, regenerable from scripts)
+grid_simplification_comparison.html
+grid_all_scenarios_comparison.html
+egon2025_grid_map.html
+demand_heatmap.html
+grid_version_comparison_v8.html
+handing_over/grid_comparison_16.2.26.html
+handing_over/map_data.json
+results/powerflow_april15.nc
+results/combined_grid_map.html
+results/powerflow_map.html
+results/jao_matching/grid_comparison_map.html
+results/jao_matching/match_map.html
+
+# v4+ handing_over docs
+handing_over/v4_jao_enhanced_18.2.26.md
+handing_over/tso_grid_pipeline_16.2.26.md
+handing_over/extract_map_data.py
+handing_over/build_inline_html.py
+
+# MaStR statistics (regenerable)
+mastr_overview.csv
+mastr_generator_statistics.csv
+mastr_load_statistics.csv
+mastr_complete_download.log
+mastr_download_output.log
+mastr_import_progress.log
+mastr_import_to_postgresql.log
+osm_deletion.log
+osm_deletion_20260125_163117.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code internal
+.claude/
+CLAUDE.md

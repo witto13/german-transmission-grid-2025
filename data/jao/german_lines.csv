@@ -1,0 +1,834 @@
+line_name,eic_code,tso,substation_1,substation_2,voltage_kv
+Altdöbern - Streumen 563,11T0-0000-0949-E,50HERTZ,Altdöbern,Streumen,380.0
+Altenfeld - Remptendorf 463,11TD8L463------C,50HERTZ,Altenfeld,Remptendorf,380.0
+Altenfeld - Remptendorf 464,11TD8L464------4,50HERTZ,Altenfeld,Remptendorf,380.0
+Altentreptow/Nord - Altentreptow/Süd 477,11T0-0000-0008-4,50HERTZ,Altentreptow/Nord,Altentreptow/Süd,380.0
+Altentreptow/Süd - Gransee 479,11T0-0000-0009-1,50HERTZ,Altentreptow/Süd,Gransee,380.0
+Altentreptow/Süd - Malchow 518,11T0-0000-0010-O,50HERTZ,Altentreptow/Süd,Malchow,380.0
+Bärwalde - Schmölln 551,11TD8L551------R,50HERTZ,Bärwalde,Schmölln,380.0
+Bärwalde - Schmölln 552,11TD8L552------J,50HERTZ,Bärwalde,Schmölln,380.0
+Bärwalde - Streumen 557,11TD8L557------G,50HERTZ,Bärwalde,Streumen,380.0
+Bärwalde - Streumen 558,11TD8L558------8,50HERTZ,Bärwalde,Streumen,380.0
+Bentwisch - Güstrow 275,11TD8L275------7,50HERTZ,Bentwisch,Güstrow,220.0
+Bentwisch - Güstrow 543,11TD8L543------K,50HERTZ,Bentwisch,Güstrow,380.0
+Bentwisch - Güstrow 544,11TD8L544------C,50HERTZ,Bentwisch,Güstrow,380.0
+Bertikow - Vierraden 481,11T0-0000-0109-X,50HERTZ,Bertikow,Vierraden,380.0
+Bertikow - Vierraden 482,11T0-0000-2030-4,50HERTZ,Bertikow,Vierraden,380.0
+Charlottenburg - Mitte 906,11TD8L906------T,50HERTZ,Charlottenburg,Mitte,380.0
+Dresden/Süd - Freiberg/Nord 592,11TD8L592------K,50HERTZ,Dresden/Süd,Freiberg/Nord,380.0
+Dresden/Süd - Röhrsdorf 591,11TD8L591------S,50HERTZ,Dresden/Süd,Röhrsdorf,380.0
+Eisenach - Vieselbach 454,11TD8L454------D,50HERTZ,Eisenach,Vieselbach,380.0
+Eisenhüttenstadt (Abzweig) - Eisenhüttenstadt 547-3,11TD8L547------P,50HERTZ,Eisenhüttenstadt (Abzweig),Eisenhüttenstadt,380.0
+Eisenhüttenstadt (Abzweig) - Eisenhüttenstadt 548-3,11T0000000000023,50HERTZ,Eisenhüttenstadt (Abzweig),Eisenhüttenstadt,380.0
+Eisenhüttenstadt (Abzweig) - Heinersdorf 548-4,11T0000000000023,50HERTZ,Eisenhüttenstadt (Abzweig),Heinersdorf,380.0
+Eisenhüttenstadt (Abzweig) - Neuenhagen 547-1,11TD8L547------P,50HERTZ,Eisenhüttenstadt (Abzweig),Neuenhagen,380.0
+Eisenhüttenstadt (Abzweig) - Preilack 547-2,11TD8L547------P,50HERTZ,Eisenhüttenstadt (Abzweig),Preilack,380.0
+Eisenhüttenstadt (Abzweig) - Preilack 548-2,11T0000000000023,50HERTZ,Eisenhüttenstadt (Abzweig),Preilack,380.0
+Eula - Pulgar 587,11TD8L587------Q,50HERTZ,Eula,Pulgar,380.0
+Eula - Pulgar 588,11TD8L588------I,50HERTZ,Eula,Pulgar,380.0
+Eula - Röhrsdorf 203,11TD8L203------C,50HERTZ,Eula,Röhrsdorf,220.0
+Eula - Weida 208,11TD8L208------9,50HERTZ,Eula,Weida,220.0
+Eula - Wolkramshausen 357,11TD8L357-----0Y,50HERTZ,Eula,Wolkramshausen,220.0
+Eula - Wolkramshausen 358,11TD8L358------S,50HERTZ,Eula,Wolkramshausen,220.0
+Förderstedt - Jessen/Nord 533,11T0-0000-0042-6,50HERTZ,Förderstedt,Jessen/Nord,380.0
+Freiberg/Nord - Röhrsdorf 594,11TD8L594------4,50HERTZ,Freiberg/Nord,Röhrsdorf,380.0
+Friedrichshain - Marzahn 921,11TD8L921------E,50HERTZ,Friedrichshain,Marzahn,380.0
+Friedrichshain - Marzahn 922,11TD8L922------6,50HERTZ,Friedrichshain,Marzahn,380.0
+Friedrichshain - Mitte 919,11TD8L919------X,50HERTZ,Friedrichshain,Mitte,380.0
+Friedrichshain - Mitte 920,11TD8L920------M,50HERTZ,Friedrichshain,Mitte,380.0
+Görries - Güstrow 423,11TD8L423------B,50HERTZ,Görries,Güstrow,380.0
+Gransee - Neuenhagen 517,11TD8L517-----1B,50HERTZ,Gransee,Neuenhagen,380.0
+Graustein - Bärwalde 565,11TD8L565------N,50HERTZ,Graustein,Bärwalde,380.0
+Graustein - Bärwalde 566,11TD8L566------F,50HERTZ,Graustein,Bärwalde,380.0
+Graustein - Preilack 541,11TD8L541-----0Y,50HERTZ,Graustein,Preilack,380.0
+Graustein - Preilack 542,11TD8L542------S,50HERTZ,Graustein,Preilack,380.0
+Güstrow - Putlitz/Süd 514,11TD8L514-----1Z,50HERTZ,Güstrow,Putlitz/Süd,380.0
+Hagenwerder - Schmölln 553,11TD8L553------B,50HERTZ,Hagenwerder,Schmölln,380.0
+Hagenwerder - Schmölln 554,11TD8L554------3,50HERTZ,Hagenwerder,Schmölln,380.0
+Hamburg/Nord - Brunsbüttel 951,11TD8L951------O,50HERTZ,Hamburg/Nord,Brunsbüttel,380.0
+Hamburg/Nord - Brunsbüttel 952,11TD8L952------G,50HERTZ,Hamburg/Nord,Brunsbüttel,380.0
+Hamburg/Ost - Hamburg/Nord 961,11TD8L961------F,50HERTZ,Hamburg/Ost,Hamburg/Nord,380.0
+Hamburg/Ost - Hamburg/Nord 962,11TD8L962------7,50HERTZ,Hamburg/Ost,Hamburg/Nord,380.0
+Hamburg/Ost - Krümmel 991,11TD8L991------P,50HERTZ,Hamburg/Ost,Krümmel,380.0
+Hamburg/Ost - Krümmel 992,11TD8L992------H,50HERTZ,Hamburg/Ost,Krümmel,380.0
+Hamburg/Süd - Hamburg/Ost 971,11TD8L971------6,50HERTZ,Hamburg/Süd,Hamburg/Ost,380.0
+Hamburg/Süd - Hamburg/Ost 972,11TD8L972------Z,50HERTZ,Hamburg/Süd,Hamburg/Ost,380.0
+Heinersdorf - Neuenhagen 444,11T0000000000015,50HERTZ,Heinersdorf,Neuenhagen,380.0
+Hennigsdorf - Wustermark 295,11TD8L295------Q,50HERTZ,Hennigsdorf,Wustermark,220.0
+Jessen/Nord - Lauchstädt 499,11TD8L499------B,50HERTZ,Jessen/Nord,Lauchstädt,380.0
+Jessen/Nord - Marke 500,11TD8L500------6,50HERTZ,Jessen/Nord,Marke,380.0
+Klostermansfeld - Lauchstädt 538,11TD8L538------Q,50HERTZ,Klostermansfeld,Lauchstädt,380.0
+Klostermansfeld - Wolmirstedt 535,11T0-0000-2052-R,50HERTZ,Klostermansfeld,Wolmirstedt,380.0
+Krümmel - Görries 419,11TD8L419------9,50HERTZ,Krümmel,Görries,380.0
+Krümmel - Wessin 420,11TD8L420------Z,50HERTZ,Krümmel,Wessin,380.0
+Lauchstädt - Klostermansfeld 537,11T0-0000-2053-O,50HERTZ,Lauchstädt,Klostermansfeld,380.0
+Lauchstädt - Vieselbach 471,11TD8L471------J,50HERTZ,Lauchstädt,Vieselbach,380.0
+Lauchstädt - Vieselbach 472,11TD8L472------B,50HERTZ,Lauchstädt,Vieselbach,380.0
+Lubmin - Altentreptow/Nord 475,11TD8L475------O,50HERTZ,Lubmin,Altentreptow/Nord,380.0
+Lubmin - Altentreptow/Süd 476,11T0-0000-0007-7,50HERTZ,Lubmin,Altentreptow/Süd,380.0
+Lubmin - Lüdershagen 313,11TD8L313------U,50HERTZ,Lubmin,Lüdershagen,220.0
+Lubmin - Lüdershagen 314,11TD8L314------M,50HERTZ,Lubmin,Lüdershagen,220.0
+Lubmin - Siedenbrünzow 509,11TD8L509------8,50HERTZ,Lubmin,Siedenbrünzow,380.0
+Lubmin - Siedenbrünzow 510,11TD8L510------Y,50HERTZ,Lubmin,Siedenbrünzow,380.0
+Lüdershagen - Bentwisch 318,11TD8L318------R,50HERTZ,Lüdershagen,Bentwisch,220.0
+Lüdershagen - Güstrow 317-276,11TD8L317-276--N,50HERTZ,Lüdershagen,Güstrow,220.0
+Marke - Lauchstädt 504,11TD8L504------B,50HERTZ,Marke,Lauchstädt,380.0
+Marzahn - Wuhlheide 301,11TD8L301------I,50HERTZ,Marzahn,Wuhlheide,220.0
+Marzahn - Wuhlheide(Abzweig) 302/1,11TD8L302------A,50HERTZ,Marzahn,Wuhlheide (Abzweig),220.0
+Neuenhagen - Hennigsdorf 293,11TD8L293------5,50HERTZ,Neuenhagen,Hennigsdorf,220.0
+Neuenhagen - Malchow 520,11TD8L520------P,50HERTZ,Neuenhagen,Malchow,380.0
+Neuenhagen - Marzahn 495,11TD8L495------6,50HERTZ,Neuenhagen,Marzahn,380.0
+Neuenhagen - Marzahn 496,11TD8L496------Z,50HERTZ,Neuenhagen,Marzahn,380.0
+Neuenhagen - Wustermark 294,11TD8L294------Y,50HERTZ,Neuenhagen,Wustermark,220.0
+Parchim/Süd - Güstrow 328,11TD8L328------I,50HERTZ,Parchim/Süd,Güstrow,220.0
+Parchim/Süd - Wolmirstedt 332-322,11TD8L332-322--6,50HERTZ,Parchim/Süd,Wolmirstedt,220.0
+Pasewalk - Bertikow 407,11T0-0000-2035-Q,50HERTZ,Pasewalk,Bertikow,380.0
+Pasewalk - Bertikow 408,11T0-0000-2036-N,50HERTZ,Pasewalk,Bertikow,380.0
+Pasewalk - Güstrow 315,11TD8L315------E,50HERTZ,Pasewalk,Güstrow,220.0
+Pasewalk - Güstrow 316,11TD8L316------6,50HERTZ,Pasewalk,Güstrow,220.0
+Perleberg - Stendal/West 516,11TD8L516------N,50HERTZ,Perleberg,Stendal/West,380.0
+Preilack - Altdöbern 559,11T0-0000-0948-H,50HERTZ,Preilack,Altdöbern,380.0
+Preilack - Streumen 560,11TD8L560------Q,50HERTZ,Preilack,Streumen,380.0
+Pulgar - Vieselbach 589,11TD8L589------A,50HERTZ,Pulgar,Vieselbach,380.0
+Pulgar - Vieselbach 590,11TD8L590-----0Y,50HERTZ,Pulgar,Vieselbach,380.0
+Putlitz/Süd - Perleberg - Putlitz 596,11TD8L596------P,50HERTZ,Putlitz/Süd,Perleberg - Putlitz,380.0
+Putlitz/Süd - Stendal/West 515,11TD8L515------V,50HERTZ,Putlitz/Süd,Stendal/West,380.0
+Ragow - Förderstedt 532,11TD8L532------0,50HERTZ,Ragow,Förderstedt,380.0
+Ragow - Jessen/Nord 502,11TD8L502-----1N,50HERTZ,Ragow,Jessen/Nord,380.0
+Ragow - Jessen/Nord 531,11T0-0000-0041-9,50HERTZ,Ragow,Jessen/Nord,380.0
+Ragow - Preilack 539,11TD8L539------I,50HERTZ,Ragow,Preilack,380.0
+Ragow - Preilack 540,11TD8L540------7,50HERTZ,Ragow,Preilack,380.0
+Ragow - Schönewalde 501,11T0-0000-0040-C,50HERTZ,Ragow,Schönewalde,380.0
+Ragow - Streumen 561,11T0-0000-0043-3,50HERTZ,Ragow,Streumen,380.0
+Ragow - Streumen 562,11TD8L562------A,50HERTZ,Ragow,Streumen,380.0
+Röhrsdorf - Remptendorf - Weida 573-575,11T0-0000-2138-C,50HERTZ,Röhrsdorf,Remptendorf,380.0
+Röhrsdorf - Remptendorf - Weida 574-576,11T0-0000-2142-Q,50HERTZ,Röhrsdorf,Remptendorf,380.0
+Reuter - Charlottenburg 904,11TD8L904------8,50HERTZ,Reuter,Charlottenburg,380.0
+Reuter - Mitte 903,11TD8L903------G,50HERTZ,Reuter,Mitte,380.0
+Röhrsdorf - Weida 207,11TD8L207------H,50HERTZ,Röhrsdorf,Weida,220.0
+Schmölln - Dresden/Süd 555,11TD8L555------W,50HERTZ,Schmölln,Dresden/Süd,380.0
+Schmölln - Dresden/Süd 556,11TD8L556------O,50HERTZ,Schmölln,Dresden/Süd,380.0
+Schönewalde - Jessen/Nord 503,11TD8L503-----1F,50HERTZ,Schönewalde,Jessen/Nord,380.0
+Siedenbrünzow - Güstrow 512,11TD8L512-----1E,50HERTZ,Siedenbrünzow,Güstrow,380.0
+Siedenbrünzow - Putlitz/Süd 513,11TD8L513-----16,50HERTZ,Siedenbrünzow,Putlitz/Süd,380.0
+Stendal/West - Wolmirstedt 488,11T0-0000-0980-P,50HERTZ,Stendal/West,Wolmirstedt,380.0
+Stendal/West - Wolmirstedt 489,11TD8L489------K,50HERTZ,Stendal/West,Wolmirstedt,380.0
+Stendal/West - Wolmirstedt 490,11TD8L490------9,50HERTZ,Stendal/West,Wolmirstedt,380.0
+Streumen - Eula 585,11TD8L585------5,50HERTZ,Streumen,Eula,380.0
+Streumen - Eula 586,11TD8L586------Y,50HERTZ,Streumen,Eula,380.0
+Streumen - Röhrsdorf 571,11TD8L571------9,50HERTZ,Streumen,Röhrsdorf,380.0
+Streumen - Röhrsdorf 572,11TD8L572------1,50HERTZ,Streumen,Röhrsdorf,380.0
+Teufelsbruch - Reuter 907,11TD8L907------L,50HERTZ,Teufelsbruch,Reuter,380.0
+Teufelsbruch - Reuter 908,11TD8L908------D,50HERTZ,Teufelsbruch,Reuter,380.0
+Thyrow - Ragow 522,11TD8L522------9,50HERTZ,Thyrow,Ragow,380.0
+Vierraden - Neuenhagen 483,11T0-0000-0110-J,50HERTZ,Vierraden,Neuenhagen,380.0
+Vierraden - Neuenhagen 484,11T0-0000-2031-1,50HERTZ,Vierraden,Neuenhagen,380.0
+Vieselbach - Altenfeld 467,11TD8L467------H,50HERTZ,Vieselbach,Altenfeld,380.0
+Vieselbach - Altenfeld 468,11TD8L468------9,50HERTZ,Vieselbach,Altenfeld,380.0
+Vieselbach - Remptendorf - Großschwabhausen 415,11TD8L415------4,50HERTZ,Vieselbach,Remptendorf - Großschwabhausen,380.0
+Vieselbach - Remptendorf 416,11TD8L416------X,50HERTZ,Vieselbach,Remptendorf,380.0
+Vieselbach - Wolkramshausen 367,11TD8L367------R,50HERTZ,Vieselbach,Wolkramshausen,220.0
+Vieselbach - Wolkramshausen 368,11TD8L368------J,50HERTZ,Vieselbach,Wolkramshausen,220.0
+Wessin - Güstrow 424,11TD8L424------3,50HERTZ,Wessin,Güstrow,380.0
+Wolmirstedt - Förderstedt 437,11TD8L437------7,50HERTZ,Wolmirstedt,Förderstedt,380.0
+Wolmirstedt - Förderstedt 438,11TD8L438-----0Y,50HERTZ,Wolmirstedt,Förderstedt,380.0
+Wolmirstedt - Klostermansfeld 536,11TD8L536------5,50HERTZ,Wolmirstedt,Klostermansfeld,380.0
+Wolmirstedt - Teufelsbruch 493,11TD8L493------M,50HERTZ,Wolmirstedt,Teufelsbruch,380.0
+Wolmirstedt - Wustermark 494,11TD8L494------E,50HERTZ,Wolmirstedt,Wustermark,380.0
+Wuhlheide - Thyrow 291,11TD8L291------L,50HERTZ,Wuhlheide,Thyrow,220.0
+Wuhlheide (Abzweig) - Thyrow 302/2,11TD8L302------A,50HERTZ,Wuhlheide (Abzweig),Thyrow,220.0
+Wustermark - Ragow 521-525,11TD8L521-525--G,50HERTZ,Wustermark,Ragow,380.0
+Wustermark - Teufelsbruch 498,11TD8L498------J,50HERTZ,Wustermark,Teufelsbruch,380.0
+Wustermark - Thyrow 526,11TD8L526------E,50HERTZ,Wustermark,Thyrow,220.0
+Altbach - Muehlhausen ws,11TD400000598-LE,TRANSNETBW,Altbach,Muehlhausen,380.0
+Altbach - Wendlingen bl,11TD400000597-LI,TRANSNETBW,Altbach,Wendlingen,380.0
+Altlussheim - Daxlanden bl,11TD400000568-LT,TRANSNETBW,Altlussheim,Daxlanden,220.0
+Altlussheim - GKM bl,11TD400000580-LE,TRANSNETBW,Altlussheim,GKMB,220.0
+Beuren - Gurtweil ge,11TD400000559-LU,TRANSNETBW,Beuren,Gurtweil,220.0
+Beuren - Stockach bl,11TD400000569-LP,TRANSNETBW,Beuren,Stockach,220.0
+Birkenfeld - Daxlanden ge,11TD400000581-LA,TRANSNETBW,Birkenfeld,Daxlanden,220.0
+Buehl - Weier gn,11TD400000566-L0,TRANSNETBW,Buehl,Weier,220.0
+Buenzwangen - Laichingen gn,11TD400000600-LB,TRANSNETBW,Buenzwangen,Laichingen,380.0
+Buenzwangen - Wendlingen ge,11TD400000601-L7,TRANSNETBW,Buenzwangen,Wendlingen,380.0
+Buers - Obermooweiler bl,11TD400000538-L7,TRANSNETBW,Buers,Obermooweiler,380.0
+Buers - Obermooweiler ws,11TD400000537-LB,TRANSNETBW,Buers,Obermooweiler,380.0
+Daxlanden - Eichstetten gn,11TD400000588-LJ,TRANSNETBW,Daxlanden,Eichstetten,380.0
+Daxlanden - KarlsruheWest ge,11TD400000590-L9,TRANSNETBW,Daxlanden,KarlsruheWest,220.0
+Daxlanden - KarlsruheWest rt,11TD400000584-LZ,TRANSNETBW,Daxlanden,KarlsruheWest,220.0
+Daxlanden - Kork rt,11TD400000577-LS,TRANSNETBW,Daxlanden,Kork,380.0
+Daxlanden - Neurott ws,11TD400000567-LX,TRANSNETBW,Daxlanden,Neurott,220.0
+Daxlanden - Oberwald rt,11TD400000586-LR,TRANSNETBW,Daxlanden,Oberwald,220.0
+Daxlanden - Philippsburg ge,11TD400000562-LG,TRANSNETBW,Daxlanden,Philippsburg,380.0
+Daxlanden - Philippsburg rt,11TD400000585-LV,TRANSNETBW,Daxlanden,Philippsburg,380.0
+Daxlanden - RDK7 sw,11TD400000552-LL,TRANSNETBW,Daxlanden,RDK7,380.0
+Daxlanden - RDK8 gn,11TD400000547-L6,TRANSNETBW,Daxlanden,RDK8,380.0
+DCPH1 - Phillipsburg gn,11T0-D4NOEIC-003,TRANSNETBW,DC Phillipsburg,Philippsburg,380.0
+DCPH1 - Phillipsburg sw,11T0-D4NOEIC-004,TRANSNETBW,DC Phillipsburg,Philippsburg,380.0
+Dellmensingen - Laichingen ws,11TD400000526-LK,TRANSNETBW,Dellmensingen,Laichingen,380.0
+Dellmensingen - Obermooweiler gn,11TD400000535-LJ,TRANSNETBW,Dellmensingen,Obermooweiler,380.0
+Dellmensingen - Rotensohl bl,11TD400000593-LY,TRANSNETBW,Dellmensingen,Rotensohl,380.0
+Eichstetten - Gurtweil ge,11TD400000571-LF,TRANSNETBW,Eichstetten,Gurtweil,220.0
+Eichstetten - Gurtweil rt,11TD400000572-LB,TRANSNETBW,Eichstetten,Gurtweil,220.0
+Eichstetten - Kork bl,11TD400000577-LS,TRANSNETBW,Eichstetten,Kork,380.0
+Eichstetten - Kuehmoos ws,11TD400000573-L7,TRANSNETBW,Eichstetten,Kuehmoos,380.0
+Eichstetten - Weier ge,11TD400000579-LK,TRANSNETBW,Eichstetten,Weier,220.0
+Eichstetten - Weier rt,11TD400000578-LO,TRANSNETBW,Eichstetten,Weier,220.0
+Endersbach - Wendlingen bl,11TD400000528-LC,TRANSNETBW,Endersbach,Wendlingen,380.0
+Engstlatt - Oberjettingen ws,11T0-0000-0097-8,TRANSNETBW,Engstlatt,Oberjettingen,380.0
+Engstlatt - Trossingen rt,11TD40000A548-L6,TRANSNETBW,Engstlatt,Trossingen,380.0
+GKN2 - Grossgartach sw,11TD400000529-L8,TRANSNETBW,GKN2,Grossgartach,380.0
+Goldshoefe - Kupferzell gn,11TD400000545-LE,TRANSNETBW,Goldshoefe,Kupferzell,380.0
+Goldshoefe - Rotensohl gn,11TD400000544-LI,TRANSNETBW,Goldshoefe,Rotensohl,380.0
+Grossgartach - Großgartach C2 gn,11T0-0000-1507-D,TRANSNETBW,Grossgartach,Großgartach C2,380.0
+Grossgartach - Heilbronn rt,11TD400000527-LG,TRANSNETBW,Grossgartach,Heilbronn,380.0
+Grossgartach - Hueffenhardt bl,11TD400000551-LP,TRANSNETBW,Grossgartach,Hueffenhardt,380.0
+Grossgartach - Kupferzell ws,11TD400000524-LS,TRANSNETBW,Grossgartach ,Kupferzell,380.0
+Grossgartach - Pulverdingen rt,11TD40000A530-L6,TRANSNETBW,Grossgartach  2,Pulverdingen,380.0
+Grossgartach - Pulverdingen ws,11TD400000525-LO,TRANSNETBW,Grossgartach ,Pulverdingen,380.0
+Gruenkraut - Herbertingen rt,11TD400000534-LN,TRANSNETBW,Gruenkraut,Herbertingen,380.0
+Gruenkraut - Obermooweiler bl,11TD40000A536-LJ,TRANSNETBW,Gruenkraut,Obermooweiler,380.0
+Gurtweil-Stockach rt,11TD40000A853-L6,TRANSNETBW,Gurtweil,Stockach,220.0
+Hoepfingen - Hueffenhardt ge,11TD400000543-LM,TRANSNETBW,Hoepfingen,Hueffenhardt,380.0
+Karlsruhe Ost - Oberwald rt,11TD40000A575-L3,TRANSNETBW,Karlsruhe,Oberwald,220.0
+Kuehmoos - Schwoerstadt ge,11TD400000565-L4,TRANSNETBW,Kuehmoos,Schwoerstadt,220.0
+Kuehmoos - Schwoerstadt gn,11TD400000557-L1,TRANSNETBW,Kuehmoos,Schwoerstadt,220.0
+Kupferzell - Stalldorf rot,11TD400000605-LS,TRANSNETBW,Kupferzell,Stalldorf,380.0
+Marbach - Pulverdingen gn,11T0-0000-0099-2,TRANSNETBW,Marbach,Pulverdingen,220.0
+Metzingen - Wendlingen ge,11TD400000602-L3,TRANSNETBW,Metzingen,Wendlingen,380.0
+Muehlhausen - Pulverdingen bl,11TD400000550-LT,TRANSNETBW,Muehlhausen,Pulverdingen,380.0
+Neurott - Heidelberg Sued ge,11TD400000563-LC,TRANSNETBW,Heidelberg,Neurott,220.0
+Neurott - Heidelberg Sued rt,11TD400000570-LJ,TRANSNETBW,Heidelberg,Neurott,220.0
+Neurott - Philippsburg gn,11TD400000589-LF,TRANSNETBW,Neurott,Philippsburg,380.0
+Neurott - Wiesloch bl,11TD400000582-L6,TRANSNETBW,Neurott,Wiesloch,220.0
+Oberjettingen - Pulverdingen ws,11TD400000519-LD,TRANSNETBW,Oberjettingen,Pulverdingen,380.0
+Y-Bruchsal (- Philippsburg - Pulverdingen) ws,11T0-0000-1642-7,TRANSNETBW,Y-Bruchsal,Bruchsal/Kaendelweg,380.0
+Y-Bruchsal/Kaendelweg (-Philippsburg - Pulverdingen) rt,11TD400000521-24,TRANSNETBW,Y-Bruchsal/Kaendelweg,Bruchsal/Kaendelweg,380.0
+Y-Buehl (-Daxlanden - Kuppenheim) rt,11T0-0000-1478-O,TRANSNETBW,Y-Buehl,Buehl,220.0
+Y-Daxlanden (-Buehl - Kuppenheim) rt,11T0-0000-1479-L,TRANSNETBW,Y-Buehl,Daxlanden,220.0
+Y-Daxlanden (-Kuppenheim - Weier) ge,11TD400000574-24,TRANSNETBW,Daxlanden,Y-Daxlanden,220.0
+Y-Dellmensingen (-Goldshoefe - Niederstotzingen) ws,11T0-0000-1365-5,TRANSNETBW,Y-Dellmensingen,Dellmensingen,380.0
+Y-Endersbach (-Grossgartach - Muehlhausen - Neckarwestheim) gn,11T0-0000-0950-0,TRANSNETBW,Y-Endersbach,Endersbach,380.0
+Y-Engstlatt (-Kuehmoos - Villingen) gn,11TD400000587-1Q,TRANSNETBW,Y-Engstlatt,Engstlatt,380.0
+Y-Engstlatt (-Oberjettingen - Pulverdingen) rt,11TD400000520-1A,TRANSNETBW,Engstlatt,Y-Oberjettingen,380.0
+Y-GKM (-Neurott - Weinheim) rt,11T0-0000-1638-U,TRANSNETBW,GKM,GKMB,220.0
+Y-Goldshoefe (-Dellmensingen - Niederstotzingen) ws,11T0-0000-1366-2,TRANSNETBW,Y-Dellmensingen,Goldshoefe,380.0
+Y-Grossgartach (-Endersbach - Muelhausen  - Neckarwestheim) gn,11T0-0000-0951-Y,TRANSNETBW,Y-Endersbach,Grossgartach,380.0
+Y-Hueffenhardt (-Neurott - Wiesloch) ge,11TD400000542-1T,TRANSNETBW,Y-Hueffenhardt,Hueffenhardt,380.0
+Y-Kuehmoos (-Engstlatt - Villingen) gn,11TD400000587-2O,TRANSNETBW,Y-Engstlatt,Kuehmoos,380.0
+Y-Kuppenheim (-Buehl - Daxlanden) rt,11T0-0000-1480-7,TRANSNETBW,Y-Buehl,Kuppenheim,220.0
+Y-Kuppenheim (-Daxlanden - Weier) ge,11TD400000574-16,TRANSNETBW,Y-Daxlanden,Kuppenheim,220.0
+Y-Muehlhausen (-Endersbach - Grossgartach -  Neckarwestheim) gn,11T0-0000-0952-V,TRANSNETBW,Y-Endersbach,Muehlhausen,380.0
+Y-Neckarwestheim (-Muehlhausen -Endersbach - Grossgartach) gn,11T0-D4NOEIC-001,TRANSNETBW,Y-Neckarwestheim,Neckarwestheim,380.0
+Y-Neurott (-GKM - Weinheim) rt,11T0-0000-1639-R,TRANSNETBW,GKMB,Neurott,220.0
+Y-Neurott (-Hueffenhardt - Wiesloch) ge,11TD400000542-2R,TRANSNETBW,Y-Hueffenhardt,Neurott,380.0
+Y-Niederstotzingen (-Dellmensingen - Goldshoefe) ws,11T0-0000-1368-X,TRANSNETBW,Y-Dellmensingen,Niederstotzingen,380.0
+Y-Oberjettingen (-Engstlatt - Pulverdingen) rt,11TD400000520-28,TRANSNETBW,Y-Oberjettingen,Oberjettingen,380.0
+Y-Philippsburg (-Bruchsal - Pulverdingen) ws,11T0-0000-1643-4,TRANSNETBW,Y-Bruchsal,Philippsburg,380.0
+Y-Philippsburg (-Bruchsal/Kaendelweg - Pulverdingen) rt,11TD400000521-16,TRANSNETBW,Y-Bruchsal/Kaendelweg,Philippsburg,380.0
+Y-Pulverdingen (-Bruchsal - Philippsburg) ws,11T0-0000-1644-1,TRANSNETBW,Y-Bruchsal,Pulverdingen,380.0
+Y-Pulverdingen (-Bruchsal/Kaendelweg -Philippsburg) rt,11TD40000A521-36,TRANSNETBW,Y-Bruchsal/Kaendelweg,Pulverdingen,380.0
+Y-Pulverdingen (-Engstlatt - Oberjettingen) rt,11TD400000520-36,TRANSNETBW,Y-Oberjettingen,Pulverdingen,380.0
+Y-Villingen (-Engstlatt - Kuehmoss) gn,11TD400000587-3M,TRANSNETBW,Y-Engstlatt,Villingen,380.0
+Y-Weier (-Daxlanden - Kuppenheim) ge,11TD40000A574-36,TRANSNETBW,Y-Daxlanden,Weier,220.0
+Y-Weinheim (-GKM - Neurott) rt,11T0-0000-1640-D,TRANSNETBW,GKM,Weinheim,220.0
+Beznau - Tiengen AARE O,10T-CH-DE-000034,AMPRION GMBH,Beznau,Tiengen,220.0
+Beznau - Tiengen AARE W,10T-CH-DE-000026,AMPRION GMBH,Beznau,Tiengen,380.0
+Y-Leupolz (-Bidingen - Oberottmarshausen) ALLG O,11T0-0000-0698-C,AMPRION GMBH,Leupolz,Y-Bidngen,380.0
+Y-Oberottmarshausen (-Bidingen - Leupolz) ALLG O,11T0-0000-0769-G,AMPRION GMBH,Oberottmarshausen,Y-Bidngen,380.0
+Y-Amelsbueren (-Hanekenfaehr - Westerkappeln) AMELSB,11T0-0000-0125-0,AMPRION GMBH,Amelsbueren,Y-Hanekenfaehr,220.0
+Y-Hanekenfaehr (-Amelsbueren - Westerkappeln) AMELSB,11T0-0000-0306-W,AMPRION GMBH,Hanekenfaehr,Y-Hanekenfaehr,220.0
+Y-Westerkappeln (-Amelsbueren - Hanekenfaehr) AMELSB,11T0-0000-0546-6,AMPRION GMBH,Westerkappeln,Y-Hanekenfaehr,220.0
+Arpe - Uentrop ARPE W,11T0-0000-0549-Y,AMPRION GMBH,Arpe,Uentrop,380.0
+Meitingen - Oberottmarshausen AUGSBU O,11T0-0000-0724-A,AMPRION GMBH,Meitingen,Oberottmarshausen,380.0
+Lechhausen - Oberottmarshausen AUGSBU W,11T0-0000-0694-O,AMPRION GMBH,Lechhausen,Oberottmarshausen,380.0
+St. Barbara - Uchtelfangen BABARA,11T0-0000-0506-M,AMPRION GMBH,St. Barbara,Uchtelfangen,220.0
+Meppen - Hanekenfaehr BACCUM O,11T0-0000-2249-0,AMPRION GMBH,Hanekenfaehr,Meppen,380.0
+Hanekenfaehr - Meppen BACCUM W,11T0-0000-2250-N,AMPRION GMBH,Hanekenfaehr,Meppen,380.0
+Bandstahl - Weissenthurm BANDST O,11T0-0000-2260-J,AMPRION GMBH,Bandstahl,Weissenthurm,220.0
+Bandstahl - Weissenthurm BANDST W,11T0-0000-2261-G,AMPRION GMBH,Bandstahl,Weissenthurm,220.0
+Benteler - Hanekenfaehr BENTLR,11T0-0000-0307-T,AMPRION GMBH,Benteler,Hanekenfaehr,220.0
+Meckenheim - Sechtem BGEIST W,11T0-0000-0843-0,AMPRION GMBH,Meckenheim,Sechtem,380.0
+Y-Altenkleusheim (-Bixterheide - Opladen) BIGGE O,11T0-0000-0120-F,AMPRION GMBH,Altenkleusheim,Y-Bixterheide,220.0
+Y-Bixterheide (-Altenkleusheim - Opladen) BIGGE O,11T0-0000-0175-H,AMPRION GMBH,Bixterheide,Y-Bixterheide,220.0
+Y-Opladen (-Altenkleusheim - Bixterheide) BIGGE O,11T0-0000-0419-E,AMPRION GMBH,Opladen,Y-Bixterheide,220.0
+Y-Altenkleusheim (-Garenfeld - Opladen) BIGGE W,11T0-0000-0114-7,AMPRION GMBH,Altenkleusheim,Y-Garenfeld,220.0
+Y-Garenfeld (-Altenkleusheim - Opladen) BIGGE W,11T0-0000-0274-F,AMPRION GMBH,Garenfeld,Y-Garenfeld,220.0
+Y-Opladen (-Altenkleusheim - Garenfeld) BIGGE W,11T0-0000-0420-0,AMPRION GMBH,Opladen,Y-Garenfeld,220.0
+Bixterheide - Garenfeld BIXTRH N,11T0-0000-0272-L,AMPRION GMBH,Bixterheide,Garenfeld,220.0
+Mittelbexbach - Uchtelfangen BLIES N,11T0-0000-0740-E,AMPRION GMBH,Mittelbexbach,Uchtelfangen,380.0
+Mittelbexbach - Uchtelfangen BLIES S,11T0-0000-0741-B,AMPRION GMBH,Mittelbexbach,Uchtelfangen,380.0
+Y-Y (-Buers - Herbertingen - Tiengen - Werben) BLUDNZ W,11T0-0000-1620-L,AMPRION GMBH,Y-Werben,Y-Tiengen,220.0
+Y-Herbertingen (-Buers - Tiengen - Werben) BLUDNZ W,11T0-0000-1880-O,AMPRION GMBH,Herbertingen,Y-Tiengen,220.0
+Y-Tiengen (-Buers - Herbertingen - Werben) BLUDNZ W,11T0-0000-0962-R,AMPRION GMBH,Tiengen,Y-Tiengen,220.0
+Bochum - Eiberg BOCHUM W,11T0-0000-0176-E,AMPRION GMBH,Bochum,Eiberg,220.0
+Bocklemuend - Brauweiler BOCKLE N,11T0-0000-0194-C,AMPRION GMBH,Bocklemuend,Brauweiler,220.0
+Bocklemuend - Brauweiler BOCKLE S,11T0-0000-0195-9,AMPRION GMBH,Bocklemuend,Brauweiler,220.0
+Luestringen - Wehrendorf BOHMTE O,11T0-0000-0534-G,AMPRION GMBH,Luestringen,Wehrendorf,220.0
+Luestringen - Wehrendorf BOHMTE W,11T0-0000-0535-D,AMPRION GMBH,Luestringen,Wehrendorf,220.0
+Merzen - Westerkappeln BRAGAU O    ,11T0-0000-2414-H,AMPRION GMBH,Merzen,Westerkappeln,380.0
+Hanekenfaehr - Westerkappeln BRAGAU W,11T0-0000-2415-E,AMPRION GMBH,Hanekenfaehr,Westerkappeln,380.0
+Brauweiler - Rommerskirchen BRAUWL W,11T0-0000-0927-S,AMPRION GMBH,Brauweiler,Rommerskirchen,380.0
+Bergmannsglueck - Buescherhof BUER S,11T0-0000-0164-O,AMPRION GMBH,Bergmannsglueck,Buescherhof,220.0
+Buerstadt - Lambsheim BUERST O,11T0-0000-2121-0,AMPRION GMBH,Buerstadt,Lambsheim,380.0
+Buerstadt - Lambsheim BUERST W,11T0-0000-0568-T,AMPRION GMBH,Buerstadt,Lambsheim,380.0
+Y-Buescherhof (-Karnap - Rosenblumendelle) BUESHR W,11T0-0000-0576-V,AMPRION GMBH,Buescherhof,Y-Karnap,380.0
+Y-Karnap (-Buescherhof - Rosenblumendelle) BUESHR W,11T0-0000-0657-V,AMPRION GMBH,Karnap,Y-Karnap,380.0
+Y-Rosenblumendelle (-Buescherhof - Karnap) BUESHR W,11T0-0000-0838-Q,AMPRION GMBH,Rosenblumendelle,Y-Karnap,380.0
+Brauweiler - Knapsack BURBAC O,11T0-0000-0928-P,AMPRION GMBH,Brauweiler,Knapsack,380.0
+Y-Gersteinwerk (-Poeppingshausen - Ruhrzink) CAPPEN N,11T0-0000-0280-N,AMPRION GMBH,Gersteinwerk,Y-Poeppinghausen,220.0
+Y-Poeppinghausen (-Gersteinwerk - Ruhrzink) CAPPEN N,11T0-0000-0441-Q,AMPRION GMBH,Poeppinghausen,Y-Poeppinghausen,220.0
+Y-Ruhrzink (-Gersteinwerk - Poeppinghausen) CAPPEN N,11T0-0000-0464-9,AMPRION GMBH,Ruhrzink,Y-Poeppinghausen,220.0
+Elmenhorst - Gersteinwerk CAPPEN S,11T0-0000-0282-H,AMPRION GMBH,Elmenhorst,Gersteinwerk,220.0
+Datteln - Mengede DATTLN O,11T0-0000-0727-1,AMPRION GMBH,Datteln,Mengede,380.0
+Datteln - Mengede DATTLN W,11T0-0000-0728-Z,AMPRION GMBH,Datteln,Mengede,380.0
+Dauersberg - Linde DAURSB O,11T0-0000-0706-C,AMPRION GMBH,Dauersberg,Linde,380.0
+Dauersberg - Halfeshof DAURSB W,11T0-0000-0632-H,AMPRION GMBH,Dauersberg,Halfeshof,380.0
+Y-Voehringen (-Buers - Werben) DELLM O,11T0-0000-1374-4,AMPRION GMBH,Voehringen,Y-Werben,220.0
+Hamborn - Niederrhein DINSLK W,11T0-0000-0382-C,AMPRION GMBH,Hamborn,Niederrhein,220.0
+Y-Hoheneck (-Dellmensingen - Voehringen) DONAU O,11T0-0000-0957-G,AMPRION GMBH,Hoheneck,Y-Voehringen,380.0
+Y-Voehringen (-Dellmensingen - Hoheneck) DONAU O,11T0-0000-0956-J,AMPRION GMBH,Voehringen,Y-Voehringen,380.0
+Duennwald - Opladen DUENNW O,11T0-0000-0413-W,AMPRION GMBH,Duennwald,Opladen,220.0
+Duennwald - Opladen DUENNW W,11T0-0000-1376-Z,AMPRION GMBH,Duennwald,Opladen,220.0
+Eiberg - Karnap EIBERG N,11T0-0000-0654-3,AMPRION GMBH,Eiberg,Karnap,380.0
+Altenkleusheim - Setzer Wiese EISERF,11T0-0000-1950-V,AMPRION GMBH,Altenkleusheim,Setzer Wiese,220.0
+Diefflen - Uchtelfangen ELLBCH N,11T0-0000-1673-T,AMPRION GMBH,Diefflen,Uchtelfangen,220.0
+Eller - Opladen ELLER O,11T0-0000-0253-Q,AMPRION GMBH,Eller,Opladen,220.0
+Eller - St. Peter ELLER W,11T0-0000-0495-V,AMPRION GMBH,Eller,St. Peter,220.0
+Y-Elmenhorst (-Poeppinghausen - Ruhrzink) ELMENH S,11T0-0000-0259-8,AMPRION GMBH,Elmenhorst,Y-Elmenhorst,220.0
+Y-Poeppinghausen (-Elmenhorst - Ruhrzink) ELMENH S,11T0-0000-0442-N,AMPRION GMBH,Poeppinghausen,Y-Elmenhorst,220.0
+Y-Ruhrzink (-Elmenhorst - Poeppinghausen) ELMENH S,11T0-0000-0465-6,AMPRION GMBH,Ruhrzink,Y-Elmenhorst,220.0
+Buescherhof - Hamborn EMSHER N,11T0-0000-0207-Y,AMPRION GMBH,Buescherhof,Hamborn,220.0
+Buescherhof - Hamborn EMSHER S,11T0-0000-0208-V,AMPRION GMBH,Buescherhof,Hamborn,220.0
+Diefflen - Ensdorf ENSDF N,11T0-0000-1672-W,AMPRION GMBH,Diefflen,Ensdorf,220.0
+Y-Diefflen (-Ensdorf - Uchtelfangen) ENSDF S,11T0-0000-0218-R,AMPRION GMBH,Diefflen,Y-Diefflen,220.0
+Y-Ensdorf (-Diefflen - Uchtelfangen) ENSDF S,11T0-0000-0265-G,AMPRION GMBH,Ensdorf,Y-Diefflen,220.0
+Y-Uchtelfangen (-Diefflen - Ensdorf) ENSDF S,11T0-0000-0511-X,AMPRION GMBH,Uchtelfangen,Y-Diefflen,220.0
+Bauler - Niederstedem ENZ N,11T0-0000-0149-H,AMPRION GMBH,Bauler,Niederstedem,220.0
+Bauler - Niederstedem ENZ S,11T0-0000-0150-3,AMPRION GMBH,Bauler,Niederstedem,220.0
+Urberach Neu - Urberach ERLENS W,11T0-0000-1382-6,AMPRION GMBH,Urberach (NEU),Urberach,380.0
+Bischofsheim - Urberach ERZHAU N,11T0-0000-0560-G,AMPRION GMBH,Bischofsheim,Urberach,380.0
+Buescherhof - Nordlicht ESSEN W,11T0-0000-0763-Y,AMPRION GMBH,Buescherhof,Nordlicht,380.0
+Duelken - Osterath FICHTH O,11T0-0000-0230-6,AMPRION GMBH,Duelken,Osterath,220.0
+Edelstahl - Osterath FICHTH W,11T0-0000-0237-M,AMPRION GMBH,Edelstahl,Osterath,220.0
+Bayer - Duennwald FLITTA O,11T0-0000-0233-Y,AMPRION GMBH,Bayer,Duennwald,220.0
+Y-Gohrpunkt (-Osterath - Rommerskirchen) FRIXHM N,11T0-0000-1390-8,AMPRION GMBH,Gohrpunkt,Y-Osterath,220.0
+Y-Osterath (-Gohrpunkt - Rommerskirchen) FRIXHM N,11T0-0000-1388-P,AMPRION GMBH,Osterath,Y-Osterath,220.0
+Y-Rommerskirchen (-Gohrpunkt - Osterath) FRIXHM N,11T0-0000-1389-M,AMPRION GMBH,Rommerskirchen,Y-Osterath,220.0
+Rommerskirchen - St Peter FRIXHM S,11T0-0000-1862-Q,AMPRION GMBH,St. Peter,Rommerskirchen,220.0
+Y-Geithe (-Lippborg - Uentrop) GEITHE W,11T0-0000-0608-B,AMPRION GMBH,Geithe,Y-Lippborg,380.0
+Y-Lippborg (-Geithe - Uentrop) GEITHE W,11T0-0000-0711-N,AMPRION GMBH,Lippborg,Y-Lippborg,380.0
+Y-Uentrop (-Geithe - Lippborg) GEITHE W,11T0-0000-0866-K,AMPRION GMBH,Uentrop,Y-Lippborg,380.0
+Gellep - Osterath GELLEP W,11T0-0000-0275-C,AMPRION GMBH,Gellep,Osterath,220.0
+Y-Gersteinwerk (-Guetersloh - Uentrop) GERSTE O,11T0-0000-0941-1,AMPRION GMBH,Gersteinwerk,Y-Gersteinwerk,380.0
+Y-Guetersloh (-Gersteinwerk - Uentrop) GERSTE O,11T0-0000-0943-W,AMPRION GMBH,Guetersloh,Y-Gersteinwerk,380.0
+Y-Uentrop (-Gersteinwerk - Guetersloh) GERSTE O,11T0-0000-0942-Z,AMPRION GMBH,Uentrop,Y-Gersteinwerk,380.0
+Niederstedem - Osburg GILZEM O,11T0-0000-0755-W,AMPRION GMBH,Niederstedem,Osburg,380.0
+Y-Bergmannsglueck (-Eiberg - Gelsenberg) GLADBK W,11T0-0000-0169-9,AMPRION GMBH,Bergmannsglueck,Y-Gelsenberg,220.0
+Y-Eiberg (-Bergmannsglueck - Gelsenberg) GLADBK W,11T0-0000-0246-L,AMPRION GMBH,Eiberg,Y-Gelsenberg,220.0
+Y-Gelsenberg (-Bergmannsglueck - Eiberg) GLADBK W,11T0-0000-0279-0,AMPRION GMBH,Gelsenberg,Y-Gelsenberg,220.0
+Y-Bollenacker (-Brauweiler - Sechtem) GODORF O,11T0-0000-1392-2,AMPRION GMBH,Bollenacker,Y-Bollenacker,220.0
+Y-Brauweiler (-Bollenacker - Sechtem) GODORF O,11T0-0000-1394-X,AMPRION GMBH,Brauweiler,Y-Bollenacker,220.0
+Y-Sechtem (-Brauweiler - Bollenacker) GODORF O,11T0-0000-1395-U,AMPRION GMBH,Sechtem,Y-Bollenacker,220.0
+Daxlanden - Maximiliansau GOLDGR O,11T0-0000-2263-A,AMPRION GMBH,Maximiliansau,Daxlanden,380.0
+Y-Hanekenfaehr (-Gronau - Kusenhorst) GRAFSH W,11T0-0000-0311-6,AMPRION GMBH,Hanekenfaehr,Y-Hanekenfaehr,220.0
+Y-Kusenhorst (-Gronau - Hanekenfaehr) GRAFSH W,11T0-0000-0344-M,AMPRION GMBH,Kusenhorst,Y-Hanekenfaehr,220.0
+Y-Gremberghoven (-Siegburg - Stockem) GREMBG O,11T0-0000-1397-O,AMPRION GMBH,Gremberghoven,Y-Stockem,220.0
+Y-Siegburg (-Gremberghoven - Stockem) GREMBG O,11T0-0000-1398-L,AMPRION GMBH,Siegburg,Y-Stockem,220.0
+Y-Stockem (-Gremberghoven - Siegburg) GREMBG O,11T0-0000-1399-I,AMPRION GMBH,Stockem,Y-Stockem,220.0
+Gremberghoven - Siegburg GREMBG W,11T0-0000-1402-X,AMPRION GMBH,Gremberghoven,Siegburg,220.0
+Pfungstadt - Urberach GRIESH O,11T0-0000-0872-S,AMPRION GMBH,Pfungstadt,Urberach,380.0
+Gronau - Hanekenfaehr GRONAU W,11T0-0000-0617-A,AMPRION GMBH,Gronau,Hanekenfaehr,380.0
+Gundelfingen - Koetz GUENZ N,11T0-0000-1894-8,AMPRION GMBH,Gundelfingen,Koetz,380.0
+Gundelfingen - Voehringen GUENZ S,11T0-0000-0626-9,AMPRION GMBH,Gundelfingen,Voehringen,380.0
+Y-Enniger (-Guetersloh - Uentrop) GUETER S,11T0-0000-0603-Q,AMPRION GMBH,Enniger,Y-Guetersloh,380.0
+Y-Guetersloh (-Enniger - Uentrop) GUETER S,11T0-0000-0631-K,AMPRION GMBH,Guetersloh,Y-Guetersloh,380.0
+Y-Uentrop (-Enniger - Guetersloh) GUETER S,11T0-0000-0867-H,AMPRION GMBH,Uentrop,Y-Guetersloh,380.0
+Y-Kruckel (-Lippborg - Uentrop) HAARST O,11T0-0000-0677-N,AMPRION GMBH,Kruckel,Y-Lippborg,380.0
+Y-Lippborg (-Kruckel - Uentrop) HAARST O,11T0-0000-0712-K,AMPRION GMBH,Lippborg,Y-Lippborg,380.0
+Y-Uentrop (-Kruckel - Lippborg) HAARST O,11T0-0000-0868-E,AMPRION GMBH,Uentrop,Y-Lippborg,380.0
+Geithe - Unna HAARST W,11T0-0000-0607-E,AMPRION GMBH,Geithe,Unna,380.0
+St. Barbara - Mittelbexbach HAGARD O,11T0-0000-0738-V,AMPRION GMBH,St. Barbara,Mittelbexbach,380.0
+St.Barbara - Mittelbexbach HAGARD W,11T0-0000-0739-S,AMPRION GMBH,St. Barbara,Mittelbexbach,380.0
+Guetersloh - Hesseln HALLE W,11T0-0000-1955-G,AMPRION GMBH,Guetersloh,Hesseln,220.0
+Dauersberg - Setzer Wiese HELLER O,11T0-0000-1409-C,AMPRION GMBH,Dauersberg,Setzer Wiese,220.0
+Dauersberg - Setzer Wiese HELLER W,11T0-0000-0480-D,AMPRION GMBH,Dauersberg,Setzer Wiese,220.0
+Y-Herbertingen (-Hoheneck - Metzingen) HERBTG W,11T0-0000-1879-1,AMPRION GMBH,Herbertingen,Herbertingen,380.0
+Y-Hoheneck (-Herbertingen - Metzingen) HERBTG W,11T0-0000-0963-O,AMPRION GMBH,Hoheneck,Herbertingen,380.0
+Kriftel - Limburg HESSEN O,11T0-0000-0702-O,AMPRION GMBH,Kriftel,Limburg,380.0
+Kusenhorst - Poeppinghausen HOCHLR O,11T0-0000-0340-Y,AMPRION GMBH,Kusenhorst,Poeppinghausen,220.0
+Y-Bochum (-Kusenhorst - Poeppinghausen) HOCHLR W,11T0-0000-0183-J,AMPRION GMBH,Bochum,Y-Poeppinghausen,220.0
+Y-Kusenhorst (-Bochum - Poeppinghausen) HOCHLR W,11T0-0000-0345-J,AMPRION GMBH,Kusenhorst,Y-Poeppinghausen,220.0
+Y-Poeppinghausen (-Bochum - Kusenhorst) HOCHLR W,11T0-0000-0443-K,AMPRION GMBH,Poeppinghausen,Y-Poeppinghausen,220.0
+Eiberg - Huellen HUELLN W,11T0-0000-0651-C,AMPRION GMBH,Eiberg,Huellen,380.0
+Ibbenbueren - Westerkappeln IBBENB S,11T0-0000-0911-D,AMPRION GMBH,Ibbenbueren,Westerkappeln,380.0
+Koetz - Voehringen ILLER N,11T0-0000-1956-D,AMPRION GMBH,Koetz,Voehringen,380.0
+Y-Eiberg (-Hattingen - Opladen ) ITTERB O,11T0-0000-0247-I,AMPRION GMBH,Eiberg,Y-Mettmann,220.0
+Y-Hattingen (-Eiberg - Opladen) ITTERB O,11T0-0000-0319-J,AMPRION GMBH,Hattingen,Y-Mettmann,220.0
+Y-Opladen (-Eiberg - Hattingen) ITTERB O,11T0-0000-0421-Y,AMPRION GMBH,Opladen,Y-Mettmann,220.0
+Eiberg - St.Peter ITTERB W,11T0-0000-2264-7 ,AMPRION GMBH,Eiberg,St. Peter,220.0
+Y-Lambsheim (-Mittelbexbach - Otterbach) KAILAU N,11T0-0000-0693-R,AMPRION GMBH,Lambsheim,Y-Otterbach,380.0
+Y-Mittelbexbach (-Lambsheim - Otterbach) KAILAU N,11T0-0000-0742-8,AMPRION GMBH,Mittelbexbach,Y-Otterbach,380.0
+Y-Otterbach (-Lambsheim - Mittelbexbach) KAILAU N,11T0-0000-0809-Z,AMPRION GMBH,Otterbach,Y-Otterbach,380.0
+Lambsheim - Otterbach KAILAU S,11T0-0000-0688-G,AMPRION GMBH,Lambsheim,Otterbach,380.0
+Dettingen - Urberach KARLST S,11T0-0000-0871-V,AMPRION GMBH,Dettingen,Urberach (NEU),380.0
+Fuehlingen - Opladen KASSEL S,11T0-0000-0414-T,AMPRION GMBH,Fuehlingen,Opladen,220.0
+Bischofsheim - Kelsterbach KELSTB N,11T0-0000-0658-S,AMPRION GMBH,Bischofsheim,Kelsterbach,380.0
+Hattingen - Witten KEMNAD S,11T0-0000-0915-1,AMPRION GMBH,Hattingen,Witten,380.0
+Leupolz - Woringen KEMPTE O,11T0-0000-0918-T,AMPRION GMBH,Leupolz,Woringen,380.0
+Oberzier - Siersdorf KIRCHB S,11T0-0000-0776-L,AMPRION GMBH,Oberzier,Siersdorf,380.0
+Kruckel - Mengede KIRCHL O,11T0-0000-0730-I,AMPRION GMBH,Kruckel,Mengede,380.0
+Osterath - Rommerskirchen KNESTE W,11T0-0000-0802-J,AMPRION GMBH,Osterath,Rommerskirchen,380.0
+Koblenz - Weissenthurm KOBLNZ N,11T0-0000-0897-5,AMPRION GMBH,Koblenz,Weissenthurm,380.0
+Wengerrohr - Weissenthurm KONDLW,11T0-0000-0540-O,AMPRION GMBH,Wengerrohr,Weissenthurm,220.0
+Hoheneck - Rheinau KUGELB O,11T0-0000-0566-Z,AMPRION GMBH,Hoheneck,Rheinau,380.0
+Hoheneck - Rheinau KUGELB W,11T0-0000-0567-W,AMPRION GMBH,Hoheneck,Rheinau,380.0
+Buerstadt - Rheinau KURPFA O,11T0-0000-1421-S,AMPRION GMBH,Buerstadt,Rheinau,380.0
+Buerstadt - Rheinau KURPFA W,11T0-0000-1422-P,AMPRION GMBH,Buerstadt,Rheinau,380.0
+Lambsheim - Weingarten LAMBSH W,11T0-0000-0689-D,AMPRION GMBH,Lambsheim,Weingarten,380.0
+Lechhausen - Meitingen LECHHA W,11T0-0000-0723-D,AMPRION GMBH,Lechhausen,Meitingen,380.0
+Linde - Opladen LEICHL O,11T0-0000-0791-S,AMPRION GMBH,Linde,Opladen,380.0
+Halfeshof - Opladen LEICHL W,11T0-0000-0790-V,AMPRION GMBH,Halfeshof,Opladen,380.0
+Dauersberg - Siegburg LEUSHD N,11T0-0000-0212-8,AMPRION GMBH,Dauersberg,Siegburg,220.0
+Dauersberg - Siegburg LEUSHD S,11T0-0000-0213-5,AMPRION GMBH,Dauersberg,Siegburg,220.0
+Liessem - Sechtem LIESSM O,11T0-0000-0842-3,AMPRION GMBH,Liessem,Sechtem,380.0
+Dauersberg - Limburg LIMBG W,11T0-0000-1515-F,AMPRION GMBH,Dauersberg,Limburg,380.0
+Kusenhorst - Niederrhein LIPPE N,11T0-0000-0680-3,AMPRION GMBH,Kusenhorst,Niederrhein,380.0
+Nordlicht - Niederrhein LIPPE S,11T0-0000-2300-1,AMPRION GMBH,Nordlicht,Niederrhein,380.0
+Spellen - Walsum LOENEN O,11T0-0000-0491-6,AMPRION GMBH,Spellen,Walsum,220.0
+Spellen - Walsum LOENEN W,11T0-0000-0492-3,AMPRION GMBH,Spellen,Walsum,220.0
+Utfort - Walsum LOHHEI W,11T0-0000-0890-Q,AMPRION GMBH,Utfort,Walsum,380.0
+Y-Osterath (-Rath - Selbeck) MEERBU W,11T0-0000-2175-5,AMPRION GMBH,Osterath,Y-Rath,380.0
+Y-Rath (-Osterath -Selbeck) MEERBU W,11T0-0000-2176-2,AMPRION GMBH,Rath,Y-Rath,380.0
+Y-Selbeck (-Osterath - Rath) MEERBU W,11T0-0000-2178-X,AMPRION GMBH,Selbeck,Y-Rath,380.0
+Gundelfingen - Meitingen MEITGN N,11T0-0000-0721-J,AMPRION GMBH,Gundelfingen,Meitingen,380.0
+Gundelfingen - Meitingen MEITGN S,11T0-0000-0722-G,AMPRION GMBH,Gundelfingen,Meitingen,380.0
+Gersteinwerk - Mengede MENGED N,11T0-0000-0729-W,AMPRION GMBH,Gersteinwerk,Mengede,380.0
+Lippe - Mengede MENGED S,11T0-0000-0733-9,AMPRION GMBH,Lippe,Mengede,380.0
+Duennwald - Gremberghoven MERHM O,11T0-0000-0234-V,AMPRION GMBH,Duennwald,Gremberghoven,220.0
+Duennwald - Gremberghoven MERHM W,11T0-0000-0235-S,AMPRION GMBH,Duennwald,Gremberghoven,220.0
+Koblenz - Weissenthurm METTER,11T0-0000-0898-2,AMPRION GMBH,Koblenz,Weissenthurm,380.0
+Sechtem - Weissenthurm MITREI,11T0-0000-0844-Y,AMPRION GMBH,Sechtem,Weissenthurm,380.0
+Muendelheim - Utfort MUENDL N,11T0-0000-0370-M,AMPRION GMBH,Muendelheim,Utfort,220.0
+Muendelheim - Uerdingen MUENDL S,11T0-0000-0368-2,AMPRION GMBH,Muendelheim,Uerdingen,220.0
+Y-Hanekenfaehr (-Kottigerhook - Kusenhorst) MUENST,11T0-0000-0643-A,AMPRION GMBH,Hanekenfaehr,Y-Hanekenfaehr,380.0
+Y-Kottigerhook (-Hanekenfaehr - Kusenhorst) MUENST,11T0-0000-0669-L,AMPRION GMBH,Kottigerhook,Y-Hanekenfaehr,380.0
+Y-Kusenhorst (-Hanekenfaehr - Kottigerhook) MUENST,11T0-0000-0684-S,AMPRION GMBH,Kusenhorst,Y-Hanekenfaehr,380.0
+Amelsbueren - Muenster MUNSTR O,11T0-0000-0124-3,AMPRION GMBH,Amelsbueren,Muenster,220.0
+Diefflen - Saarwellingen NALBA O,11T0-0000-0223-1,AMPRION GMBH,Diefflen,Saarwellingen,220.0
+Diefflen - Saarwellingen NALBA W,11T0-0000-0224-Z,AMPRION GMBH,Diefflen,Saarwellingen,220.0
+Buerstadt - Y-Buerstadt NASSAU,11T0-0000-2322-O,AMPRION GMBH,Buerstadt,Y-Limburg,380.0
+Koblenz - Y-Buerstadt NASSAU,11T0-0000-2323-L,AMPRION GMBH,Koblenz,Y-Limburg,380.0
+Limburg - Y-Buerstadt NASSAU,11T0-0000-2324-I,AMPRION GMBH,Limburg,Y-Limburg,380.0
+Sechtem - Weissenthurm NETTE O,11T0-0000-0477-X,AMPRION GMBH,Sechtem,Weissenthurm,220.0
+Meckenheim - Weissenthurm NETTE W,11T0-0000-0717-5,AMPRION GMBH,Meckenheim,Weissenthurm,380.0
+Ibbenbueren - Westerkappeln NIKE S,11T0-0000-0545-9,AMPRION GMBH,Ibbenbueren,Westerkappeln,220.0
+Niederstedem - Rommersheim NIMSTA O,11T0-0000-1631-E,AMPRION GMBH,Niederstedem,Rommersheim,380.0
+Sechtem - Siegburg NKASSEL N,11T0-0000-2062-N,AMPRION GMBH,Sechtem,Siegburg,380.0
+Norf - St. Peter NORF W,11T0-0000-0496-S,AMPRION GMBH,Norf,St. Peter,220.0
+Niederrhein - Walsum NRHEIN W,11T0-0000-0750-A,AMPRION GMBH,Niederrhein,Walsum,380.0
+Wehrendorf - Westerkappeln NSACHS N,11T0-0000-0891-N,AMPRION GMBH,,Wehrendorf,380.0
+Hanekenfaehr - Wehrendorf NSACHS S,11T0-0000-0641-G,AMPRION GMBH,Hanekenfaehr,Wehrendorf,380.0
+St. Huelfe - Wehrendorf OCHSMO O,11T0-0000-2066-B,AMPRION GMBH,St. Huelfe,Wehrendorf,380.0
+St. Huelfe - Wehrendorf OCHSMO W,11T0-0000-2067-8,AMPRION GMBH,St. Huelfe,Wehrendorf,380.0
+Y-Mettmann (-Ohligs - Opladen) OERKHS O,11T0-0000-1895-5,AMPRION GMBH,Mettmann,Y-Ohligs,380.0
+Y-Ohligs (-Mettmann - Opladen) OERKHS O,11T0-0000-1486-Q,AMPRION GMBH,Ohligs,Y-Ohligs,380.0
+Y-Opladen (-Mettmann - Ohligs) OERKHS O,11T0-0000-1487-N,AMPRION GMBH,Opladen,Y-Ohligs,380.0
+Y-Mettmann (-Ohligs - St Peter) OERKHS W,11T0-0000-1849-D,AMPRION GMBH,Mettmann,Y-Ohligs,380.0
+Y-Ohligs (-Mettmann - St Peter) OERKHS W,11T0-0000-1851-X,AMPRION GMBH,Ohligs,Y-Ohligs,380.0
+Y-St Peter (-Ohligs - Mettmann) OERKHS W,11T0-0000-1852-U,AMPRION GMBH,St. Peter,Y-Ohligs,380.0
+Bollenacker - Sechtem OLEFIN W,11T0-0000-1864-K,AMPRION GMBH,Bollenacker,Sechtem,220.0
+Opladen - Rommerskirchen OPLADN N,11T0-0000-0793-M,AMPRION GMBH,Opladen,Rommerskirchen,380.0
+Opladen - Rommerskirchen OPLADN S,11T0-0000-0794-J,AMPRION GMBH,Opladen,Rommerskirchen,380.0
+Quint - Uchtelfangen OSBURG,11T0-0000-0445-E,AMPRION GMBH,Quint,Uchtelfangen,220.0
+Guetersloh - Hesseln OSNING O,11T0-0000-1865-H,AMPRION GMBH,Guetersloh,Hesseln,380.0
+Garenfeld - Kruckel OSTENDE,11T0-0000-2180-G,AMPRION GMBH,Garenfeld,Kruckel,380.0
+Y-St.Barbara (-BASF - Mutterstadt) OTTERB N,11T0-0000-1951-S,AMPRION GMBH,St. Barbara,Y-Mutterstadt,220.0
+Y-BASF (-Mutterstadt - St.Barbara) OTTERB N,11T0-0000-1952-P,AMPRION GMBH,BASF,Y-Mutterstadt,220.0
+Y-Mutterstadt (-BASF - St.Barbara) OTTERB N,11T0-0000-1953-M,AMPRION GMBH,Mutterstadt,Y-Mutterstadt,220.0
+Homburg - Uchtelfangen OTTERB S,11T0-0000-2073-G,AMPRION GMBH,Homburg,Uchtelfangen,220.0
+Paffendorf - Rommerskirchen PAFFEN N,11T0-0000-0829-R,AMPRION GMBH,Paffendorf,Rommerskirchen,380.0
+Paffendorf - Rommerskirchen PAFFEN S,11T0-0000-0830-D,AMPRION GMBH,Paffendorf,Rommerskirchen,380.0
+Kruckel - Witten PERSEBEK,11T0-0000-0678-K,AMPRION GMBH,Kruckel,Witten,380.0
+St. Peter - Rommerskirchen PETER S,11T0-0000-0856-O,AMPRION GMBH,St. Peter,Rommerskirchen,380.0
+Niederrhein - Pfalzdorf PFALZD N,11T0-0000-0385-3,AMPRION GMBH,Niederrhein,Pfalzdorf,220.0
+Niederrhein - Pfalzdorf PFALZD S,11T0-0000-0386-0,AMPRION GMBH,Niederrhein,Pfalzdorf,220.0
+Y-Hattingen (-Laer - Poeppinghausen) POEPPI O,11T0-0000-0320-5,AMPRION GMBH,Hattingen,Poeppinghausen,220.0
+Laer - Poeppinghausen POEPPI W,11T0-0000-0347-D,AMPRION GMBH,Hattingen,Poeppinghausen,220.0
+Y-Bergmannsglueck (-Bellendorf - Kusenhorst) POLSUM S,11T0-0000-0170-W,AMPRION GMBH,Bergmannsglueck,Y-Bellendorf,220.0
+Y-Kusenhorst (-Bellendorf - Bergmannsglück) POLSUM S,11T0-0000-0346-G,AMPRION GMBH,Kusenhorst,Y-Bellendorf,220.0
+Gronau - Niederrhein PRHAMSBW,11T0-0000-0618-7,AMPRION GMBH,Gronau,KUES Luengenkamp,380.0
+Y-Hanekenfaehr (-Oechtel - Uentrop) PRRXOUES,11T0-0000-0930-8,AMPRION GMBH,Hanekenfaehr,Y-Oechtel,380.0
+Y-Roxel (-Hanekenfaehr - Oechtel) ROXEL O,11T0-0000-0932-2,AMPRION GMBH,Roxel,Y-Oechtel,380.0
+Y-Oechtel (-Hanekenfaehr - Roxel) ROXEL O,11T0-0000-0931-5,AMPRION GMBH,Oechtel,Y-Oechtel,380.0
+Mittelbexbach - Otterbach RAMSTE S,11T0-0000-0806-7,AMPRION GMBH,Mittelbexbach,Otterbach,380.0
+Ratsbusch - Wambel RATSBU N,11T0-0000-0531-P,AMPRION GMBH,Ratsbusch,Wambel,220.0
+Ratsbusch - Wambel RATSBU S,11T0-0000-1438-3,AMPRION GMBH,Ratsbusch,Wambel,220.0
+Emscherbruch - Mengede RECKLI N,11T0-0000-1496-M,AMPRION GMBH,Emscherbruch,Mengede,380.0
+Emscherbruch - Mengede RECKLI S,11T0-0000-2064-H,AMPRION GMBH,Emscherbruch,Mengede,380.0
+Muendelheim - Rheinhausen RHAUSN W,11T0-0000-0367-5,AMPRION GMBH,Muendelheim,Rheinhausen,220.0
+Opladen - St. Peter RHFELD,11T0-0000-1671-Z,AMPRION GMBH,Opladen,St. Peter,380.0
+Y-Buerstadt (-Kried - Pfungstadt) RIED O,11T0-0000-2302-W,AMPRION GMBH,Buerstadt,Y-Ried,380.0
+Y-Pfungstadt (-Buerstadt - Kried) RIED O,11T0-0000-2304-Q,AMPRION GMBH,Ried,Y-Ried,380.0
+Y-Kried (-Buerstadt - Pfungstadt) RIED O,11T0-0000-0816-3,AMPRION GMBH,Pfungstadt,Y-Ried,380.0
+Y-Bischofsheim (-Buerstadt - Pfungstadt) RIED W,11T0-0000-0563-7,AMPRION GMBH,Bischofsheim,Y-Pfungstadt,380.0
+Y-Buerstadt (-Bischofsheim - Pfungstadt) RIED W,11T0-0000-0573-3,AMPRION GMBH,Buerstadt,Y-Pfungstadt,380.0
+Y-Pfungstadt (-Bischofsheim - Buerstadt) RIED W,11T0-0000-0819-V,AMPRION GMBH,Pfungstadt,Y-Pfungstadt,380.0
+Brauweiler - Rommerskirchen ROKI O,11T0-0000-0458-1,AMPRION GMBH,Brauweiler,Rommerskirchen,220.0
+BASF - Mutterstadt ROXHM S,11T0-0000-0375-7,AMPRION GMBH,BASF,Mutterstadt,220.0
+Eiberg - Mettmann RUHRTL O,11T0-0000-1898-X,AMPRION GMBH,Eiberg,Mettmann,380.0
+Eiberg - Mettmann RUHRTL W,11T0-0000-1846-M,AMPRION GMBH,Eiberg,Mettmann,380.0
+Nehden - Uentrop SAUERL N,11T0-0000-0744-2,AMPRION GMBH,Nehden,Uentrop,380.0
+Arpe - Nehden SAUERL S,11T0-0000-0743-5,AMPRION GMBH,Arpe,Nehden,380.0
+Y-Oberzier (-Paffendorf - Sechtem) SECHTM N,11T0-0000-0781-W,AMPRION GMBH,Oberzier,Y-Paffendorf,380.0
+Y-Paffendorf (-Oberzier - Sechtem) SECHTM N,11T0-0000-0814-9,AMPRION GMBH,Paffendorf,Y-Paffendorf,380.0
+Y-Sechtem (-Oberzier - Paffendorf) SECHTM N,11T0-0000-0848-M,AMPRION GMBH,Sechtem,Y-Paffendorf,380.0
+Y-Oberzier (-Paffendorf - Sechtem) SECHTM S,11T0-0000-0782-T,AMPRION GMBH,Oberzier,Y-Paffendorf,380.0
+Y-Paffendorf (-Oberzier - Sechtem) SECHTM S,11T0-0000-0815-6,AMPRION GMBH,Paffendorf,Y-Paffendorf,380.0
+Y-Sechtem (-Oberzier - Paffendorf) SECHTM S,11T0-0000-0849-J,AMPRION GMBH,Sechtem,Y-Paffendorf,380.0
+Y-Oberzier (-Dahlem - Rommersheim) SELHN O,11T0-0000-0783-Q,AMPRION GMBH,Oberzier,Y-Dahlem,380.0
+Y-Rommersheim (-Dahlem - Oberzier) SELHN O,11T0-0000-1629-V,AMPRION GMBH,Rommersheim,Y-Dahlem,380.0
+Y-Niederstedem (-Dahlem - Oberzier) SELHN W,11T0-0000-0762-0,AMPRION GMBH,Niederstedem,Y-Dahlem,380.0
+Y-Oberzier (-Dahlem - Niederstedem) SELHN W,11T0-0000-0784-N,AMPRION GMBH,Oberzier,Y-Dahlem,380.0
+Altenkleusheim - Setzer Wiese SETZE N,11T0-0000-0117-Z,AMPRION GMBH,Altenkleusheim,Setzer Wiese,220.0
+Bergmannsglueck - Niederrhein SHERMB N,11T0-0000-0166-I,AMPRION GMBH,Bergmannsglueck,Niederrhein,220.0
+FWH-S - Urberach SHWANH O,11T0-0000-0516-I,AMPRION GMBH,FWH-S,Urberach,220.0
+FWH-S - Urberach SHWANH W,11T0-0000-0517-F,AMPRION GMBH,FWH-S,Urberach,220.0
+Kruckel - Unna SHWERT N,11T0-0000-0548-0,AMPRION GMBH,Kruckel,Unna,380.0
+Dausersberg - Eiserfeld SIEGRL O,11T0-0000-0481-A,AMPRION GMBH,Dauersberg,Eiserfeld,220.0
+Dauersberg - Eiserfeld SIEGRL W,11T0-0000-0250-Z,AMPRION GMBH,Dauersberg,Eiserfeld,220.0
+Dauersberg - Siegburg SIEGTA N,11T0-0000-0586-R,AMPRION GMBH,Dauersberg,Siegburg,380.0
+Dauersberg - Sechtem SIEGTA S,11T0-0000-0587-O,AMPRION GMBH,Dauersberg,Sechtem,380.0
+Bacharach - Weissenthurm SOONWD O,11T0-0000-0973-K,AMPRION GMBH,Bacharach,Weissenthurm,380.0
+Waldlaubersheim - Weissenthurm SOONWD W,11T0-0000-0901-H,AMPRION GMBH,Waldlaubersheim,Weissenthurm,380.0
+Niederrhein - Spellen SPELLN S,11T0-0000-0387-Y,AMPRION GMBH,Niederrhein,Spellen,220.0
+Opladen - Rommerskirchen STOMM N,11T0-0000-1869-5,AMPRION GMBH,Opladen,Rommerskirchen,220.0
+Fuehlingen - Rommerskirchen STOMM S,11T0-0000-0267-A,AMPRION GMBH,Fuehlingen,Rommerskirchen,220.0
+Y-Muendelheim (-Osterath - Rheinhausen) STRATM O,11T0-0000-2074-D,AMPRION GMBH,Muendelheim,Y-Rheinhausen,220.0
+Y-Osterath (-Muendelheim - Rheinhausen) STRATM O,11T0-0000-2075-A,AMPRION GMBH,Osterath,Y-Rheinhausen,220.0
+Y-Rheinhausen (-Muendelheim - Osterath) STRATM O,11T0-0000-2076-7,AMPRION GMBH,Rheinhausen,Y-Rheinhausen,220.0
+Gellep - Muendelheim STRATM W,11T0-0000-0364-E,AMPRION GMBH,Gellep,Muendelheim,220.0
+Norf - St. Peter STUERZ O,11T0-0000-1445-8,AMPRION GMBH,Norf,St. Peter,220.0
+Norf - St. Peter STUERZ W,11T0-0000-0497-P,AMPRION GMBH,Norf,St. Peter,220.0
+Ensdorf - Uchtelfangen TAUBNT N,11T0-0000-0604-N,AMPRION GMBH,Ensdorf,Uchtelfangen,380.0
+Ensdorf - Uchtelfangen TAUBNT S,11T0-0000-0605-K,AMPRION GMBH,Ensdorf,Uchtelfangen,380.0
+Herbertingen - Tiengen TIENGN N,11T-D4-D7-00010V,AMPRION GMBH,Herbertingen,Tiengen,380.0
+Y-Osterath (-Selbeck - Utfort) TOESEE W,11T0-0000-0805-A,AMPRION GMBH,Osterath,Y-Osterath,380.0
+Y-Selbeck (-Osterath - Utfort) TOESEE W,11T0-0000-0851-2,AMPRION GMBH,Selbeck,Y-Osterath,380.0
+Y-Utfort (-Osterath - Selbeck) TOESEE W,11T0-0000-0880-U,AMPRION GMBH,Utfort,Y-Osterath,380.0
+Kelsterbach - Kriftel TREBUR N,11T0-0000-0671-4,AMPRION GMBH,Kelsterbach,Kriftel,380.0
+Y-Bischofsheim (-Kriftel - Schwanheim) TREBUR S,11T0-0000-2392-X,AMPRION GMBH,Bischofsheim,Kriftel,380.0
+Y-Kriftel (-Bischofsheim - Schwanheim) TREBUR S,11T0-0000-2393-U,AMPRION GMBH,Kriftel,Kriftel,380.0
+Sechtem - Siegburg TROISD O,11T0-0000-0486-W,AMPRION GMBH,Sechtem,Siegburg,220.0
+Sechtem - Siegburg TROISD W,11T0-0000-0487-T,AMPRION GMBH,Sechtem,Siegburg,220.0
+Osburg - Uchtelfangen UCHTLF O,11T0-0000-0798-7,AMPRION GMBH,Osburg,Uchtelfangen,380.0
+Niederstedem - Uchtelfangen UCHTLF W,11T0-0000-0756-T,AMPRION GMBH,Niederstedem,Uchtelfangen,380.0
+Y-Gersteinwerk (-Hanekenfaehr - Uentrop) UENTRO N,11T0-0000-0616-D,AMPRION GMBH,Gersteinwerk,Y-Gersteinwerk,380.0
+Y-Hanekenfaehr (-Gersteinwerk - Uentrop) UENTRO N,11T0-0000-0644-7,AMPRION GMBH,Hanekenfaehr,Y-Gersteinwerk,380.0
+Y-Uentrop (-Gersteinwerk - Hanekenfaehr) UENTRO N,11T0-0000-0869-B,AMPRION GMBH,Uentrop,Y-Gersteinwerk,380.0
+Uerdingen - Utfort UERDIN W,11T0-0000-0113-A,AMPRION GMBH,Uerdingen,Utfort,220.0
+Y-Duelken (-Edelstahl - Utfort) UTFORT W,11T0-0000-1446-5,AMPRION GMBH,Duelken,Y-Edelstahl,220.0
+Y-Edelstahl (-Duelken - Utfort) UTFORT W,11T0-0000-1447-2,AMPRION GMBH,Edelstahl,Y-Edelstahl,220.0
+Y-Utfort (-Duelken - Edelstahl) UTFORT W,11T0-0000-1449-X,AMPRION GMBH,Utfort,Y-Edelstahl,220.0
+Rommerskirchen - Sechtem VILLE O,11T0-0000-0831-A,AMPRION GMBH,Rommerskirchen,Sechtem,380.0
+Rommerskirchen - Sechtem VILLE W,11T0-0000-1011-F,AMPRION GMBH,Rommerskirchen,Sechtem,380.0
+Voehringen - Woringen VOEHRG O,11T0-0000-0883-L,AMPRION GMBH,Voehringen,Woringen,380.0
+Rommerskirchen - Sechtem VORGBG O,11T0-0000-2134-O,AMPRION GMBH,Rommerskirchen,Sechtem,380.0
+Brauweiler - Rommerskirchen VORGBG W,11T0-0000-2072-J,AMPRION GMBH,Brauweiler,Rommerskirchen,220.0
+Knapsack - Sechtem WABERG W,11T0-0000-0663-2,AMPRION GMBH,Knapsack,Sechtem,380.0
+Y-Hamborn (-Schwelgern - Walsum) WALSUM N,11T0-0000-1455-4,AMPRION GMBH,Hamborn,Y-Walsum,220.0
+Y-Schwelgern (-Hamborn - Walsum) WALSUM N,11T0-0000-1456-1,AMPRION GMBH,Schwelgern,Y-Walsum,220.0
+Y-Walsum (-Hamborn - Schwelgern) WALSUM N,11T0-0000-1457-Z,AMPRION GMBH,Walsum,Y-Walsum,220.0
+Y-Hamborn ( Schwelgern - Walsum) WALSUM S,11T0-0000-0304-1,AMPRION GMBH,Hamborn,Y-Schwelgern,220.0
+Y-Schwelgern (-Hamborn - Walsum) WALSUM S,11T0-0000-1456-1,AMPRION GMBH,Schwelgern,Y-Schwelgern,220.0
+Y-Walsum (-Hamborn - Schwelgern) WALSUM S,11T0-0000-0529-5,AMPRION GMBH,Walsum,Y-Schwelgern,220.0
+Gersteinwerk - Lippe WALTRO S,11T0-0000-0610-V,AMPRION GMBH,Gersteinwerk,Lippe,380.0
+Gersteinwerk - Wambel WAMBEL O,11T0-0000-0287-2,AMPRION GMBH,Gersteinwerk,Wambel,220.0
+Gersteinwerk - Wambel WAMBEL W,11T0-0000-0289-X,AMPRION GMBH,Gersteinwerk,Wambel,220.0
+Emscherbruch - Kusenhorst WEHOLT O,11T0-0000-1497-J,AMPRION GMBH,Emscherbruch,Kusenhorst,380.0
+Emscherbruch- Kusenhorst WEHOLT W,11T0-0000-2065-E,AMPRION GMBH,Emscherbruch,Kusenhorst,380.0
+Lambsheim - Maximiliansau WEINST O,11T0-0000-2119-H,AMPRION GMBH,Lambsheim,Maximiliansau,380.0
+Weingarten - Maximiliansau WEINST W,11T0-0000-2120-3,AMPRION GMBH,Maximiliansau,Weingarten,380.0
+Eiberg - Hattingen WEITMR W,11T0-0000-0647-Z,AMPRION GMBH,Eiberg,Hattingen,380.0
+Y-Bochum (-Hattingen - Welper) WELPER O,11T0-0000-0184-G,AMPRION GMBH,Bochum,Y-Welper,220.0
+Y-Hattingen (-Bochum - Welper) WELPER O,11T0-0000-0321-2,AMPRION GMBH,Hattingen,Y-Welper,220.0
+Y-Welper (-Bochum - Hattingen) WELPER O,11T0-0000-0542-I,AMPRION GMBH,Welper,Y-Welper,220.0
+Amelsbueren - Gersteinwerk WERSE W,11T0-0000-0281-K,AMPRION GMBH,Amelsbueren,Gersteinwerk,220.0
+Y-Ossenberg (-Niederrhein - Utfort) WESEL O,11T0-0000-0423-S,AMPRION GMBH,Ossenberg,Utfort,220.0
+Garenfeld - Kruckel WESTENDE,11T0-0000-2181-D,AMPRION GMBH,Garenfeld,Kruckel,380.0
+Luestringen - Westerkappeln WESTER N,11T0-0000-0714-E,AMPRION GMBH,Luestringen,Westerkappeln,380.0
+Luestringen - Westerkappeln WESTER S,11T0-0000-0715-B,AMPRION GMBH,Luestringen,Westerkappeln,220.0
+Emscherbruch - Huellen WESTFL W,11T0-0000-2054-L,AMPRION GMBH,Emscherbruch,Huellen,380.0
+Y-Dauersberg (-Asslar - Limburg) WESTW W1,11T0-0000-0994-9,AMPRION GMBH,Dauersberg,Y-Dauersberg,380.0
+Y-Limburg (-Asslar - Dauersberg) WESTW W1,11T0-0000-0995-6,AMPRION GMBH,Limburg,Y-Dauersberg,380.0
+Wehrendorf - Westerkappeln WIEHEN O,11T0-0000-0537-7,AMPRION GMBH,Wehrendorf,Westerkappeln,220.0
+Bayer - Opladen WIESDF,11T0-0000-0412-Z,AMPRION GMBH,Bayer,Opladen,220.0
+Mengede - Witten WITTEN W,11T0-0000-0734-6,AMPRION GMBH,Mengede,Witten,380.0
+Y-Bacharach (-Buerstadt - Waldlaubersheim) WONNEG O,11T0-0000-0976-B,AMPRION GMBH,Bacharach,Y-Waldlaubersheim,380.0
+Y-Buerstadt (-Bacharach - Waldlaubersheim) WONNEG O,11T0-0000-0977-8,AMPRION GMBH,Buerstadt,Y-Waldlaubersheim,380.0
+Y-Waldlaubersheim (-Bacharach - Buerstadt) WONNEG O,11T0-0000-0975-E,AMPRION GMBH,Waldlaubersheim,Y-Waldlaubersheim,380.0
+Buerstadt - Waldlaubersheim WONNEG W,11T0-0000-0885-F,AMPRION GMBH,Buerstadt,Waldlaubersheim,380.0
+Liessem - Weissenthurm WTHURM O,11T0-0000-0700-U,AMPRION GMBH,Liessem,Weissenthurm,380.0
+Niederrhein - Utfort ZENSEN S,11T0-0000-1534-A,AMPRION GMBH,Niederrhein,Utfort,380.0
+Osterath - St. Peter ZONS O,11T0-0000-1462-9,AMPRION GMBH,Osterath,St. Peter,220.0
+Norf - Osterath ZONS W,11T0-0000-0425-M,AMPRION GMBH,Norf,Osterath,220.0
+Y-Wiesloch (-Hueffenhardt - Neurott) ge,11TD400000542-3P,TRANSNETBW,Y-Hueffenhardt,Wiesloch,380.0
+Alfstedt - Dollern gelb,11T0-0000-1946-H,TENNETGMBH,Alfstedt,Dollern,380.0
+Alfstedt - Dollern rot,11T0-0000-1945-K,TENNETGMBH,Alfstedt,Dollern,380.0
+Alfstedt - Elsfleth/W schwarz,11T0-0000-1943-Q,TENNETGMBH,Elsfleth/W,Alfstedt,380.0
+Alfstedt - Farge blau,11T0-0000-1944-N,TENNETGMBH,Farge,Alfstedt,380.0
+Algermissen - Grohnde 2,11TD2L000000002N,TENNETGMBH,Grohnde,Algermissen,380.0
+Algermissen - Mehrum/N 2,11T0-0000-1911-7,TENNETGMBH,Algermissen,Mehrum/N,380.0
+Altheim - Sittling 219,11TD2L000000003L,TENNETGMBH,Altheim,Sittling,220.0
+Altheim - Sittling 220,11TD2L000000004J,TENNETGMBH,Altheim,Sittling,220.0
+Aschaffenburg - Bergrheinfeld/W 418,11T0-0000-0044-0,TENNETGMBH,Aschaffenburg,Bergrheinfeld/W,380.0
+Aschaffenburg - Grosskrotzenburg 412,11TD2L000000006F,TENNETGMBH,Grosskrotzenburg,Aschaffenburg,380.0
+Audorf - Audorf/S T421,11TD2L0000000099,TENNETGMBH,Audorf,Audorf/S,220.0
+Audorf - Audorf/S T422,11T0-0000-0017-3,TENNETGMBH,Audorf,Audorf/S,220.0
+Audorf - Kiel/S gelb,11TD2L000000014G,TENNETGMBH,Kiel/S,Audorf,220.0
+Audorf - Kiel/W rot,11TD2L000000015E,TENNETGMBH,Kiel/W,Audorf,220.0
+Audorf/S - Handewitt blau,11T0-0000-1517-9,TENNETGMBH,Handewitt,Audorf/S,380.0
+Audorf/S - Handewitt gruen,11T0-0000-1516-C,TENNETGMBH,Audorf/S,Handewitt,380.0
+Audorf/S - Kummerfeld schwarz,11T0-0000-0039-Q,TENNETGMBH,Audorf/S,Kummerfeld,380.0
+Audorf/S - Schuby/W schwarz,11T0-0000-1475-X,TENNETGMBH,Schuby/W,Audorf/S,380.0
+Audorf/S - Schuby/W weiss,11T0-0000-1473-2,TENNETGMBH,Schuby/W,Audorf/S,380.0
+Bechterdissen - Eickum 1,11TD2L0000000625,TENNETGMBH,Bechterdissen,Eickum,380.0
+Bechterdissen - Eickum 3,11T0-0000-1548-V,TENNETGMBH,Bechterdissen,Eickum,380.0
+Bechterdissen - Elsen 1,11TD2L000000017A,TENNETGMBH,Elsen,Bechterdissen,380.0
+Bechterdissen - Elsen 2,11TD2L000000335X,TENNETGMBH,Elsen,Bechterdissen,380.0
+Bechterdissen - Lage A03,11TD2L0000003055,TENNETGMBH,Bechterdissen,Lage,220.0
+Bechterdissen - Veltheim A01,11TD2L000000356P,TENNETGMBH,Bechterdissen,Veltheim,220.0
+Bergrheinfeld/W - Grafenrheinfeld 426,11T0-0000-0029-U,TENNETGMBH,Grafenrheinfeld,Bergrheinfeld/W,380.0
+Bergrheinfeld/W - Grafenrheinfeld 427,11TD2L000000359J,TENNETGMBH,Grafenrheinfeld,Bergrheinfeld/W,380.0
+Bergrheinfeld/W - Grafenrheinfeld 487,11T0-0000-1675-N,TENNETGMBH,Grafenrheinfeld,Bergrheinfeld/W,380.0
+Bergrheinfeld/W - Grosskrotzenburg 417,11T0-0000-0045-Y,TENNETGMBH,Grosskrotzenburg,Bergrheinfeld/W,380.0
+Bergshausen - Borken 2,11TD2L000000262Y,TENNETGMBH,Bergshausen,Borken,380.0
+Bergshausen - Wuergassen 1,11T0-0000-1833-Z,TENNETGMBH,Bergshausen,Wuergassen,380.0
+Borken - Giessen/N 1,11TD2L0000000285,TENNETGMBH,Borken,Giessen/N,380.0
+Borken - Giessen/N 2,11TD2L0000000293,TENNETGMBH,Borken,Giessen/N,380.0
+Borken - Mecklar 1,11TD2L000000030I,TENNETGMBH,Borken,Mecklar,380.0
+Borken - Mecklar 2,11TD2L000000031G,TENNETGMBH,Borken,Mecklar,380.0
+Brokdorf - Itzehoe/W gruen,11TD2L000000034A,TENNETGMBH,Itzehoe/W,Brokdorf,220.0
+Brunsbuettel - Buettel blau,11TD2L0000000374,TENNETGMBH,Buettel,Brunsbuettel,380.0
+Brunsbuettel - Buettel gruen,11TD2L0000000382,TENNETGMBH,Buettel,Brunsbuettel,380.0
+Brunsbuettel - Itzehoe/W rot,11TD2L0000000390,TENNETGMBH,Itzehoe/W,Brunsbuettel,220.0
+Brunsbuettel - Suederdonn blau,11TD2L000000344W,TENNETGMBH,Suederdonn,Brunsbuettel,380.0
+Brunsbuettel - Suederdonn gelb,11TD2L000000343Y,TENNETGMBH,Suederdonn,Brunsbuettel,380.0
+Buettel - Wilster/W gelb,11TD2L0000000439,TENNETGMBH,Wilster/W,Buettel,380.0
+Buettel - Wilster/W rot,11TD2L0000000447,TENNETGMBH,Wilster/W,Buettel,380.0
+Conneforde - Cloppenburg/O gruen,11TD2L0000000455,TENNETGMBH,Cloppenburg/O,Conneforde,220.0
+Conneforde - Conneforde/O blau,11T0-0000-0079-A,TENNETGMBH,Conneforde,Conneforde/O,380.0
+Conneforde - Conneforde/O rot,11T0-0000-0999-V,TENNETGMBH,Conneforde,Conneforde/O,380.0
+Conneforde - Conneforde/O weiss,11T0-0000-2397-I,TENNETGMBH,Conneforde,Conneforde/O,380.0
+Conneforde - Diele rot,11TD2L0000000471,TENNETGMBH,Conneforde,Diele,380.0
+Conneforde - Diele weiss,11TD2L000000049Y,TENNETGMBH,Conneforde,Diele,380.0
+Conneforde - Emden/O gelb,11T0-0000-1677-H,TENNETGMBH,Emden/O,Conneforde,380.0
+Conneforde - Fedderwarden blau,11T0-0000-1614-D,TENNETGMBH,Conneforde,Fedderwarden,220.0
+Conneforde - Fedderwarden rot,11T0-0000-1613-G,TENNETGMBH,Conneforde,Fedderwarden,220.0
+Conneforde/O - Elsfleth/W gelb/rot,11T0-0000-2299-H,TENNETGMBH,Conneforde/O,Elsfleth/W,380.0
+Conneforde/O - Emden/O blau,11T0-0000-1678-E,TENNETGMBH,Emden/O,Conneforde/O,380.0
+Diele - Doerpen/W gelb,11TD2L0000000536,TENNETGMBH,Diele,Doerpen/W,380.0
+Dipperz - Grosskrotzenburg 2,11TD2L000000337T,TENNETGMBH,Dipperz,Grosskrotzenburg,380.0
+Elsen - Twistetal 1,11TD2L0000002326,TENNETGMBH,Elsen,Twistetal,380.0
+Elsen - Twistetal 2,11TD2L0000002318,TENNETGMBH,Elsen,Twistetal,380.0
+Elsfleth/W - Farge gruen,11T0-0000-1005-7,TENNETGMBH,Elsfleth/W,Farge,380.0
+Elsfleth/W - Ganderkesee rot,11T0-0000-0982-J,TENNETGMBH,Elsfleth/W,Ganderkesee,380.0
+Elsfleth/W - Niedervieland gruen,11T0-0000-1003-D,TENNETGMBH,Elsfleth/W,Niedervieland,380.0
+Eltmann - Grafenrheinfeld 422,11TD2L0000000641,TENNETGMBH,Grafenrheinfeld,Eltmann,380.0
+Eltmann - Redwitz 428,11TD2L000000088O,TENNETGMBH,Eltmann,Redwitz,380.0
+Etzenricht - Mechlenreuth 437/479,11T0-0000-2273-6,TENNETGMBH,Etzenricht,Mechlenreuth,380.0
+Etzenricht - Schwandorf 455,11T0-0000-2203-Y,TENNETGMBH,Schwandorf,Etzenricht,380.0
+Etzenricht - Schwandorf 456,11T0-0000-2232-P,TENNETGMBH,Schwandorf,Etzenricht,380.0
+Fedderwarden - Conneforde gelb,11T0-0000-1488-K,TENNETGMBH,Conneforde,Fedderwarden,380.0
+Fedderwarden - Conneforde gruen,11T0-0000-1489-H,TENNETGMBH,Conneforde,Fedderwarden,380.0
+Fedderwarden - Maade schwarz,11T0-0000-1616-7,TENNETGMBH,Fedderwarden,Maade,220.0
+Fedderwarden - Maade weiss,11T0-0000-1615-A,TENNETGMBH,Fedderwarden,Maade,220.0
+Frankfurt/SW - Karben 3,11TD2L0000000730,TENNETGMBH,Karben,Frankfurt/SW,380.0
+Ganderkesee - Niedervieland schwarz,11TD2L000000074Z,TENNETGMBH,Niedervieland,Ganderkesee,380.0
+Giessen/N - Asslar 4,11TD2L000000075X,TENNETGMBH,Giessen/N,Asslar,380.0
+Giessen/N - Dillenburg 3,11TD2L000000076V,TENNETGMBH,Giessen/N,Dillenburg,380.0
+Giessen/N - Karben 1,11T0-0000-0055-U,TENNETGMBH,Giessen/N,Karben,380.0
+Giessen/N - Karben 2,11TD2L0000003144,TENNETGMBH,Giessen/N,Karben,380.0
+Grafenrheinfeld - Oberhaid 423,11TD2L000000085U,TENNETGMBH,Grafenrheinfeld,Oberhaid,380.0
+Grafenrheinfeld - Raitersaich 433,11TD2L000000086S,TENNETGMBH,Grafenrheinfeld,Raitersaich,380.0
+Grafenrheinfeld - Raitersaich 434,11TD2L000000087Q,TENNETGMBH,Grafenrheinfeld,Raitersaich,380.0
+Grohnde - Mehrum/N 1,11T0-0000-1913-1,TENNETGMBH,Grohnde,Mehrum/N,380.0
+Grosskrotzenburg - Frankfurt/N 3,11TD2L000000101L,TENNETGMBH,Grosskrotzenburg,Frankfurt/N,220.0
+Grosskrotzenburg - Karben 3,11TD2L0000003136,TENNETGMBH,Karben,Grosskrotzenburg,380.0
+Grosskrotzenburg - Mecklar 1,11T0-0000-2183-7,TENNETGMBH,Mecklar,Grosskrotzenburg,380.0
+Grosskrotzenburg - Trennfeld 217,11TD2L000000103H,TENNETGMBH,Grosskrotzenburg,Trennfeld,220.0
+Grosskrotzenburg - Trennfeld 218,11TD2L000000104F,TENNETGMBH,Grosskrotzenburg,Trennfeld,220.0
+Hamburg/N - Brokdorf blau,11TD2L000000105D,TENNETGMBH,Hamburg/N,Brokdorf,220.0
+Hamburg/N - Itzehoe/W rot,11TD2L000000106B,TENNETGMBH,Hamburg/N,Itzehoe/W,220.0
+Hamburg/N - Luebeck gelb,11TD2L0000001079,TENNETGMBH,Luebeck,Hamburg/N,220.0
+Hamburg/N - Luebeck rot,11TD2L0000001087,TENNETGMBH,Luebeck,Hamburg/N,220.0
+Handewitt - Jardelund blau,11T0-0000-0926-V,TENNETGMBH,Jardelund,Handewitt,380.0
+Handewitt - Jardelund gruen,11T0-0000-0925-Y,TENNETGMBH,Jardelund,Handewitt,380.0
+Hattorf - Helmstedt 2,11TD2L0000001095,TENNETGMBH,Hattorf,Helmstedt,380.0
+Heide/W - Husum/N schwarz,11T0-0000-1634-5,TENNETGMBH,Husum/N,Heide/W,380.0
+Heide/W - Husum/N weiss,11T0-0000-1635-2,TENNETGMBH,Husum/N,Heide/W,380.0
+Husum/N - Klixbuell/S schwarz,11T0-0000-1861-T,TENNETGMBH,Husum/N,Klixbuell/S,380.0
+Husum/N - Klixbuell/S weiss,11T0-0000-1860-W,TENNETGMBH,Husum/N,Klixbuell/S,380.0
+Ingolstadt - Raitersaich 265,11TD2L000000115A,TENNETGMBH,Ingolstadt,Raitersaich,220.0
+Ingolstadt - Raitersaich 266,11TD2L0000001168,TENNETGMBH,Ingolstadt,Raitersaich,220.0
+Ingolstadt - Sittling 227,11TD2L0000001176,TENNETGMBH,Sittling,Ingolstadt,220.0
+Ingolstadt - Sittling 228,11TD2L0000001184,TENNETGMBH,Sittling,Ingolstadt,220.0
+Irsching - Ottenhofen 421,11TD2L0000001192,TENNETGMBH,Irsching,Ottenhofen,380.0
+Irsching - Raitersaich 424,11TD2L000000120H,TENNETGMBH,Irsching,Raitersaich,380.0
+Irsching - Raitersaich 425,11TD2L000000121F,TENNETGMBH,Irsching,Raitersaich,380.0
+Irsching - Zolling 262,11TD2L000000122D,TENNETGMBH,Zolling,Irsching,220.0
+Isar - Ottenhofen 443,11TD2L000000123B,TENNETGMBH,Isar,Ottenhofen,380.0
+Isar - Pleinting 451,11TD2L0000001265,TENNETGMBH,Isar,Pleinting,380.0
+Kiel/W - Kiel/S blau,11TD2L0000001346,TENNETGMBH,Kiel/W,Kiel/S,220.0
+Klein Ilsede - Mehrum/N 1,11T0-0000-1914-Z,TENNETGMBH,Mehrum/N,Klein Ilsede,380.0
+Krempermarsch - Stade/W gelb,11T0-0000-2192-6,TENNETGMBH,Krempermarsch,Stade/W,380.0
+Krempermarsch - Stade/W rot,11T0-0000-2198-P,TENNETGMBH,Krempermarsch,Stade/W,380.0
+Krempermarsch - Wilster/W rot,11T0-0000-2199-M,TENNETGMBH,Wilster/W,Krempermarsch,380.0
+Kruemmel - Lueneburg gruen,11TD2L000000166U,TENNETGMBH,Lueneburg,Kruemmel,380.0
+Kruemmel - Stadorf blau/2,11TD2L0000002261,TENNETGMBH,Kruemmel,Stadorf,380.0
+Kuehtai - Silz 264,11T0-0000-1684-M,TENNETGMBH,Kuehtai,Silz,220.0
+Kuehtai - Silz 265,11T0-0000-1685-J,TENNETGMBH,Kuehtai,Silz,220.0
+Kummerfeld - Dollern gruen,11T0-0000-0969-6,TENNETGMBH,Kummerfeld,Dollern,380.0
+Lamspringe - Wahle 3,11T0-0000-1694-I,TENNETGMBH,Wahle,Lamspringe,380.0
+Lamspringe - Wahle 4,11T0-0000-1695-F,TENNETGMBH,Wahle,Lamspringe,380.0
+Landesbergen - Grohnde 1,11TD2L0000001419,TENNETGMBH,Landesbergen,Grohnde,380.0
+Landesbergen - Grohnde 2,11TD2L0000001427,TENNETGMBH,Landesbergen,Grohnde,380.0
+Landesbergen - Hannover/W 3,11TD2L0000001435,TENNETGMBH,Landesbergen,Hannover/W,220.0
+Landesbergen - Hannover/W 4,11TD2L0000001443,TENNETGMBH,Landesbergen,Hannover/W,220.0
+Landesbergen - Mehringen 3,11T0-0000-2295-T,TENNETGMBH,Mehringen,Landesbergen,380.0
+Landesbergen - Ohlensehlen 1,11TD2L0000003322,TENNETGMBH,Ohlensehlen,Landesbergen,380.0
+Lehrte - Landesbergen 1,11TD2L000000158T,TENNETGMBH,Landesbergen,Lehrte,220.0
+Lehrte - Mehrum 1,11TD2L000000159R,TENNETGMBH,Mehrum,Lehrte,220.0
+Lehrte - Mehrum 2,11TD2L0000001605,TENNETGMBH,Mehrum,Lehrte,220.0
+Lehrte - Wahle 1,11TD2L0000001613,TENNETGMBH,Wahle,Lehrte,220.0
+Ludersheim - Raitersaich 237,11TD2L0000001621,TENNETGMBH,Ludersheim,Raitersaich,220.0
+Ludersheim - Schwandorf 223,11TD2L000000164Y,TENNETGMBH,Schwandorf,Ludersheim,220.0
+Ludersheim - Sittling 221,11TD2L000000165W,TENNETGMBH,Ludersheim,Sittling,220.0
+Maade - Inhausen schwarz,11TD2L000000168Q,TENNETGMBH,Inhausen,Maade,220.0
+Maade - Voslapp weiss,11TD2L000000169O,TENNETGMBH,Voslapp,Maade,220.0
+Marienberg - Neufinsing 251,11TD2L000000172Z,TENNETGMBH,Marienberg,Neufinsing,220.0
+Mechlenreuth - Redwitz 476,11T0-0000-1689-7,TENNETGMBH,Redwitz,Mechlenreuth,380.0
+Mechlenreuth - Redwitz 477,11T0-0000-1688-A,TENNETGMBH,Redwitz,Mechlenreuth,380.0
+Mecklar - Dipperz 2,11TD2L000000178N,TENNETGMBH,Mecklar,Dipperz,380.0
+Mehringen - Sottrum 3,11T0-0000-2268-W,TENNETGMBH,Mehringen,Sottrum,380.0
+Mehringen - Sottrum 4,11T0-0000-2267-Z,TENNETGMBH,Mehringen,Sottrum,380.0
+Mehrum - Hallendorf 1,11TD2L000000181Y,TENNETGMBH,Mehrum,Hallendorf,220.0
+Mehrum - Mehrum/N T421,11T0-0000-1893-B,TENNETGMBH,Mehrum,Mehrum,220.0
+Mehrum - Mehrum/N T422,11T0-0000-1892-E,TENNETGMBH,Mehrum,Mehrum,220.0
+Mehrum/N - Wahle 2,11T0-0000-1912-4,TENNETGMBH,Mehrum/N,Wahle,380.0
+Meissen - Veltheim A09,11TD2L000000339P,TENNETGMBH,Meissen,Veltheim,220.0
+Neufinsing - Oberbachern 263,11TD2L000000184S,TENNETGMBH,Oberbachern,Neufinsing,220.0
+Neufinsing - Oberbachern 264,11TD2L000000185Q,TENNETGMBH,Oberbachern,Neufinsing,220.0
+Neufinsing - Ottenhofen 286,11TD2L000000186O,TENNETGMBH,Neufinsing,Ottenhofen,220.0
+Neufinsing - Ottenhofen 287,11TD2L000000187M,TENNETGMBH,Neufinsing,Ottenhofen,220.0
+Neufinsing - Zolling 258,11TD2L000000188K,TENNETGMBH,Neufinsing,Zolling,220.0
+Oberbachern - Oberbrunn 269,11TD2L000000193R,TENNETGMBH,Oberbrunn,Oberbachern,220.0
+Oberbachern - Oberbrunn 270,11TD2L000000194P,TENNETGMBH,Oberbrunn,Oberbachern,220.0
+Oberbachern - Ottenhofen 461,11TD2L000000195N,TENNETGMBH,Ottenhofen,Oberbachern,380.0
+Oberbachern - Ottenhofen 462,11TD2L000000196L,TENNETGMBH,Ottenhofen,Oberbachern,380.0
+Oberhaid - Redwitz 435,11TD2L000000197J,TENNETGMBH,Oberhaid,Redwitz,380.0
+Pleinting - Schwandorf 226,11TD2L000000204B,TENNETGMBH,Schwandorf,Pleinting,220.0
+Raitersaich - Trennfeld 211,11TD2L0000002075,TENNETGMBH,Raitersaich,Trennfeld,220.0
+Raitersaich - Trennfeld 212,11T0-0000-2186-Z,TENNETGMBH,Raitersaich,Trennfeld,220.0
+Redwitz - Wuergau 436,11TD2L000000255V,TENNETGMBH,Wuergau,Redwitz,380.0
+Redwitz - Wuergau 457,11T0-0000-1906-X,TENNETGMBH,Wuergau,Redwitz,380.0
+Regensburg - Schwandorf 275,11TD2L0000002083,TENNETGMBH,Schwandorf,Regensburg,220.0
+Schuby/W - Handewitt gelb,11T0-0000-1472-5,TENNETGMBH,Handewitt,Schuby/W,380.0
+Schuby/W - Handewitt rot,11T0-0000-1471-8,TENNETGMBH,Handewitt,Schuby/W,380.0
+Siems - Luebeck blau,11TD2L0000002156,TENNETGMBH,Siems,Luebeck,220.0
+Sottrum - Blockland blau,11TD2L0000002164,TENNETGMBH,Sottrum,Blockland,220.0
+Sottrum - Stade/W schwarz,11T0-0000-2306-K,TENNETGMBH,Stade/W,Sottrum,380.0
+Sottrum - Stade/W weiss,11T0-0000-2464-Y,TENNETGMBH,Stade/W,Sottrum,380.0
+Stadorf - Lueneburg 1,11TD2L000000228Y,TENNETGMBH,Lueneburg,Stadorf,380.0
+Suederdonn - Heide/W blau,11T0-0000-0971-Q,TENNETGMBH,Heide/W,Suederdonn,380.0
+Suederdonn - Heide/W gruen,11T0-0000-0970-T,TENNETGMBH,Heide/W,Suederdonn,380.0
+Unterweser - Conneforde rot,11TD2L0000002350,TENNETGMBH,Conneforde,Unterweser,220.0
+Unterweser - Elsfleth/W weiss,11T0-0000-1004-A,TENNETGMBH,Unterweser,Elsfleth/W,380.0
+Veltheim - Bechterdissen A07,11TD2L0000003411,TENNETGMBH,Bechterdissen,Veltheim,220.0
+Veltheim - Lage A06,11TD2L0000003403,TENNETGMBH,Lage,Veltheim,220.0
+Voslapp - Inhausen rot,11TD2L000000237X,TENNETGMBH,Voslapp,Inhausen,220.0
+Wahle - Braunschweig/N 1,11TD2L000000239T,TENNETGMBH,Wahle,Braunschweig/N,220.0
+Wahle - Braunschweig/N 2,11TD2L0000002407,TENNETGMBH,Wahle,Braunschweig/N,220.0
+Wahle - Gleidingen 2,11TD2L0000002415,TENNETGMBH,Wahle,Gleidingen,220.0
+Wahle - Hallendorf 3,11TD2L0000002423,TENNETGMBH,Wahle,Hallendorf,220.0
+Wahle - Hattorf 2,11TD2L0000002431,TENNETGMBH,Wahle,Hattorf,380.0
+Wahle - Klein Ilsede 3,11TD2L000000246W,TENNETGMBH,Klein Ilsede,Wahle,380.0
+Wahle - Stadorf 1,11TD2L000000247U,TENNETGMBH,Stadorf,Wahle,380.0
+Wahle - Stadorf 2,11TD2L000000248S,TENNETGMBH,Stadorf,Wahle,380.0
+Wilster/W - Audorf/S blau,11TD2L000000249Q,TENNETGMBH,Audorf/S,Wilster/W,380.0
+Wilster/W - Audorf/S rot,11TD2L0000002504,TENNETGMBH,Audorf/S,Wilster/W,380.0
+Wilster/W - Krempermarsch gelb,11T0-0000-2191-9,TENNETGMBH,Wilster/W,Krempermarsch,380.0
+Y-Altheim (-Simbach - St. Peter) 233/230,11T0-0000-0984-D,TENNETGMBH,Altheim,Y-Simbach,220.0
+Y-Altheim (-Simbach - St. Peter) 234/230,11T0-0000-0986-7,TENNETGMBH,Altheim,Y-Simbach,220.0
+Y-Bergshausen (-Sandershausen/O - Wuergassen) 2,11T0-0000-1073-M,TENNETGMBH,Bergshausen,Y-Wuergassen,380.0
+Y-Blockland (-Huntorf - Conneforde) weiss,11T0-0000-1123-0,TENNETGMBH,Y-Huntorf,Blockland,220.0
+Y-Borken (-Waldeck - Twistetal) 2,11T0-0000-1465-0,TENNETGMBH,Y-Waldeck,Borken,380.0
+Y-Borken (-Waldeck - Twistetal) 3,11T0-0000-1015-3,TENNETGMBH,Y-Waldeck,Borken,380.0
+Y-Cloppenburg/O (-Conneforde - Garrel/O) rot / ga,11T0-0000-2466-S,TENNETGMBH,Cloppenburg/O,Y-Garrel/O,220.0
+Y-Conneforde (-Garrel/O - Cloppenburg/O) rot / ga,11T0-0000-2465-V,TENNETGMBH,Conneforde,Y-Garrel/O,220.0
+Y-Conneforde (-Huntorf - Blockland) weiss,11T0-0000-1121-6,TENNETGMBH,Y-Huntorf,Conneforde,220.0
+Y-Conneforde (-Huntorf - Sottrum) gelb,11T0-0000-1118-Q,TENNETGMBH,Y-Huntorf,Conneforde,220.0
+Y-Diele (-Rhede - Doerpen/W) schwarz,11T0-0000-1018-V,TENNETGMBH,Y-Rhede,Diele,380.0
+Y-Doernigheim (-Frankfurt/N - Grosskrotzenburg) 1,11T0-0000-1041-3,TENNETGMBH,Y-Doernigheim,Doernigheim,220.0
+Y-Doernigheim (-Frankfurt/N - Grosskrotzenburg) 2,11T0-0000-1044-V,TENNETGMBH,Y-Doernigheim,Doernigheim,220.0
+Y-Doerpen/W (-Niederlangen - Meppen) EOWS,11T0-0000-0990-L,TENNETGMBH,Y-Niederlangen,Doerpen/W,380.0
+Y-Doerpen/W (-Rhede - Diele) schwarz,11T0-0000-1020-E,TENNETGMBH,Y-Rhede,Doerpen/W,380.0
+Y-Eickum (-Landesbergen - Ovenstaedt) 4/4,11T0-0000-2221-W,TENNETGMBH,Ovenstaedt,Eickum,380.0
+Y-Eickum (-Sottrum - Ovenstaedt) 2/3,11T0-0000-2224-N,TENNETGMBH,Ovenstaedt,Eickum,380.0
+Y-Erzhausen (-Hardegsen - Lamspringe) 4,11T0-0000-2029-I,TENNETGMBH,Erzhausen,Y-Erzhausen,220.0
+Y-Erzhausen (-Hardegsen - Lehrte) 2,11T0-0000-1110-D,TENNETGMBH,Erzhausen,Y-Erzhausen,220.0
+Y-Erzhausen (-Lehrte - Hardegsen - Goettingen) 1/3,11T0-0000-1967-6,TENNETGMBH,Y-Erzhausen,Erzhausen,220.0
+Y-Frankfurt/N (-Doernigheim - Grosskrotzenburg) 1,11T0-0000-1042-0,TENNETGMBH,Y-Doernigheim,Frankfurt/N,220.0
+Y-Frankfurt/N (-Doernigheim - Grosskrotzenburg) 2,11T0-0000-1045-S,TENNETGMBH,Frankfurt/N,Y-Doernigheim,220.0
+Y-Frankfurt/SW (-Karben - Kriftel) 2,11T0-0000-0988-1,TENNETGMBH,Y-Frankfurt/SW,Frankfurt/SW,380.0
+Y-Garrel/O (-Conneforde - Cloppenburg/O) rot / ga,11T0-0000-2467-P,TENNETGMBH,Garrel/O,Y-Garrel/O,220.0
+Y-Gleidingen (-Hallendorf - Mehrum) 2,11T0-0000-1054-R,TENNETGMBH,Y-Hallendorf,Gleidingen,220.0
+Y-Grohnde (-Voerden - Wuergassen) 1,11T0-0000-1838-K,TENNETGMBH,Y-Voerden,Grohnde,380.0
+Y-Grosskrotzenburg (-Doernigheim - Frankfurt/N) 1,11T0-0000-1040-6,TENNETGMBH,Grosskrotzenburg,Y-Doernigheim,220.0
+Y-Grosskrotzenburg (-Doernigheim - Frankfurt/N) 2,11T0-0000-1043-Y,TENNETGMBH,Grosskrotzenburg,Y-Doernigheim,220.0
+Y-Hardegsen (-Erzhausen - Lamspringe) 4,11T0-0000-2028-L,TENNETGMBH,Hardegsen,Y-Erzhausen,380.0
+Y-Hardegsen (-Erzhausen - Lamspringe) 5,11T0-0000-2025-U,TENNETGMBH,Hardegsen,Y-Erzhausen,380.0
+Y-Huntorf (-Conneforde - Blockland) weiss,11T0-0000-1122-3,TENNETGMBH,Y-Huntorf,Huntorf,220.0
+Y-Huntorf (-Conneforde - Sottrum) gelb,11T0-0000-1119-N,TENNETGMBH,Y-Huntorf,Huntorf,220.0
+Y-Karben (-Frankfurt/SW - Kriftel) 2,11T0-0000-0989-Z,TENNETGMBH,Y-Frankfurt/SW,Karben,380.0
+Y-Kriegenbrunn (-Raitersaich - Wuergau) 431/438,11T0-0000-1842-Y,TENNETGMBH,Kriegenbrunn,Y-Kriegenbrunn,380.0
+Y-Kriegenbrunn (-Raitersaich - Wuergau) 438/432,11T0-0000-1908-R,TENNETGMBH,Kriegenbrunn,Y-Kriegenbrunn,380.0
+Y-Kruen (-Oberbrunn - Silz) 250,10T1001C--00069I,TENNETGMBH,Kruen,Y-Kruen,220.0
+Y-Kruen (-Oberbrunn - Silz) 251,11T0-0000-1874-G,TENNETGMBH,Kruen,Y-Kruen,220.0
+Y-Lamspringe (-Hardegsen - Erzhausen) 4,11T0-0000-2027-O,TENNETGMBH,Lamspringe,Y-Erzhausen,380.0
+Y-Lamspringe (-Hardegsen - Erzhausen) 5,11T0-0000-2024-X,TENNETGMBH,Lamspringe,Y-Erzhausen,380.0
+Y-Landesbergen (-Ovenstaedt - Eickum) 4/4,11T0-0000-2220-Z,TENNETGMBH,Ovenstaedt,Landesbergen,380.0
+Y-Landesbergen (-Wechold - Sottrum) gelb/2,11T0-0000-1046-P,TENNETGMBH,Y-Wechold,Landesbergen,220.0
+Y-Landesbergen (-Wechold - Sottrum) rot/1,11T0-0000-1049-G,TENNETGMBH,Y-Wechold,Landesbergen,220.0
+Y-Lehrte (-Erzhausen - Hardegsen - Goettingen) 1/3,11T0-0000-1949-8,TENNETGMBH,Y-Erzhausen,Lehrte,220.0
+Y-Mehringen (-Ovenstaedt - Eickum) 2/3,11T0-0000-2296-Q,TENNETGMBH,Mehringen,Ovenstaedt,380.0
+Y-Mehrum (-Gleidingen - Hallendorf) 2,11T0-0000-1053-U,TENNETGMBH,Mehrum,Y-Hallendorf,220.0
+Y-Niederlangen (-Doerpen/W - Meppen) EOWS,11T0-0000-0991-I,TENNETGMBH,Y-Niederlangen,Niederlangen,380.0
+Y-Oberbrunn (-Kruen - Silz) 250,10T1001C--00070X,TENNETGMBH,Oberbrunn,Y-Kruen,220.0
+Y-Oberbrunn (-Kruen - Silz) 251,11T0-0000-1872-M,TENNETGMBH,Oberbrunn,Y-Kruen,220.0
+Y-Pirach1 (-Pirach2 - Pleinting) 296/257,11T0-0000-2172-E,TENNETGMBH,Pirach,Pirach,220.0
+Y-Plattling (-Pleinting - Schwandorf) 465,11T0-0000-1060-Z,TENNETGMBH,Plattling,Y-Plattling,380.0
+Y-Pleinting (-Pirach1 - Pirach2) 296/257,11T0-0000-2173-B,TENNETGMBH,Pleinting,Pirach,220.0
+Y-Pleinting (-Plattling - Schwandorf) 465,11T0-0000-1059-C,TENNETGMBH,Pleinting,Y-Plattling,380.0
+Y-Raitersaich (-Kriegenbrunn - Wuergau) 431/438,11T0-0000-1843-V,TENNETGMBH,Raitersaich,Y-Kriegenbrunn,380.0
+Y-Raitersaich (-Kriegenbrunn - Wuergau) 438/432,11T0-0000-1909-O,TENNETGMBH,Raitersaich,Y-Kriegenbrunn,380.0
+Y-Rhede (-Diele - Doerpen/W) schwarz,11T0-0000-1019-S,TENNETGMBH,Rhede,Y-Rhede,380.0
+Y-Sandershausen/O (-Bergshausen - Wuergassen) 2,11T0-0000-1072-P,TENNETGMBH,Sandershausen/O,Y-Wuergassen,380.0
+Y-Schwandorf (-Plattling - Pleinting) 465,11T0-0000-1061-W,TENNETGMBH,Schwandorf,Y-Plattling,380.0
+Y-Silz (-Kruen - Oberbrunn) 250,10T1001C--00071V,TENNETGMBH,Silz,Y-Kruen,220.0
+Y-Silz (-Kruen - Oberbrunn) 251,11T0-0000-1873-J,TENNETGMBH,Silz,Y-Kruen,220.0
+Y-Simbach (-St. Peter - Altheim) 233/230,11T0-0000-0985-A,TENNETGMBH,Simbach,Y-Simbach,220.0
+Y-Simbach (-St. Peter - Altheim) 234/230,11T0-0000-0987-4,TENNETGMBH,Simbach,Y-Simbach,220.0
+Y-Sottrum (-Huntorf - Conneforde) gelb,11T0-0000-1120-9,TENNETGMBH,Y-Huntorf,Sottrum,220.0
+Y-Sottrum (-Wechold - Landesbergen) gelb/2,11T0-0000-1048-J,TENNETGMBH,Y-Wechold,Sottrum,220.0
+Y-Sottrum (-Wechold - Landesbergen) rot/1,11T0-0000-1052-X,TENNETGMBH,Y-Wechold,Sottrum,220.0
+Y-Twistetal (-Waldeck - Borken) 2,11T0-0000-1467-V,TENNETGMBH,Y-Waldeck,Twistetal,380.0
+Y-Twistetal (-Waldeck - Borken) 3,11T0-0000-1017-Y,TENNETGMBH,Y-Waldeck,Twistetal,380.0
+Y-Voerden (-Grohnde - Wuergassen) 1,11T0-0000-1839-H,TENNETGMBH,Y-Voerden,Voerden,380.0
+Y-Waldeck (-Borken - Twistetal) 2,11T0-0000-1466-Y,TENNETGMBH,Waldeck,Y-Waldeck,380.0
+Y-Waldeck (-Borken - Twistetal) 3,11T0-0000-1016-0,TENNETGMBH,Waldeck,Y-Waldeck,380.0
+Y-Wechold (-Landesbergen - Sottrum) gelb/2,11T0-0000-1047-M,TENNETGMBH,Y-Wechold,Wechold,220.0
+Y-Wechold (-Landesbergen - Sottrum) rot/1,11T0-0000-1050-2,TENNETGMBH,Y-Wechold,Wechold,220.0
+Y-Wuergassen (-Sandershausen/O - Bergshausen) 2,11T0-0000-1071-S,TENNETGMBH,Wuergassen,Y-Wuergassen,380.0
+Y-Wuergassen (-Voerden - Grohnde) 1,11T0-0000-1840-3,TENNETGMBH,Wuergassen,Y-Voerden,380.0
+Y-Wuergau (-Kriegenbrunn - Raitersaich) 431/438,11T0-0000-1844-S,TENNETGMBH,Wuergau,Y-Kriegenbrunn,380.0
+Y-Wuergau (-Kriegenbrunn - Raitersaich) 438/432,11T0-0000-1910-A,TENNETGMBH,Wuergau,Y-Kriegenbrunn,380.0

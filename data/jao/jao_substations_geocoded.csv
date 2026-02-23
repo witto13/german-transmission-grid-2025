@@ -1,0 +1,459 @@
+substation,tso,lat,lon,address,found
+Alfstedt,TENNETGMBH,53.5499782,9.0666915,"Alfstedt, Samtgemeinde Geestequelle, Landkreis Rotenburg (Wümme), Niedersachsen, Deutschland",True
+Algermissen,TENNETGMBH,52.2514068,9.9679044,"Algermissen, Landkreis Hildesheim, Niedersachsen, 31191, Deutschland",True
+Altbach,TRANSNETBW,48.7244372,9.3807848,"Altbach, GVV Plochingen, Landkreis Esslingen, Baden-Württemberg, 73776, Deutschland",True
+Altdöbern,50HERTZ,51.6511561,14.0342532,"Altdöbern, Oberspreewald-Lausitz - Górne Błota-Łužyca, Brandenburg, Deutschland",True
+Altenfeld,50HERTZ,50.5644442,10.9609733,"Altenfeld, Großbreitenbach, Ilm-Kreis, Thüringen, Deutschland",True
+Altenkleusheim,AMPRION GMBH,51.0069628,7.9239465,"Altenkleusheim, Olpe, Kreis Olpe, Nordrhein-Westfalen, Deutschland",True
+Altentreptow/Nord,50HERTZ,53.7039417,13.2511258,"Altentreptow, Nord, Stralsunder Straße, Altentreptow, Treptower Tollensewinkel, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17087, Deutschland",True
+Altentreptow/Süd,50HERTZ,53.6917161,13.2599679,"Altentreptow, Süd, L 35, Altentreptow, Treptower Tollensewinkel, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17087, Deutschland",True
+Altheim,TENNETGMBH,48.5808015,10.0271338,"Altheim (Alb), GVV Langenau, Alb-Donau-Kreis, Baden-Württemberg, 89174, Deutschland",True
+Altlussheim,TRANSNETBW,49.3004929,8.4981809,"Altlußheim, VVG der Stadt Hockenheim, Rhein-Neckar-Kreis, Baden-Württemberg, 68804, Deutschland",True
+Amelsbueren,AMPRION GMBH,51.8833893,7.6059771,"Amelsbüren, Münster-Hiltrup, Münster, Nordrhein-Westfalen, 48163, Deutschland",True
+Arpe,AMPRION GMBH,51.184725,8.2022643,"Arpe, Schmallenberg, Hochsauerlandkreis, Nordrhein-Westfalen, Deutschland",True
+Aschaffenburg,TENNETGMBH,49.9706701,9.1384857,"Aschaffenburg, Bayern, Deutschland",True
+Asslar,TENNETGMBH,50.609245,8.447572,"Aßlar, Lahn-Dill-Kreis, Hessen, 35614, Deutschland",True
+Audorf,TENNETGMBH,54.3132409,9.7185312,"Schacht-Audorf, Eiderkanal, Kreis Rendsburg-Eckernförde, Schleswig-Holstein, 24790, Deutschland",True
+Audorf/S,TENNETGMBH,54.3132409,9.7185312,"Schacht-Audorf, Eiderkanal, Kreis Rendsburg-Eckernförde, Schleswig-Holstein, 24790, Deutschland",True
+BASF,AMPRION GMBH,49.5528125,8.3516349,"BASF, Frankenthal Kernstadt, Frankenthal (Pfalz), Rheinland-Pfalz, 67227, Deutschland",True
+Bacharach,AMPRION GMBH,50.0597943,7.7683997,"Bacharach, Rhein-Nahe, Landkreis Mainz-Bingen, Rheinland-Pfalz, 55422, Deutschland",True
+Bandstahl,AMPRION GMBH,51.3826075,7.5158846,"Bandstahl Service Hagen, Halden, Hohenlimburg, Hagen, Nordrhein-Westfalen, 58093, Deutschland",True
+Bauler,AMPRION GMBH,49.9650754,6.2068809,"Bauler, Südeifel, Eifelkreis Bitburg-Prüm, Rheinland-Pfalz, Deutschland",True
+Bayer,AMPRION GMBH,50.9431344,13.6228032,"Bayer, Dippoldiswalde, Sächsische Schweiz-Osterzgebirge, Sachsen, 01734, Deutschland",True
+Bechterdissen,TENNETGMBH,52.0067768,8.6507044,"Bechterdissen, Stieghorst, Bielefeld, Nordrhein-Westfalen, 33699, Deutschland",True
+Benteler,AMPRION GMBH,52.0274663,8.5462031,"Benteler, 10, Frachtstraße, Mitte, Bielefeld, Nordrhein-Westfalen, 33602, Deutschland",True
+Bentwisch,50HERTZ,54.1162169,12.2022371,"Bentwisch, Rostocker Heide, Landkreis Rostock, Mecklenburg-Vorpommern, Deutschland",True
+Bergmannsglueck,AMPRION GMBH,52.4677605,13.7729365,"Bergmannsglück, Rüdersdorf, Rüdersdorf bei Berlin, Märkisch-Oderland, Brandenburg, 15562, Deutschland",True
+Bergrheinfeld/W,TENNETGMBH,50.0082136,10.1810033,"Bergrheinfeld, Landkreis Schweinfurt, Bayern, 97493, Deutschland",True
+Bergshausen,TENNETGMBH,51.2684595,9.5007979,"Bergshausen, Fuldabrück, Landkreis Kassel, Hessen, Deutschland",True
+Bertikow,50HERTZ,53.2448338,13.9396783,"Bertikow, Uckerfelde, Uckermark, Brandenburg, Deutschland",True
+Beuren,TRANSNETBW,49.7272641,6.9163463,"Beuren (Hochwald), Hermeskeil, Landkreis Trier-Saarburg, Rheinland-Pfalz, Deutschland",True
+Beznau,AMPRION GMBH,,,,False
+Birkenfeld,TRANSNETBW,49.6488236,7.1647477,"Birkenfeld, Landkreis Birkenfeld, Rheinland-Pfalz, 55765, Deutschland",True
+Bischofsheim,AMPRION GMBH,50.4011137,10.0075314,"Bischofsheim in der Rhön, Landkreis Rhön-Grabfeld, Bayern, Deutschland",True
+Bixterheide,AMPRION GMBH,51.5000147,7.5128727,"Uhlmann-Bixterheide-Weg, Gartenstadt, Innenstadt Ost, Dortmund, Nordrhein-Westfalen, 44141, Deutschland",True
+Blockland,TENNETGMBH,53.142216,8.800021,"Blockland, Bremen-West, Bremen, Deutschland",True
+Bochum,AMPRION GMBH,51.4818111,7.2196635,"Bochum, Nordrhein-Westfalen, Deutschland",True
+Bocklemuend,AMPRION GMBH,50.9736355,6.8657478,"Bocklemünd, Bocklemünd/Mengenich, Ehrenfeld, Köln, Nordrhein-Westfalen, 50829, Deutschland",True
+Bollenacker,AMPRION GMBH,53.3679483,13.0627332,"Bollenacker, Zierke, Neustrelitz, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17235, Deutschland",True
+Borken,TENNETGMBH,51.8444777,6.8583277,"Borken, Kreis Borken, Nordrhein-Westfalen, 46325, Deutschland",True
+Braunschweig/N,TENNETGMBH,52.2646577,10.5236066,"Braunschweig, Niedersachsen, Deutschland",True
+Brauweiler,AMPRION GMBH,49.824504,7.498589,"Brauweiler, Kirner Land, Landkreis Bad Kreuznach, Rheinland-Pfalz, Deutschland",True
+Brokdorf,TENNETGMBH,53.8650137,9.3181239,"Brokdorf, Amt Wilstermarsch, Kreis Steinburg, Schleswig-Holstein, 25576, Deutschland",True
+Bruchsal/Kaendelweg,TRANSNETBW,49.1326385,8.5572802,"Bruchsal Kändelweg, Industriestraße, West II, Bruchsal, VVG der Stadt Bruchsal, Landkreis Karlsruhe, Baden-Württemberg, 76646, Deutschland",True
+Brunsbuettel,TENNETGMBH,53.8972549,9.1395423,"Brunsbüttel, Kreis Dithmarschen, Schleswig-Holstein, 25541, Deutschland",True
+Brunsbüttel,50HERTZ,53.8972549,9.1395423,"Brunsbüttel, Kreis Dithmarschen, Schleswig-Holstein, 25541, Deutschland",True
+Buehl,TRANSNETBW,48.6945066,8.134423,"Bühl, VVG der Stadt Bühl, Landkreis Rastatt, Baden-Württemberg, 77815, Deutschland",True
+Buenzwangen,TRANSNETBW,48.7035701,9.551447,"Bünzwangen, Ebersbach an der Fils, VVG der Stadt Ebersbach an der Fils, Landkreis Göppingen, Baden-Württemberg, Deutschland",True
+Buers,TRANSNETBW,52.6736091,11.9849832,"Bürs, Arneburg, Arneburg-Goldbeck, Stendal, Sachsen-Anhalt, Deutschland",True
+Buerstadt,AMPRION GMBH,49.6531823,8.4747076,"Bürstadt, Kreis Bergstraße, Hessen, 68642, Deutschland",True
+Buescherhof,AMPRION GMBH,50.9091775,7.3263546,"Büscherhof, Növerhof, Much, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53804, Deutschland",True
+Buettel,TENNETGMBH,53.899972,9.2284119,"Büttel, Amt Wilstermarsch, Kreis Steinburg, Schleswig-Holstein, Deutschland",True
+Bärwalde,50HERTZ,51.4131254,14.5239419,"Bärwalde - Bjerwałd, Boxberg/O.L. - Hamor, Görlitz, Sachsen, 02943, Deutschland",True
+Charlottenburg,50HERTZ,52.515747,13.3096834,"Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland",True
+Cloppenburg/O,TENNETGMBH,52.8461339,8.0438783,"Cloppenburg, Landkreis Cloppenburg, Niedersachsen, 49661, Deutschland",True
+Conneforde,TENNETGMBH,53.3257698,8.0577591,"Conneforde, Wiefelstede, Landkreis Ammerland, Niedersachsen, 26215, Deutschland",True
+Conneforde/O,TENNETGMBH,53.3257698,8.0577591,"Conneforde, Wiefelstede, Landkreis Ammerland, Niedersachsen, 26215, Deutschland",True
+DC Phillipsburg,TRANSNETBW,,,,False
+Datteln,AMPRION GMBH,51.651468,7.3385906,"Datteln, Kreis Recklinghausen, Nordrhein-Westfalen, 45711, Deutschland",True
+Dauersberg,AMPRION GMBH,50.7680882,7.8426923,"Dauersberg, Betzdorf, Betzdorf-Gebhardshain, Landkreis Altenkirchen (Westerwald), Rheinland-Pfalz, 57584, Deutschland",True
+Daxlanden,AMPRION GMBH;TRANSNETBW,49.0014111,8.3386057,"Daxlanden, Karlsruhe, Baden-Württemberg, Deutschland",True
+Dellmensingen,TRANSNETBW,48.3006653,9.9098326,"Dellmensingen, Erbach, Alb-Donau-Kreis, Baden-Württemberg, Deutschland",True
+Dettingen,AMPRION GMBH,48.4368485,8.9343816,"Dettingen, Rottenburg am Neckar, VVG der Stadt Rottenburg am Neckar, Landkreis Tübingen, Baden-Württemberg, Deutschland",True
+Diefflen,AMPRION GMBH,49.3785726,6.7527234,"Diefflen, Dillingen/Saar, Landkreis Saarlouis, Saarland, Deutschland",True
+Diele,TENNETGMBH,53.1201491,7.3117171,"Diele, Weener, Landkreis Leer, Niedersachsen, Deutschland",True
+Dillenburg,TENNETGMBH,50.75211,8.31573,"Dillenburg, Lahn-Dill-Kreis, Hessen, Deutschland",True
+Dipperz,TENNETGMBH,50.5316185,9.8175609,"Dipperz, Landkreis Fulda, Hessen, 36160, Deutschland",True
+Doernigheim,TENNETGMBH,50.1334166,8.8393158,"Dörnigheim, Maintal, Main-Kinzig-Kreis, Hessen, Deutschland",True
+Doerpen/W,TENNETGMBH,52.966087,7.3289283,"Dörpen, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, Deutschland",True
+Dollern,TENNETGMBH,53.537884,9.546498,"Dollern, Samtgemeinde Horneburg, Landkreis Stade, Niedersachsen, 21739, Deutschland",True
+Dresden/Süd,50HERTZ,51.0160116,13.6710989,"Eisenhammeer Süd, 199, Tharandter Straße, Naußlitz, Dölzschen, Cotta, Dresden, Sachsen, 01187, Deutschland",True
+Duelken,AMPRION GMBH,51.2570806,6.3380041,"Dülken, Heinz-Luhnen-Straße, Dülken, Viersen, Kreis Viersen, Nordrhein-Westfalen, 41751, Deutschland",True
+Duennwald,AMPRION GMBH,51.0,7.038611,"Dünnwald, Mülheim, Köln, Nordrhein-Westfalen, Deutschland",True
+Edelstahl,AMPRION GMBH,54.1023703,10.8124712,"Guttau Edelstahl - Yachttechnik - Maschinenbau, 20, Neustadt in Holstein, Kreis Ostholstein, Schleswig-Holstein, 23730, Deutschland",True
+Eiberg,AMPRION GMBH,52.1331368,8.8495959,"Eiberg, Vlotho, Kreis Herford, Nordrhein-Westfalen, 32602, Deutschland",True
+Eichstetten,TRANSNETBW,48.0938296,7.7314344,"Eichstetten am Kaiserstuhl, GVV Kaiserstuhl-Tuniberg, Landkreis Breisgau-Hochschwarzwald, Baden-Württemberg, 79356, Deutschland",True
+Eickum,TENNETGMBH,52.1060723,8.595972,"Eickum, Herford, Kreis Herford, Nordrhein-Westfalen, Deutschland",True
+Eisenach,50HERTZ,50.9747134,10.3193565,"Eisenach, Wartburgkreis, Thüringen, 99817, Deutschland",True
+Eisenhüttenstadt,50HERTZ,52.1448863,14.6294413,"Eisenhüttenstadt, Siehdichum, Oder-Spree, Brandenburg, 15890, Deutschland",True
+Eisenhüttenstadt (Abzweig),50HERTZ,,,,False
+Eiserfeld,AMPRION GMBH,50.834907,7.9927373,"Eiserfeld, Siegen, Kreis Siegen-Wittgenstein, Nordrhein-Westfalen, 57080, Deutschland",True
+Eller,AMPRION GMBH,51.2012532,6.8375905,"Eller, Stadtbezirk 8, Düsseldorf, Nordrhein-Westfalen, 40229, Deutschland",True
+Elmenhorst,AMPRION GMBH,53.5462437,10.5344352,"Elmenhorst, Schwarzenbek-Land, Kreis Herzogtum Lauenburg, Schleswig-Holstein, Deutschland",True
+Elsen,TENNETGMBH,51.7353263,8.6869145,"Elsen, Paderborn, Kreis Paderborn, Nordrhein-Westfalen, 33106, Deutschland",True
+Elsfleth/W,TENNETGMBH,53.2357029,8.4571037,"Elsfleth, Landkreis Wesermarsch, Niedersachsen, 26931, Deutschland",True
+Eltmann,TENNETGMBH,49.9725016,10.6662064,"Eltmann, Landkreis Haßberge, Bayern, 97483, Deutschland",True
+Emden/O,TENNETGMBH,53.3670541,7.2058304,"Emden, Niedersachsen, Deutschland",True
+Emscherbruch,AMPRION GMBH,51.5588869,7.1907135,"Emscherbruch, Hochlarmark, Recklinghausen, Kreis Recklinghausen, Nordrhein-Westfalen, 45661, Deutschland",True
+Endersbach,TRANSNETBW,48.8103115,9.3655003,"Endersbach, Weinstadt, Rems-Murr-Kreis, Baden-Württemberg, Deutschland",True
+Engstlatt,TRANSNETBW,48.2965328,8.8815189,"Engstlatt, Balingen, VVG der Stadt Balingen, Zollernalbkreis, Baden-Württemberg, Deutschland",True
+Enniger,AMPRION GMBH,51.8310685,7.9490989,"Enniger, Ennigerloh, Kreis Warendorf, Nordrhein-Westfalen, Deutschland",True
+Ensdorf,AMPRION GMBH,49.3435347,11.9353839,"Ensdorf, Landkreis Amberg-Sulzbach, Bayern, 92266, Deutschland",True
+Erzhausen,TENNETGMBH,49.9524332,8.6389953,"Erzhausen, Landkreis Darmstadt-Dieburg, Hessen, 64390, Deutschland",True
+Etzenricht,TENNETGMBH,49.63183,12.0921077,"Etzenricht, Weiherhammer (VGem), Landkreis Neustadt an der Waldnaab, Bayern, 92694, Deutschland",True
+Eula,50HERTZ,51.1496022,12.5130329,"Eula, Borna, Landkreis Leipzig, Sachsen, 04552, Deutschland",True
+FWH-S,AMPRION GMBH,,,,False
+Farge,TENNETGMBH,53.200157,8.528893,"Farge, Blumenthal, Bremen-Nord, Bremen, 28777, Deutschland",True
+Fedderwarden,TENNETGMBH,53.5628789,8.044606,"Fedderwarden, Wilhelmshaven, Wangerland, Niedersachsen, Deutschland",True
+Frankfurt/N,TENNETGMBH,50.1106444,8.6820917,"Frankfurt am Main, Hessen, Deutschland",True
+Frankfurt/SW,TENNETGMBH,51.76576,14.3223582,"Studentenwerk Frankfurt (Oder) und Kita ""Anne Frank"" (SW), 21, Universitätsstraße, Ströbitz, Cottbus - Chóśebuz, Brandenburg, 03046, Deutschland",True
+Freiberg/Nord,50HERTZ,50.9326841,13.3299819,"Freiberg Nord, Freiberg, Mittelsachsen, Sachsen, Deutschland",True
+Friedrichshain,50HERTZ,51.6012138,14.5718866,"Friedrichshain - Frycowy Gaj, Felixsee, Döbern-Land, Spree-Neiße - Sprjewja-Nysa, Brandenburg, 03159, Deutschland",True
+Fuehlingen,AMPRION GMBH,51.0374403,6.9045188,"Fühlingen, Chorweiler, Köln, Nordrhein-Westfalen, Deutschland",True
+Förderstedt,50HERTZ,51.8973448,11.634306,"Förderstedt, Staßfurt, Salzlandkreis, Sachsen-Anhalt, 39443, Deutschland",True
+GKM,TRANSNETBW,51.0109037,13.7674996,"GKM, 10, Thomas-Mann-Straße, Leubnitz, Leubnitz-Neuostra, Prohlis, Dresden, Sachsen, 01219, Deutschland",True
+GKMB,TRANSNETBW,,,,False
+GKN2,TRANSNETBW,,,,False
+Ganderkesee,TENNETGMBH,53.0344984,8.5451469,"Ganderkesee, Landkreis Oldenburg, Niedersachsen, 27777, Deutschland",True
+Garenfeld,AMPRION GMBH,51.4004956,7.5176683,"Garenfeld, Hagen, Nordrhein-Westfalen, 58093, Deutschland",True
+Garrel/O,TENNETGMBH,52.9554303,8.0225529,"Garrel, Landkreis Cloppenburg, Niedersachsen, 49681, Deutschland",True
+Geithe,AMPRION GMBH,51.6811743,7.9162804,"Geithe, Uentrop, Hamm, Nordrhein-Westfalen, 59071, Deutschland",True
+Gellep,AMPRION GMBH,51.3306621,6.6727866,"Gellep-Stratum, Krefeld-Uerdingen, Krefeld, Nordrhein-Westfalen, Deutschland",True
+Gelsenberg,AMPRION GMBH,51.5305264,7.0350905,"Gelsenbergstraße, Horst, Gelsenkirchen-West, Gelsenkirchen, Nordrhein-Westfalen, 45899, Deutschland",True
+Gersteinwerk,AMPRION GMBH,51.6749132,7.7222079,"Gersteinwerk, Werne, Kreis Unna, Nordrhein-Westfalen, 59368, Deutschland",True
+Giessen/N,TENNETGMBH,50.5808795,8.6938161,"Gießen, Landkreis Gießen, Hessen, Deutschland",True
+Gleidingen,TENNETGMBH,52.2746747,9.8397516,"Gleidingen, Laatzen, Region Hannover, Niedersachsen, Deutschland",True
+Gohrpunkt,AMPRION GMBH,,,,False
+Goldshoefe,TRANSNETBW,48.8943642,10.1282565,"Goldshöfe, 1, Goldshöfer Bahnhof, Goldshöfe, Hofen, Aalen, VVG der Stadt Aalen, Ostalbkreis, Baden-Württemberg, 73433, Deutschland",True
+Grafenrheinfeld,TENNETGMBH,50.0055317,10.1966808,"Grafenrheinfeld, Landkreis Schweinfurt, Bayern, 97506, Deutschland",True
+Gransee,50HERTZ,53.0618234,13.166625,"Gransee, Gransee und Gemeinden, Oberhavel, Brandenburg, 16775, Deutschland",True
+Graustein,50HERTZ,51.572529,14.4739811,"Graustein - Syjk, Spremberg, Spree-Neiße - Sprjewja-Nysa, Brandenburg, Deutschland",True
+Gremberghoven,AMPRION GMBH,50.9047384,7.0547855,"Gremberghoven, Porz, Köln, Nordrhein-Westfalen, Deutschland",True
+Grohnde,TENNETGMBH,52.0187867,9.4195248,"Grohnde, Emmerthal, Landkreis Hameln-Pyrmont, Niedersachsen, 31860, Deutschland",True
+Gronau,AMPRION GMBH,52.0843618,9.7754675,"Gronau, Samtgemeinde Leinebergland, Landkreis Hildesheim, Niedersachsen, 31028, Deutschland",True
+Grossgartach,TRANSNETBW,49.1425406,9.1258701,"Großgartach, Leingarten, Landkreis Heilbronn, Baden-Württemberg, 74211, Deutschland",True
+Grossgartach ,TRANSNETBW,49.1425406,9.1258701,"Großgartach, Leingarten, Landkreis Heilbronn, Baden-Württemberg, 74211, Deutschland",True
+Grossgartach  2,TRANSNETBW,49.1425406,9.1258701,"Großgartach, Leingarten, Landkreis Heilbronn, Baden-Württemberg, 74211, Deutschland",True
+Grosskrotzenburg,TENNETGMBH,50.0826406,8.9837384,"Großkrotzenburg, Main-Kinzig-Kreis, Hessen, 63538, Deutschland",True
+Großgartach C2,TRANSNETBW,49.1425406,9.1258701,"Großgartach, Leingarten, Landkreis Heilbronn, Baden-Württemberg, 74211, Deutschland",True
+Gruenkraut,TRANSNETBW,47.7418011,9.6523337,"Grünkraut, GVV Gullen, Landkreis Ravensburg, Baden-Württemberg, 88287, Deutschland",True
+Guetersloh,AMPRION GMBH,51.9166621,8.4043282,"Gütersloh, Kreis Gütersloh, Nordrhein-Westfalen, Deutschland",True
+Gundelfingen,AMPRION GMBH,48.0328928,7.8932553,"Gundelfingen, VVG der Gemeinde Gundelfingen, Landkreis Breisgau-Hochschwarzwald, Baden-Württemberg, 79194, Deutschland",True
+Gurtweil,TRANSNETBW,47.6412423,8.2465136,"Gurtweil, Waldshut-Tiengen, VVG der Stadt Waldshut-Tiengen, Landkreis Waldshut, Baden-Württemberg, Deutschland",True
+Görries,50HERTZ,53.6054505,11.3753278,"Görries, Schwerin, Mecklenburg-Vorpommern, 19061, Deutschland",True
+Güstrow,50HERTZ,53.793587,12.1764906,"Güstrow, Landkreis Rostock, Mecklenburg-Vorpommern, Deutschland",True
+Hagenwerder,50HERTZ,51.068144,14.9615029,"Hagenwerder, Görlitz, Sachsen, Deutschland",True
+Halfeshof,AMPRION GMBH,51.2363122,6.9727652,"Halfeshof, Süd, Mettmann, Kreis Mettmann, Nordrhein-Westfalen, 40822, Deutschland",True
+Hallendorf,TENNETGMBH,52.1533277,10.3775522,"Hallendorf, Ortschaft Ost, Salzgitter, Niedersachsen, Deutschland",True
+Hamborn,AMPRION GMBH,51.5041215,6.7725325,"Hamborn, Duisburg, Nordrhein-Westfalen, Deutschland",True
+Hamburg/N,TENNETGMBH,53.550341,10.000654,"Hamburg, Deutschland",True
+Hamburg/Nord,50HERTZ,53.6191556,10.0097399,"Hamburg-Nord, Hamburg, Deutschland",True
+Hamburg/Ost,50HERTZ,53.546959,9.9894645,"Telefónica Germany, 69, Willy-Brandt-Straße, Altstadt, Hamburg-Mitte, Hamburg, 20457, Deutschland",True
+Hamburg/Süd,50HERTZ,53.5251691,9.9918317,"Hafenbahnhof Hamburg Süd, Veddeler Damm, Kleiner Grasbrook, Hamburg-Mitte, Hamburg, 20457, Deutschland",True
+Handewitt,TENNETGMBH,54.7674684,9.3257408,"Handewitt, Kreis Schleswig-Flensburg, Schleswig-Holstein, Deutschland",True
+Hanekenfaehr,AMPRION GMBH,52.471518,7.3031386,"Hanekenfähr, Lingen (Ems), Landkreis Emsland, Niedersachsen, Deutschland",True
+Hannover/W,TENNETGMBH,52.9768702,7.2563259,"Hannover Weg, Dersum, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, 26906, Deutschland",True
+Hardegsen,TENNETGMBH,51.6528043,9.8322034,"Hardegsen, Landkreis Northeim, Niedersachsen, 37181, Deutschland",True
+Hattingen,AMPRION GMBH,51.4007175,7.1862486,"Hattingen, Ennepe-Ruhr-Kreis, Nordrhein-Westfalen, Deutschland",True
+Hattorf,TENNETGMBH,52.3600784,10.7463328,"Hattorf, Hattorf-Heiligendorf, Wolfsburg, Niedersachsen, 38444, Deutschland",True
+Heide/W,TENNETGMBH,50.6507398,7.3246952,"Heideweg, Orscheid, Bad Honnef, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53604, Deutschland",True
+Heidelberg,TRANSNETBW,49.4093582,8.694724,"Heidelberg, Baden-Württemberg, Deutschland",True
+Heilbronn,TRANSNETBW,49.142291,9.218655,"Heilbronn, Baden-Württemberg, Deutschland",True
+Heinersdorf,50HERTZ,53.0864484,14.2007918,"Heinersdorf, Schwedt/Oder, Landin, Uckermark, Brandenburg, 16303, Deutschland",True
+Helmstedt,TENNETGMBH,52.2087491,11.0030275,"Helmstedt, Landkreis Helmstedt, Niedersachsen, Deutschland",True
+Hennigsdorf,50HERTZ,52.6375777,13.2057511,"Hennigsdorf, Oberhavel, Brandenburg, 16761, Deutschland",True
+Herbertingen,AMPRION GMBH;TRANSNETBW,48.0600681,9.4346544,"Herbertingen, VVG der Stadt Bad Saulgau, Landkreis Sigmaringen, Baden-Württemberg, 88518, Deutschland",True
+Hesseln,AMPRION GMBH,50.5601051,7.3560597,"Hesseln, Leubsdorf, Linz am Rhein, Landkreis Neuwied, Rheinland-Pfalz, 53547, Deutschland",True
+Hoepfingen,TRANSNETBW,49.5999517,9.432936,"Höpfingen, GVV Hardheim-Walldürn, Neckar-Odenwald-Kreis, Baden-Württemberg, 74746, Deutschland",True
+Hoheneck,AMPRION GMBH,48.9101261,9.205858,"Hoheneck, Ludwigsburg, Landkreis Ludwigsburg, Baden-Württemberg, Deutschland",True
+Homburg,AMPRION GMBH,49.3181673,7.3340336,"Homburg, Saarpfalz-Kreis, Saarland, Deutschland",True
+Hueffenhardt,TRANSNETBW,49.2908862,9.0827453,"Hüffenhardt, VVG der Gemeinde Haßmersheim, Neckar-Odenwald-Kreis, Baden-Württemberg, 74928, Deutschland",True
+Huellen,AMPRION GMBH,53.0300171,7.7300028,"Hüllen - Hällene, Sedelsberg - Seedelsbierich, Saterland - Seelterlound, Landkreis Cloppenburg, Niedersachsen, Deutschland",True
+Huntorf,TENNETGMBH,53.1956997,8.3897014,"Huntorf, Kortendorf, Butteldorf, Elsfleth, Landkreis Wesermarsch, Niedersachsen, 26931, Deutschland",True
+Husum/N,TENNETGMBH,54.4854137,9.0537941,"Husum, Kreis Nordfriesland, Schleswig-Holstein, 25813, Deutschland",True
+Ibbenbueren,AMPRION GMBH,52.2774772,7.7151417,"Ibbenbüren, Kreis Steinfurt, Nordrhein-Westfalen, Deutschland",True
+Ingolstadt,TENNETGMBH,48.7630165,11.4250395,"Ingolstadt, Bayern, Deutschland",True
+Inhausen,TENNETGMBH,48.1143825,12.5531413,"Inhausen, Wiesmühl an der Alz, Engelsberg, Landkreis Traunstein, Bayern, 84549, Deutschland",True
+Irsching,TENNETGMBH,48.7574014,11.5730893,"Irsching, Vohburg an der Donau, Landkreis Pfaffenhofen an der Ilm, Bayern, 85088, Deutschland",True
+Isar,TENNETGMBH,48.251073,11.683983,"Isar, Deutschland",True
+Itzehoe/W,TENNETGMBH,53.919448,9.5172441,"Itzehoe, Kreis Steinburg, Schleswig-Holstein, 25524, Deutschland",True
+Jardelund,TENNETGMBH,54.8256977,9.1996666,"Jardelund, Schafflund, Kreis Schleswig-Flensburg, Schleswig-Holstein, Deutschland",True
+Jessen/Nord,50HERTZ,51.7977522,12.962774,"Sekundarschule Jessen-Nord, 9, Straße der Jugend, Jessen (Elster), Wittenberg, Sachsen-Anhalt, 06917, Deutschland",True
+KUES Luengenkamp,AMPRION GMBH,,,,False
+Karben,TENNETGMBH,50.2313417,8.7717673,"Karben, Wetteraukreis, Hessen, 61184, Deutschland",True
+Karlsruhe,TRANSNETBW,49.0068705,8.4034195,"Karlsruhe, Baden-Württemberg, Deutschland",True
+KarlsruheWest,TRANSNETBW,,,,False
+Karnap,AMPRION GMBH,51.523574,7.0088793,"Karnap, Stadtbezirk V, Essen, Nordrhein-Westfalen, Deutschland",True
+Kelsterbach,AMPRION GMBH,50.065151,8.5296632,"Kelsterbach, Kreis Groß-Gerau, Hessen, 65451, Deutschland",True
+Kiel/S,TENNETGMBH,54.3227085,10.135555,"Kiel, Schleswig-Holstein, Deutschland",True
+Kiel/W,TENNETGMBH,53.1035819,8.2076459,"Kielweg, Kreyenbrück, Oldenburg, Niedersachsen, 26133, Deutschland",True
+Klein Ilsede,TENNETGMBH,52.2857548,10.2316776,"Klein Ilsede, Ilsede, Landkreis Peine, Niedersachsen, 31226, Deutschland",True
+Klixbuell/S,TENNETGMBH,54.8020784,8.8900168,"Klixbüll, Südtondern, Kreis Nordfriesland, Schleswig-Holstein, Deutschland",True
+Klostermansfeld,50HERTZ,51.5841525,11.4933395,"Klostermansfeld, Mansfelder Grund-Helbra, Mansfeld-Südharz, Sachsen-Anhalt, 06308, Deutschland",True
+Knapsack,AMPRION GMBH,50.8594256,6.8547678,"Knapsack, Hürth, Rhein-Erft-Kreis, Nordrhein-Westfalen, 50354, Deutschland",True
+Koblenz,AMPRION GMBH,50.3533278,7.5943951,"Koblenz, Rheinland-Pfalz, Deutschland",True
+Koetz,AMPRION GMBH,48.4044431,10.2897603,"Kötz, Kötz (VGem), Landkreis Günzburg, Bayern, 89359, Deutschland",True
+Kork,TRANSNETBW,48.5670016,7.8702056,"Kork, Kehl, Ortenaukreis, Baden-Württemberg, Deutschland",True
+Kottigerhook,AMPRION GMBH,52.177984,7.0199199,"Kottigerhook, Epe, Gronau, Kreis Borken, Nordrhein-Westfalen, Deutschland",True
+Krempermarsch,TENNETGMBH,53.847233,9.5253082,"Krempermarsch, Kreis Steinburg, Schleswig-Holstein, Deutschland",True
+Kriegenbrunn,TENNETGMBH,49.556437,10.9542353,"Kriegenbrunn, Erlangen, Bayern, 91056, Deutschland",True
+Kriftel,AMPRION GMBH,50.0850027,8.4707355,"Kriftel, Main-Taunus-Kreis, Hessen, 65830, Deutschland",True
+Kruckel,AMPRION GMBH,51.4545841,7.4153998,"Kruckel, Kirchhörde, Hombruch, Dortmund, Nordrhein-Westfalen, 44227, Deutschland",True
+Kruemmel,TENNETGMBH,50.5353537,7.7217486,"Krümmel, Selters (Westerwald), Westerwaldkreis, Rheinland-Pfalz, Deutschland",True
+Kruen,TENNETGMBH,47.5061521,11.2787041,"Krün, Landkreis Garmisch-Partenkirchen, Bayern, Deutschland",True
+Krümmel,50HERTZ,50.5353537,7.7217486,"Krümmel, Selters (Westerwald), Westerwaldkreis, Rheinland-Pfalz, Deutschland",True
+Kuehmoos,TRANSNETBW,48.7556165,12.9236498,"Kühmoos, Aholming, Landkreis Deggendorf, Bayern, 94527, Deutschland",True
+Kuehtai,TENNETGMBH,,,,False
+Kummerfeld,TENNETGMBH,53.691612,9.7910352,"Kummerfeld, Pinnau, Kreis Pinneberg, Schleswig-Holstein, 25495, Deutschland",True
+Kupferzell,TRANSNETBW,49.2276928,9.6902519,"Kupferzell, GVV Hohenloher Ebene, Hohenlohekreis, Baden-Württemberg, 74635, Deutschland",True
+Kuppenheim,TRANSNETBW,48.8272323,8.2545743,"Kuppenheim, GVV Nachbarschaftsverband Bischweier-Kuppenheim, Landkreis Rastatt, Baden-Württemberg, 76456, Deutschland",True
+Kusenhorst,AMPRION GMBH,51.7019118,7.0730368,"Kusenhorst, Dorstener Straße, Lippramsdorf, Haltern am See, Kreis Recklinghausen, Nordrhein-Westfalen, 45721, Deutschland",True
+Lage,TENNETGMBH,51.9914084,8.7919583,"Lage, Kreis Lippe, Nordrhein-Westfalen, 32791, Deutschland",True
+Laichingen,TRANSNETBW,48.4896773,9.6861474,"Laichingen, GVV Laichinger Alb, Alb-Donau-Kreis, Baden-Württemberg, 89150, Deutschland",True
+Lambsheim,AMPRION GMBH,49.5103257,8.2861947,"Lambsheim, Lambsheim-Heßheim, Rhein-Pfalz-Kreis, Rheinland-Pfalz, 67245, Deutschland",True
+Lamspringe,TENNETGMBH,51.9770668,9.9908949,"Lamspringe, Landkreis Hildesheim, Niedersachsen, 31195, Deutschland",True
+Landesbergen,TENNETGMBH,52.5610203,9.1238142,"Landesbergen, Samtgemeinde Mittelweser, Landkreis Nienburg/Weser, Niedersachsen, 31628, Deutschland",True
+Lauchstädt,50HERTZ,51.3874297,11.8679537,"Goethestadt Bad Lauchstädt, Saalekreis, Sachsen-Anhalt, 06246, Deutschland",True
+Lechhausen,AMPRION GMBH,48.3811586,10.9161463,"Lechhausen, Augsburg, Bayern, Deutschland",True
+Lehrte,TENNETGMBH,52.3749334,9.9748557,"Lehrte, Region Hannover, Niedersachsen, 31275, Deutschland",True
+Leupolz,AMPRION GMBH,47.7366223,10.3530889,"Leupolz, Kempten (Allgäu), Bayern, 87437, Deutschland",True
+Liessem,AMPRION GMBH,50.0245641,6.4806229,"Ließem, Bitburger Land, Eifelkreis Bitburg-Prüm, Rheinland-Pfalz, Deutschland",True
+Limburg,AMPRION GMBH,50.3880447,8.063531,"Limburg an der Lahn, Landkreis Limburg-Weilburg, Hessen, Deutschland",True
+Linde,AMPRION GMBH,51.0193536,7.3210573,"Linde, Lindlar, Oberbergischer Kreis, Nordrhein-Westfalen, Deutschland",True
+Lippborg,AMPRION GMBH,51.665209,8.039436,"Lippborg, Lippetal, Kreis Soest, Nordrhein-Westfalen, 59510, Deutschland",True
+Lippe,AMPRION GMBH,51.6711439,7.7165069,"Lippe, Nordrhein-Westfalen, Deutschland",True
+Lubmin,50HERTZ,54.1318409,13.612798,"Lubmin, Vorpommern-Greifswald, Mecklenburg-Vorpommern, Deutschland",True
+Ludersheim,TENNETGMBH,49.3955803,11.32885,"Ludersheim, Altdorf bei Nürnberg, Landkreis Nürnberger Land, Bayern, 90518, Deutschland",True
+Luebeck,TENNETGMBH,53.866444,10.684738,"Lübeck, Schleswig-Holstein, Deutschland",True
+Lueneburg,TENNETGMBH,53.248706,10.407855,"Lüneburg, Landkreis Lüneburg, Niedersachsen, Deutschland",True
+Luestringen,AMPRION GMBH,52.2679276,8.128252,"Lüstringen, Darum-Gretesch-Lüstringen, Osnabrück, Niedersachsen, 49086, Deutschland",True
+Lüdershagen,50HERTZ,54.3062345,12.6096536,"Lüdershagen, Barth, Vorpommern-Rügen, Mecklenburg-Vorpommern, Deutschland",True
+Maade,TENNETGMBH,53.5401606,8.0700492,"Maade, Wilhelmshaven, Wangerland, Landkreis Friesland, Niedersachsen, Deutschland",True
+Malchow,50HERTZ,53.4775641,12.4245172,"Malchow, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17213, Deutschland",True
+Marbach,TRANSNETBW,48.9402085,9.256396,"Marbach, Marbach am Neckar, GVV Marbach am Neckar, Landkreis Ludwigsburg, Baden-Württemberg, Deutschland",True
+Marienberg,TENNETGMBH,50.6507279,13.163188,"Marienberg, Erzgebirgskreis, Sachsen, 09496, Deutschland",True
+Marke,50HERTZ,51.7301547,12.2524587,"Marke, Raguhn-Jeßnitz, Anhalt-Bitterfeld, Sachsen-Anhalt, Deutschland",True
+Marzahn,50HERTZ,52.5436548,13.5413545,"Marzahn, Wiesenburger Weg, Marzahn, Marzahn-Hellersdorf, Berlin, 12681, Deutschland",True
+Maximiliansau,AMPRION GMBH,49.0344882,8.2869901,"Maximiliansau, Wörth am Rhein, Landkreis Germersheim, Rheinland-Pfalz, 76767, Deutschland",True
+Mechlenreuth,TENNETGMBH,50.1718024,11.801791,"Mechlenreuth, Münchberg, Landkreis Hof, Bayern, 95213, Deutschland",True
+Meckenheim,AMPRION GMBH,50.6256627,7.0215612,"Meckenheim, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53340, Deutschland",True
+Mecklar,TENNETGMBH,50.9174645,9.7612468,"Mecklar, Ludwigsau, Landkreis Hersfeld-Rotenburg, Hessen, Deutschland",True
+Mehringen,TENNETGMBH,51.7280341,11.5151205,"Mehringen, Aschersleben, Salzlandkreis, Sachsen-Anhalt, Deutschland",True
+Mehrum,TENNETGMBH,51.5757486,6.6247822,"Mehrum, Voerde (Niederrhein), Kreis Wesel, Nordrhein-Westfalen, Deutschland",True
+Mehrum/N,TENNETGMBH,51.5757486,6.6247822,"Mehrum, Voerde (Niederrhein), Kreis Wesel, Nordrhein-Westfalen, Deutschland",True
+Meissen,TENNETGMBH,51.1630871,13.4704939,"Meißen, Sachsen, Deutschland",True
+Meitingen,AMPRION GMBH,48.5455295,10.8523018,"Meitingen, Landkreis Augsburg, Bayern, 86405, Deutschland",True
+Mengede,AMPRION GMBH,51.5748967,7.367002,"Mengede, Dortmund, Nordrhein-Westfalen, 44359, Deutschland",True
+Meppen,AMPRION GMBH,52.6947452,7.2909824,"Meppen, Landkreis Emsland, Niedersachsen, Deutschland",True
+Merzen,AMPRION GMBH,52.4776488,7.8307739,"Merzen, Samtgemeinde Neuenkirchen, Landkreis Osnabrück, Niedersachsen, 49586, Deutschland",True
+Mettmann,AMPRION GMBH,51.2527778,6.9777778,"Mettmann, Kreis Mettmann, Nordrhein-Westfalen, 40822, Deutschland",True
+Metzingen,TRANSNETBW,48.5397247,9.2831201,"Metzingen, VVG der Stadt Metzingen, Landkreis Reutlingen, Baden-Württemberg, 72555, Deutschland",True
+Mitte,50HERTZ,52.5178855,13.4040601,"Mitte, Berlin, Deutschland",True
+Mittelbexbach,AMPRION GMBH,49.3579678,7.2473777,"Bexbach, Saarpfalz-Kreis, Saarland, Deutschland",True
+Muehlhausen,TRANSNETBW,51.2094255,10.4589044,"Mühlhausen/Thüringen, Unstrut-Hainich-Kreis, Thüringen, Deutschland",True
+Muendelheim,AMPRION GMBH,51.3559457,6.6833322,"Mündelheim, Duisburg-Süd, Duisburg, Nordrhein-Westfalen, Deutschland",True
+Muenster,AMPRION GMBH,51.9625101,7.6251879,"Münster, Nordrhein-Westfalen, Deutschland",True
+Mutterstadt,AMPRION GMBH,49.4422445,8.3542306,"Mutterstadt, Rhein-Pfalz-Kreis, Rheinland-Pfalz, 67112, Deutschland",True
+Neckarwestheim,TRANSNETBW,49.0474301,9.1892332,"Neckarwestheim, VVG der Stadt Lauffen am Neckar, Landkreis Heilbronn, Baden-Württemberg, 74382, Deutschland",True
+Nehden,AMPRION GMBH,51.4360822,8.6369892,"Nehden, Brilon, Hochsauerlandkreis, Nordrhein-Westfalen, Deutschland",True
+Neuenhagen,50HERTZ,53.7467873,13.1115253,"Neuenhagen, Altenhagen, Treptower Tollensewinkel, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, Deutschland",True
+Neufinsing,TENNETGMBH,48.2210641,11.8042527,"Neufinsing, Finsing, Landkreis Erding, Bayern, 85464, Deutschland",True
+Neurott,TRANSNETBW,49.363895,8.6226397,"Neurott, Kirchheim, Heidelberg, Baden-Württemberg, 69124, Deutschland",True
+Niederlangen,TENNETGMBH,52.8572175,7.2805369,"Niederlangen, Samtgemeinde Lathen, Landkreis Emsland, Niedersachsen, 49779, Deutschland",True
+Niederrhein,AMPRION GMBH,51.4013466,6.5096405,"Niederrhein, Nordrhein-Westfalen, Deutschland",True
+Niederstedem,AMPRION GMBH,49.9302779,6.4986224,"Niederstedem, Bitburger Land, Eifelkreis Bitburg-Prüm, Rheinland-Pfalz, Deutschland",True
+Niederstotzingen,TRANSNETBW,48.5408791,10.2332512,"Niederstotzingen, GVV Sontheim-Niederstotzingen, Landkreis Heidenheim, Baden-Württemberg, 89168, Deutschland",True
+Niedervieland,TENNETGMBH,53.0993344,8.7018135,"Niedervieland, Seehausen, Bremen-Süd, Bremen, 28197, Deutschland",True
+Nordlicht,AMPRION GMBH,53.6884546,9.9819739,"Nordlicht, Gewerbegebiet Kohfurth, Norderstedt, Kreis Segeberg, Schleswig-Holstein, 22850, Deutschland",True
+Norf,AMPRION GMBH,51.1601708,6.7319654,"Norf, Mainstraße, Derikum, Norf, Neuss, Rhein-Kreis Neuss, Nordrhein-Westfalen, 41469, Deutschland",True
+Oberbachern,TENNETGMBH,48.2820287,11.3686997,"Oberbachern, Bergkirchen, Landkreis Dachau, Bayern, 85232, Deutschland",True
+Oberbrunn,TENNETGMBH,50.0655023,10.9425702,"Oberbrunn, Ebensfeld, Landkreis Lichtenfels, Bayern, 96250, Deutschland",True
+Oberhaid,TENNETGMBH,50.5081833,7.7203453,"Oberhaid, Ransbach-Baumbach, Westerwaldkreis, Rheinland-Pfalz, Deutschland",True
+Oberjettingen,TRANSNETBW,48.575961,8.7743305,"Oberjettingen, Jettingen, GVV Oberes Gäu, Landkreis Böblingen, Baden-Württemberg, 71131, Deutschland",True
+Obermooweiler,TRANSNETBW,47.6531193,9.8063126,"Obermooweiler, Niederwangen, Wangen im Allgäu, VVG der Stadt Wangen im Allgäu, Landkreis Ravensburg, Baden-Württemberg, 88239, Deutschland",True
+Oberottmarshausen,AMPRION GMBH,48.2382121,10.8570182,"Oberottmarshausen, Großaitingen, Landkreis Augsburg, Bayern, 86507, Deutschland",True
+Oberwald,TRANSNETBW,50.4849084,9.3097388,"Oberwald, Grebenhain, Vogelsbergkreis, Hessen, 36355, Deutschland",True
+Oberzier,AMPRION GMBH,50.8658407,6.4738745,"Oberzier, Niederzier, Kreis Düren, Nordrhein-Westfalen, 52382, Deutschland",True
+Oechtel,AMPRION GMBH,52.3281428,7.2963803,"Öchtel, Salzbergen, Landkreis Emsland, Niedersachsen, 48499, Deutschland",True
+Ohlensehlen,TENNETGMBH,52.5556397,8.9084552,"Woltringhausen, Ohlensehlen, Woltringhausen, Uchte, Samtgemeinde Uchte, Landkreis Nienburg/Weser, Niedersachsen, 31600, Deutschland",True
+Ohligs,AMPRION GMBH,51.1611221,7.004223,"Solingen Hauptbahnhof, Bahnhofstunnel, Nassenweg, Ohligs/Aufderhöhe/Merscheid, Solingen, Nordrhein-Westfalen, 42697, Deutschland",True
+Opladen,AMPRION GMBH,51.0657432,7.0088448,"Opladen, Europa-Allee, Opladen, Stadtbezirk II, Leverkusen, Nordrhein-Westfalen, 51379, Deutschland",True
+Osburg,AMPRION GMBH,49.7151789,6.7912147,"Osburg, Ruwer, Landkreis Trier-Saarburg, Rheinland-Pfalz, Deutschland",True
+Ossenberg,AMPRION GMBH,51.5704933,6.5837689,"Ossenberg, Rheinberg, Kreis Wesel, Nordrhein-Westfalen, 47495, Deutschland",True
+Osterath,AMPRION GMBH,51.2690922,6.6207151,"Osterath, Meerbusch, Rhein-Kreis Neuss, Nordrhein-Westfalen, 40670, Deutschland",True
+Ottenhofen,TENNETGMBH,48.2157282,11.8799783,"Ottenhofen, Oberneuching (VGem), Landkreis Erding, Bayern, Deutschland",True
+Otterbach,AMPRION GMBH,49.4859015,7.736859,"Otterbach, Otterbach-Otterberg, Landkreis Kaiserslautern, Rheinland-Pfalz, 67731, Deutschland",True
+Ovenstaedt,TENNETGMBH,52.4174489,8.9740823,"Ovenstädt, Petershagen, Kreis Minden-Lübbecke, Nordrhein-Westfalen, 32469, Deutschland",True
+Paffendorf,AMPRION GMBH,50.9628278,6.6087615,"Paffendorf, Bergheim, Rhein-Erft-Kreis, Nordrhein-Westfalen, 50126, Deutschland",True
+Parchim/Süd,50HERTZ,,,,False
+Pasewalk,50HERTZ,53.5053677,13.9889049,"Pasewalk, Vorpommern-Greifswald, Mecklenburg-Vorpommern, 17309, Deutschland",True
+Perleberg,50HERTZ,53.075548,11.8212016,"Perleberg, Prignitz, Brandenburg, 19348, Deutschland",True
+Perleberg - Putlitz,50HERTZ,53.2925503,12.0463019,"Historischer Stadtkern Perleberg, A 24, Nettelbeck, Porep, Putlitz, Putlitz-Berge, Prignitz, Brandenburg, 16949, Deutschland",True
+Pfalzdorf,AMPRION GMBH,51.7037652,6.1583148,"Pfalzdorf, Goch, Bedburg-Hau, Kreis Kleve, Nordrhein-Westfalen, 47574, Deutschland",True
+Pfungstadt,AMPRION GMBH,49.7943,8.5877,"Pfungstadt, Landkreis Darmstadt-Dieburg, Hessen, 64319, Deutschland",True
+Philippsburg,TRANSNETBW,49.2367495,8.4546679,"Philippsburg, GVV Philippsburg, Landkreis Karlsruhe, Baden-Württemberg, 76661, Deutschland",True
+Pirach,TENNETGMBH,48.1470964,12.7588076,"Pirach, Burgkirchen an der Alz, Landkreis Altötting, Bayern, Deutschland",True
+Plattling,TENNETGMBH,48.7766852,12.8733655,"Plattling, Landkreis Deggendorf, Bayern, 94447, Deutschland",True
+Pleinting,TENNETGMBH,48.6604745,13.119804,"Pleinting, Vilshofen an der Donau, Landkreis Passau, Bayern, 94544, Deutschland",True
+Poeppinghausen,AMPRION GMBH,51.5787104,7.265259,"Pöppinghausen, Castrop-Rauxel, Kreis Recklinghausen, Nordrhein-Westfalen, Deutschland",True
+Preilack,50HERTZ,51.8839607,14.4161789,"Preilack - Pśiłuk, Turnow-Preilack, Peitz/Picnjo, Spree-Neiße - Sprjewja-Nysa, Brandenburg, 03185, Deutschland",True
+Pulgar,50HERTZ,51.1885941,12.3517288,"Pulgar, Industriestandort Böhlen-Lippendorf, Neukieritzsch, Landkreis Leipzig, Sachsen, 04564, Deutschland",True
+Pulverdingen,TRANSNETBW,48.9059231,9.0236034,"Pulverdingen, Enzweihingen, Vaihingen an der Enz, VVG der Stadt Vaihingen an der Enz, Landkreis Ludwigsburg, Baden-Württemberg, Deutschland",True
+Putlitz/Süd,50HERTZ,,,,False
+Quint,AMPRION GMBH,49.8234919,6.7059007,"Quint, Ehrang-Quint, Trier, Trierweiler, Rheinland-Pfalz, Deutschland",True
+RDK7,TRANSNETBW,,,,False
+RDK8,TRANSNETBW,,,,False
+Ragow,50HERTZ,51.8862135,13.9010632,"Ragow, Lübbenau/Spreewald, Oberspreewald-Lausitz - Górne Błota-Łužyca, Brandenburg, Deutschland",True
+Raitersaich,TENNETGMBH,49.3729799,10.8446391,"Raitersaich, Roßtal, Landkreis Fürth, Bayern, Deutschland",True
+Rath,AMPRION GMBH,51.0066638,6.6337969,"Rath, Bedburg, Rhein-Erft-Kreis, Nordrhein-Westfalen, 50181, Deutschland",True
+Ratsbusch,AMPRION GMBH,51.5355347,7.5029146,"Ratsbusch, 160, Springorumstraße, ThyssenKrupp Werksgelände (Westfalenhütte), Innenstadt Nord, Dortmund, Nordrhein-Westfalen, 44145, Deutschland",True
+Redwitz,TENNETGMBH,50.1691696,11.2084632,"Redwitz(Rodach), B 173, Obristfeld, Redwitz a.d.Rodach, Redwitz an der Rodach (VGem), Landkreis Lichtenfels, Bayern, 96257, Deutschland",True
+Regensburg,TENNETGMBH,49.0195333,12.0974869,"Regensburg, Bayern, Deutschland",True
+Remptendorf,50HERTZ,50.5290352,11.6595527,"Remptendorf, Saale-Orla-Kreis, Thüringen, 07368, Deutschland",True
+Remptendorf - Großschwabhausen,50HERTZ,,,,False
+Reuter,50HERTZ,50.8867609,10.3769058,"Reuter, Ruhla, Wartburgkreis, Thüringen, 99842, Deutschland",True
+Rhede,TENNETGMBH,51.8363135,6.696091,"Rhede, Kreis Borken, Nordrhein-Westfalen, 46414, Deutschland",True
+Rheinau,AMPRION GMBH,48.6610699,7.9383334,"Rheinau, Ortenaukreis, Baden-Württemberg, 77866, Deutschland",True
+Rheinhausen,AMPRION GMBH,48.2338362,7.7144924,"Rheinhausen, GVV Kenzingen-Herbolzheim, Landkreis Emmendingen, Baden-Württemberg, 79365, Deutschland",True
+Ried,AMPRION GMBH,48.2902063,11.0425791,"Ried, Landkreis Aichach-Friedberg, Bayern, 86510, Deutschland",True
+Rommersheim,AMPRION GMBH,50.1936797,6.4446925,"Rommersheim, Prüm, Eifelkreis Bitburg-Prüm, Rheinland-Pfalz, Deutschland",True
+Rommerskirchen,AMPRION GMBH,51.0633574,6.6978814,"Rommerskirchen, Rhein-Kreis Neuss, Nordrhein-Westfalen, 41569, Deutschland",True
+Rosenblumendelle,AMPRION GMBH,51.4372781,6.9416005,"Blumendeller Straße, Heißen, Rechtsruhr-Süd, Mülheim an der Ruhr, Nordrhein-Westfalen, 45472, Deutschland",True
+Rotensohl,TRANSNETBW,48.7426231,10.2075879,"Rotensohl, Großkuchen, Heidenheim an der Brenz, VVG der Stadt Heidenheim an der Brenz, Landkreis Heidenheim, Baden-Württemberg, Deutschland",True
+Roxel,AMPRION GMBH,51.9549064,7.533159,"Roxel, Münster-West, Münster, Nordrhein-Westfalen, Deutschland",True
+Ruhrzink,AMPRION GMBH,,,,False
+Röhrsdorf,50HERTZ,50.8635926,12.8453055,"Röhrsdorf, Chemnitz, Sachsen, 09247, Deutschland",True
+Saarwellingen,AMPRION GMBH,49.3527139,6.8063014,"Saarwellingen, Landkreis Saarlouis, Saarland, 66793, Deutschland",True
+Sandershausen/O,TENNETGMBH,51.3210551,9.5520461,"Sandershausen, Niestetal, Landkreis Kassel, Hessen, Deutschland",True
+Schmölln,50HERTZ,50.8971549,12.3520022,"Schmölln, Altenburger Land, Thüringen, 04626, Deutschland",True
+Schuby/W,TENNETGMBH,54.5158197,9.4800114,"Schuby, Arensharde, Kreis Schleswig-Flensburg, Schleswig-Holstein, 24850, Deutschland",True
+Schwandorf,TENNETGMBH,49.3261854,12.1092708,"Schwandorf, Landkreis Schwandorf, Bayern, 92421, Deutschland",True
+Schwelgern,AMPRION GMBH,51.5076091,6.737642,"Schwelgern, ThyssenKrupp Steel Europe AG, Hamborn, Duisburg, Nordrhein-Westfalen, 47169, Deutschland",True
+Schwoerstadt,TRANSNETBW,47.5922842,7.8738189,"Schwörstadt, VVG der Stadt Rheinfelden (Baden), Landkreis Lörrach, Baden-Württemberg, 79739, Deutschland",True
+Schönewalde,50HERTZ,51.8142338,13.2279131,"Schönewalde, Elbe-Elster, Brandenburg, Deutschland",True
+Sechtem,AMPRION GMBH,50.7891059,6.950769,"Sechtem, Bornheim, Rhein-Sieg-Kreis, Nordrhein-Westfalen, Deutschland",True
+Selbeck,AMPRION GMBH,51.3681608,6.8623701,"Selbeck, Saarn, Linksruhr, Mülheim an der Ruhr, Nordrhein-Westfalen, 45481, Deutschland",True
+Setzer Wiese,AMPRION GMBH,,,,False
+Siedenbrünzow,50HERTZ,53.8971143,13.1462242,"Siedenbrünzow, Demmin-Land, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, Deutschland",True
+Siegburg,AMPRION GMBH,50.7928332,7.2070774,"Siegburg, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53721, Deutschland",True
+Siems,TENNETGMBH,53.9051786,10.7752845,"Siems, Dänischburg / Siems / Rangenberg / Wallberg, Kücknitz, Lübeck, Schleswig-Holstein, 23569, Deutschland",True
+Siersdorf,AMPRION GMBH,50.8982624,6.2267319,"Siersdorf, Aldenhoven, Kreis Düren, Nordrhein-Westfalen, Deutschland",True
+Silz,TENNETGMBH,53.5202915,12.4410713,"Silz, Malchow, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, Deutschland",True
+Simbach,TENNETGMBH,48.2663113,13.0279972,"Simbach, Landkreis Rottal-Inn, Bayern, 84359, Deutschland",True
+Sittling,TENNETGMBH,48.8335534,11.772554,"Sittling, Neustadt an der Donau, Landkreis Kelheim, Bayern, 93333, Deutschland",True
+Sottrum,TENNETGMBH,53.1161752,9.2354374,"Sottrum, Samtgemeinde Sottrum, Landkreis Rotenburg (Wümme), Niedersachsen, Deutschland",True
+Spellen,AMPRION GMBH,51.6104512,6.6141015,"Spellen, Voerde (Niederrhein), Kreis Wesel, Nordrhein-Westfalen, Deutschland",True
+St. Barbara,AMPRION GMBH,49.3289173,6.6893293,"St. Barbara, Wallerfangen, Landkreis Saarlouis, Saarland, Deutschland",True
+St. Huelfe,AMPRION GMBH,52.621888,8.3987005,"Sankt Hülfe, Diepholz, Landkreis Diepholz, Niedersachsen, Deutschland",True
+St. Peter,AMPRION GMBH,48.01786,8.0358335,"St. Peter, GVV St. Peter, Landkreis Breisgau-Hochschwarzwald, Baden-Württemberg, 79271, Deutschland",True
+Stade/W,TENNETGMBH,48.1419939,11.6415693,"Stadeweg, Zamilapark, Zamdorf, Bogenhausen, München, Bayern, 81929, Deutschland",True
+Stadorf,TENNETGMBH,52.9919338,10.3956338,"Stadorf, Schwienau, Samtgemeinde Bevensen-Ebstorf, Landkreis Uelzen, Niedersachsen, 29593, Deutschland",True
+Stalldorf,TRANSNETBW,49.5658744,9.9371209,"Stalldorf, Riedenheim, Verwaltungsgemeinschaft Röttingen, Landkreis Würzburg, Bayern, 97283, Deutschland",True
+Stendal/West,50HERTZ,52.5900753,11.8424738,"Pfarrbereich Stendal, Süd-West, 4, Schulstraße, Röxe, Stendal, Sachsen-Anhalt, 39576, Deutschland",True
+Stockach,TRANSNETBW,47.8530941,9.0134524,"Stockach, VVG der Stadt Stockach, Landkreis Konstanz, Baden-Württemberg, 78333, Deutschland",True
+Stockem,AMPRION GMBH,49.9284859,6.3842025,"Stockem, Bitburger Land, Eifelkreis Bitburg-Prüm, Rheinland-Pfalz, Deutschland",True
+Streumen,50HERTZ,51.3582767,13.4054041,"Streumen, Wülknitz, Röderaue-Wülknitz, Meißen, Sachsen, Deutschland",True
+Suederdonn,TENNETGMBH,53.97502,9.1169356,"Süderdonn, Sankt Michaelisdonn, Burg-Sankt Michaelisdonn, Kreis Dithmarschen, Schleswig-Holstein, 25693, Deutschland",True
+Teufelsbruch,50HERTZ,52.5796581,13.1998458,"Teufelsbruch, Hakenfelde, Spandau, Berlin, 13587, Deutschland",True
+Thyrow,50HERTZ,52.2514309,13.2396499,"Thyrow, Trebbin, Teltow-Fläming, Brandenburg, Deutschland",True
+Tiengen,AMPRION GMBH,47.9842416,7.7153083,"Tiengen, Freiburg im Breisgau, Baden-Württemberg, Deutschland",True
+Trennfeld,TENNETGMBH,49.8035665,9.6030688,"Trennfeld, Lengfurt, Triefenstein, Landkreis Main-Spessart, Bayern, 97855, Deutschland",True
+Trossingen,TRANSNETBW,48.07506,8.6362987,"Trossingen, VVG der Stadt Trossingen, Landkreis Tuttlingen, Baden-Württemberg, 78647, Deutschland",True
+Twistetal,TENNETGMBH,51.321351,8.9607277,"Twistetal, Landkreis Waldeck-Frankenberg, Hessen, 34477, Deutschland",True
+Uchtelfangen,AMPRION GMBH,49.3788373,7.0194399,"Uchtelfangen, Illingen, Landkreis Neunkirchen, Saarland, Deutschland",True
+Uentrop,AMPRION GMBH,51.6926159,7.940585,"Uentrop, Hamm, Nordrhein-Westfalen, Deutschland",True
+Uerdingen,AMPRION GMBH,51.3563656,6.6495971,"Uerdingen, Krefeld-Uerdingen, Krefeld, Nordrhein-Westfalen, 47829, Deutschland",True
+Unna,AMPRION GMBH,51.5348835,7.689014,"Unna, Kreis Unna, Nordrhein-Westfalen, Deutschland",True
+Unterweser,TENNETGMBH,53.3256109,8.4806296,"Brake, Landkreis Wesermarsch, Niedersachsen, 26919, Deutschland",True
+Urberach,AMPRION GMBH,49.973352,8.7981281,"Urberach, Bulau, Rödermark, Landkreis Offenbach, Hessen, Deutschland",True
+Urberach (NEU),AMPRION GMBH,,,,False
+Utfort,AMPRION GMBH,51.4748613,6.6257208,"Utfort, Rheinkamp, Moers, Kreis Wesel, Nordrhein-Westfalen, 47445, Deutschland",True
+Veltheim,TENNETGMBH,52.2181829,10.6825692,"Veltheim, Samtgemeinde Sickte, Landkreis Wolfenbüttel, Niedersachsen, Deutschland",True
+Vierraden,50HERTZ,53.0978481,14.29611,"Vierraden, Schwedt/Oder, Uckermark, Brandenburg, Deutschland",True
+Vieselbach,50HERTZ,50.9974944,11.1460437,"Vieselbach, Erfurt, Thüringen, Deutschland",True
+Villingen,TRANSNETBW,48.0596619,8.4598995,"Villingen, Villingen-Schwenningen, VVG der Stadt Villingen-Schwenningen, Schwarzwald-Baar-Kreis, Baden-Württemberg, Deutschland",True
+Voehringen,AMPRION GMBH,48.2833039,10.0832982,"Vöhringen, Landkreis Neu-Ulm, Bayern, 89269, Deutschland",True
+Voerden,TENNETGMBH,52.4784717,8.096003,"Vörden, Neuenkirchen-Vörden, Landkreis Vechta, Niedersachsen, 49434, Deutschland",True
+Voslapp,TENNETGMBH,53.5871884,8.102887,"Voslapp, Wilhelmshaven, Niedersachsen, Deutschland",True
+Wahle,TENNETGMBH,52.2717618,10.3634402,"Wahle, Vechelde, Landkreis Peine, Niedersachsen, 38159, Deutschland",True
+Waldeck,TENNETGMBH,50.9113768,11.7820125,"Waldeck, Bad Klosterlausnitz, Saale-Holzland-Kreis, Thüringen, Deutschland",True
+Waldlaubersheim,AMPRION GMBH,49.9285787,7.833602,"Waldlaubersheim, Langenlonsheim-Stromberg, Landkreis Bad Kreuznach, Rheinland-Pfalz, Deutschland",True
+Walsum,AMPRION GMBH,51.5351625,6.7166676,"Walsum, Duisburg, Nordrhein-Westfalen, Deutschland",True
+Wambel,AMPRION GMBH,51.5204477,7.5205435,"Wambel, Brackel, Dortmund, Nordrhein-Westfalen, Deutschland",True
+Wechold,TENNETGMBH,52.8480963,9.1263681,"Wechold, Hilgermissen, Samtgemeinde Grafschaft Hoya, Landkreis Nienburg/Weser, Niedersachsen, Deutschland",True
+Wehrendorf,AMPRION GMBH,52.3322323,8.3132774,"Wehrendorf, Bad Essen, Landkreis Osnabrück, Niedersachsen, 49163, Deutschland",True
+Weida,50HERTZ,50.7581426,12.0470063,"Weida, Greiz, Thüringen, 07570, Deutschland",True
+Weier,TRANSNETBW,51.0375352,7.2713731,"Weier, Waldmühle, Kürten, Rheinisch-Bergischer Kreis, Nordrhein-Westfalen, 51515, Deutschland",True
+Weingarten,AMPRION GMBH,47.8075299,9.6431145,"Weingarten, GVV Mittleres Schussental, Landkreis Ravensburg, Baden-Württemberg, 88250, Deutschland",True
+Weinheim,TRANSNETBW,49.5462349,8.6717458,"Weinheim, Rhein-Neckar-Kreis, Baden-Württemberg, 69469, Deutschland",True
+Weissenthurm,AMPRION GMBH,50.4145192,7.4557539,"Weißenthurm, Landkreis Mayen-Koblenz, Rheinland-Pfalz, 56575, Deutschland",True
+Welper,AMPRION GMBH,51.4108972,7.2077948,"Welper, Hattingen, Ennepe-Ruhr-Kreis, Nordrhein-Westfalen, 45527, Deutschland",True
+Wendlingen,TRANSNETBW,48.6727602,9.3838404,"Wendlingen, Wendlingen am Neckar, GVV Wendlingen am Neckar, Landkreis Esslingen, Baden-Württemberg, 73240, Deutschland",True
+Wengerrohr,AMPRION GMBH,,,,False
+Wessin,50HERTZ,53.5725896,11.7316711,"Wessin, Crivitz, Ludwigslust-Parchim, Mecklenburg-Vorpommern, Deutschland",True
+Westerkappeln,AMPRION GMBH,52.3141716,7.8772237,"Westerkappeln, Kreis Steinfurt, Nordrhein-Westfalen, 49492, Deutschland",True
+Wiesloch,TRANSNETBW,49.2942599,8.698707,"Wiesloch, VVG der Stadt Wiesloch, Rhein-Neckar-Kreis, Baden-Württemberg, 69168, Deutschland",True
+Wilster/W,TENNETGMBH,53.9233519,9.3741366,"Wilster, Kreis Steinburg, Schleswig-Holstein, 25554, Deutschland",True
+Witten,AMPRION GMBH,51.4370171,7.335124,"Witten, Ennepe-Ruhr-Kreis, Nordrhein-Westfalen, Deutschland",True
+Wolkramshausen,50HERTZ,51.423397,10.7388945,"Wolkramshausen, Bleicherode, Landkreis Nordhausen, Thüringen, Deutschland",True
+Wolmirstedt,50HERTZ,52.2484924,11.6267388,"Wolmirstedt, Börde, Sachsen-Anhalt, 39326, Deutschland",True
+Woringen,AMPRION GMBH,47.923405,10.200843,"Woringen, Bad Grönenbach, Landkreis Unterallgäu, Bayern, 87789, Deutschland",True
+Wuergassen,TENNETGMBH,51.6445021,9.4071653,"Würgassen, Beverungen, Kreis Höxter, Nordrhein-Westfalen, Deutschland",True
+Wuergau,TENNETGMBH,49.9789954,11.0903786,"Würgau, Scheßlitz, Landkreis Bamberg, Bayern, Deutschland",True
+Wuhlheide,50HERTZ,52.4685507,13.5543359,"Wuhlheide, Am Bahnhof Wuhlheide, Köpenick, Treptow-Köpenick, Berlin, 12459, Deutschland",True
+Wuhlheide (Abzweig),50HERTZ,,,,False
+Wustermark,50HERTZ,52.5462731,12.9404114,"Wustermark, Havelland, Brandenburg, Deutschland",True
+Y-Bellendorf,AMPRION GMBH,,,,False
+Y-Bidngen,AMPRION GMBH,,,,False
+Y-Bixterheide,AMPRION GMBH,51.5000147,7.5128727,"Uhlmann-Bixterheide-Weg, Gartenstadt, Innenstadt Ost, Dortmund, Nordrhein-Westfalen, 44141, Deutschland",True
+Y-Bollenacker,AMPRION GMBH,53.3679483,13.0627332,"Bollenacker, Zierke, Neustrelitz, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17235, Deutschland",True
+Y-Bruchsal,TRANSNETBW,49.124118,8.5980244,"Bruchsal, VVG der Stadt Bruchsal, Landkreis Karlsruhe, Baden-Württemberg, 76646, Deutschland",True
+Y-Bruchsal/Kaendelweg,TRANSNETBW,,,,False
+Y-Buehl,TRANSNETBW,48.6945066,8.134423,"Bühl, VVG der Stadt Bühl, Landkreis Rastatt, Baden-Württemberg, 77815, Deutschland",True
+Y-Dahlem,AMPRION GMBH,49.9138691,6.593219,"Dahlem, Bitburger Land, Eifelkreis Bitburg-Prüm, Rheinland-Pfalz, Deutschland",True
+Y-Dauersberg,AMPRION GMBH,50.7680882,7.8426923,"Dauersberg, Betzdorf, Betzdorf-Gebhardshain, Landkreis Altenkirchen (Westerwald), Rheinland-Pfalz, 57584, Deutschland",True
+Y-Daxlanden,TRANSNETBW,49.0014111,8.3386057,"Daxlanden, Karlsruhe, Baden-Württemberg, Deutschland",True
+Y-Dellmensingen,TRANSNETBW,48.3006653,9.9098326,"Dellmensingen, Erbach, Alb-Donau-Kreis, Baden-Württemberg, Deutschland",True
+Y-Diefflen,AMPRION GMBH,49.3785726,6.7527234,"Diefflen, Dillingen/Saar, Landkreis Saarlouis, Saarland, Deutschland",True
+Y-Doernigheim,TENNETGMBH,50.1334166,8.8393158,"Dörnigheim, Maintal, Main-Kinzig-Kreis, Hessen, Deutschland",True
+Y-Edelstahl,AMPRION GMBH,52.6043123,8.3462912,"Claus Harstrick - Glas- und Edelstahl-Design, 18, Diepholz, Landkreis Diepholz, Niedersachsen, 49356, Deutschland",True
+Y-Elmenhorst,AMPRION GMBH,53.5462437,10.5344352,"Elmenhorst, Schwarzenbek-Land, Kreis Herzogtum Lauenburg, Schleswig-Holstein, Deutschland",True
+Y-Endersbach,TRANSNETBW,48.8103115,9.3655003,"Endersbach, Weinstadt, Rems-Murr-Kreis, Baden-Württemberg, Deutschland",True
+Y-Engstlatt,TRANSNETBW,48.2965328,8.8815189,"Engstlatt, Balingen, VVG der Stadt Balingen, Zollernalbkreis, Baden-Württemberg, Deutschland",True
+Y-Erzhausen,TENNETGMBH,49.9524332,8.6389953,"Erzhausen, Landkreis Darmstadt-Dieburg, Hessen, 64390, Deutschland",True
+Y-Frankfurt/SW,TENNETGMBH,,,,False
+Y-Garenfeld,AMPRION GMBH,51.4004956,7.5176683,"Garenfeld, Hagen, Nordrhein-Westfalen, 58093, Deutschland",True
+Y-Garrel/O,TENNETGMBH,52.2277662,8.591849,"Auf dem Garrel, Dünne, Bünde, Kreis Herford, Nordrhein-Westfalen, 32257, Deutschland",True
+Y-Gelsenberg,AMPRION GMBH,51.5305264,7.0350905,"Gelsenbergstraße, Horst, Gelsenkirchen-West, Gelsenkirchen, Nordrhein-Westfalen, 45899, Deutschland",True
+Y-Gersteinwerk,AMPRION GMBH,51.6749132,7.7222079,"Gersteinwerk, Werne, Kreis Unna, Nordrhein-Westfalen, 59368, Deutschland",True
+Y-Guetersloh,AMPRION GMBH,51.9166621,8.4043282,"Gütersloh, Kreis Gütersloh, Nordrhein-Westfalen, Deutschland",True
+Y-Hallendorf,TENNETGMBH,52.1533277,10.3775522,"Hallendorf, Ortschaft Ost, Salzgitter, Niedersachsen, Deutschland",True
+Y-Hanekenfaehr,AMPRION GMBH,52.471518,7.3031386,"Hanekenfähr, Lingen (Ems), Landkreis Emsland, Niedersachsen, Deutschland",True
+Y-Hueffenhardt,TRANSNETBW,49.2908862,9.0827453,"Hüffenhardt, VVG der Gemeinde Haßmersheim, Neckar-Odenwald-Kreis, Baden-Württemberg, 74928, Deutschland",True
+Y-Huntorf,TENNETGMBH,53.1956997,8.3897014,"Huntorf, Kortendorf, Butteldorf, Elsfleth, Landkreis Wesermarsch, Niedersachsen, 26931, Deutschland",True
+Y-Karnap,AMPRION GMBH,51.523574,7.0088793,"Karnap, Stadtbezirk V, Essen, Nordrhein-Westfalen, Deutschland",True
+Y-Kriegenbrunn,TENNETGMBH,49.556437,10.9542353,"Kriegenbrunn, Erlangen, Bayern, 91056, Deutschland",True
+Y-Kruen,TENNETGMBH,47.5061521,11.2787041,"Krün, Landkreis Garmisch-Partenkirchen, Bayern, Deutschland",True
+Y-Limburg,AMPRION GMBH,50.3880447,8.063531,"Limburg an der Lahn, Landkreis Limburg-Weilburg, Hessen, Deutschland",True
+Y-Lippborg,AMPRION GMBH,51.665209,8.039436,"Lippborg, Lippetal, Kreis Soest, Nordrhein-Westfalen, 59510, Deutschland",True
+Y-Mettmann,AMPRION GMBH,51.2527778,6.9777778,"Mettmann, Kreis Mettmann, Nordrhein-Westfalen, 40822, Deutschland",True
+Y-Mutterstadt,AMPRION GMBH,49.4422445,8.3542306,"Mutterstadt, Rhein-Pfalz-Kreis, Rheinland-Pfalz, 67112, Deutschland",True
+Y-Neckarwestheim,TRANSNETBW,49.0474301,9.1892332,"Neckarwestheim, VVG der Stadt Lauffen am Neckar, Landkreis Heilbronn, Baden-Württemberg, 74382, Deutschland",True
+Y-Niederlangen,TENNETGMBH,52.8572175,7.2805369,"Niederlangen, Samtgemeinde Lathen, Landkreis Emsland, Niedersachsen, 49779, Deutschland",True
+Y-Oberjettingen,TRANSNETBW,48.575961,8.7743305,"Oberjettingen, Jettingen, GVV Oberes Gäu, Landkreis Böblingen, Baden-Württemberg, 71131, Deutschland",True
+Y-Oechtel,AMPRION GMBH,52.3281428,7.2963803,"Öchtel, Salzbergen, Landkreis Emsland, Niedersachsen, 48499, Deutschland",True
+Y-Ohligs,AMPRION GMBH,51.1615661,7.0001386,"Ohligs-Mitte, Ohligs/Aufderhöhe/Merscheid, Solingen, Nordrhein-Westfalen, 42697, Deutschland",True
+Y-Osterath,AMPRION GMBH,51.2690922,6.6207151,"Osterath, Meerbusch, Rhein-Kreis Neuss, Nordrhein-Westfalen, 40670, Deutschland",True
+Y-Otterbach,AMPRION GMBH,49.4859015,7.736859,"Otterbach, Otterbach-Otterberg, Landkreis Kaiserslautern, Rheinland-Pfalz, 67731, Deutschland",True
+Y-Paffendorf,AMPRION GMBH,50.9628278,6.6087615,"Paffendorf, Bergheim, Rhein-Erft-Kreis, Nordrhein-Westfalen, 50126, Deutschland",True
+Y-Pfungstadt,AMPRION GMBH,49.8023181,8.5987671,"Pfungstadt, Landkreis Darmstadt-Dieburg, Hessen, 64319, Deutschland",True
+Y-Plattling,TENNETGMBH,48.7766852,12.8733655,"Plattling, Landkreis Deggendorf, Bayern, 94447, Deutschland",True
+Y-Poeppinghausen,AMPRION GMBH,51.5787104,7.265259,"Pöppinghausen, Castrop-Rauxel, Kreis Recklinghausen, Nordrhein-Westfalen, Deutschland",True
+Y-Rath,AMPRION GMBH,51.0066638,6.6337969,"Rath, Bedburg, Rhein-Erft-Kreis, Nordrhein-Westfalen, 50181, Deutschland",True
+Y-Rhede,TENNETGMBH,51.8363135,6.696091,"Rhede, Kreis Borken, Nordrhein-Westfalen, 46414, Deutschland",True
+Y-Rheinhausen,AMPRION GMBH,48.2338362,7.7144924,"Rheinhausen, GVV Kenzingen-Herbolzheim, Landkreis Emmendingen, Baden-Württemberg, 79365, Deutschland",True
+Y-Ried,AMPRION GMBH,48.2902063,11.0425791,"Ried, Landkreis Aichach-Friedberg, Bayern, 86510, Deutschland",True
+Y-Schwelgern,AMPRION GMBH,51.5076091,6.737642,"Schwelgern, ThyssenKrupp Steel Europe AG, Hamborn, Duisburg, Nordrhein-Westfalen, 47169, Deutschland",True
+Y-Simbach,TENNETGMBH,48.2663113,13.0279972,"Simbach, Landkreis Rottal-Inn, Bayern, 84359, Deutschland",True
+Y-Stockem,AMPRION GMBH,49.9284859,6.3842025,"Stockem, Bitburger Land, Eifelkreis Bitburg-Prüm, Rheinland-Pfalz, Deutschland",True
+Y-Tiengen,AMPRION GMBH,47.9842416,7.7153083,"Tiengen, Freiburg im Breisgau, Baden-Württemberg, Deutschland",True
+Y-Voehringen,AMPRION GMBH,48.2833039,10.0832982,"Vöhringen, Landkreis Neu-Ulm, Bayern, 89269, Deutschland",True
+Y-Voerden,TENNETGMBH,52.4784717,8.096003,"Vörden, Neuenkirchen-Vörden, Landkreis Vechta, Niedersachsen, 49434, Deutschland",True
+Y-Waldeck,TENNETGMBH,50.9113768,11.7820125,"Waldeck, Bad Klosterlausnitz, Saale-Holzland-Kreis, Thüringen, Deutschland",True
+Y-Waldlaubersheim,AMPRION GMBH,49.9285787,7.833602,"Waldlaubersheim, Langenlonsheim-Stromberg, Landkreis Bad Kreuznach, Rheinland-Pfalz, Deutschland",True
+Y-Walsum,AMPRION GMBH,51.5351625,6.7166676,"Walsum, Duisburg, Nordrhein-Westfalen, Deutschland",True
+Y-Wechold,TENNETGMBH,52.8480963,9.1263681,"Wechold, Hilgermissen, Samtgemeinde Grafschaft Hoya, Landkreis Nienburg/Weser, Niedersachsen, Deutschland",True
+Y-Welper,AMPRION GMBH,51.4108972,7.2077948,"Welper, Hattingen, Ennepe-Ruhr-Kreis, Nordrhein-Westfalen, 45527, Deutschland",True
+Y-Werben,AMPRION GMBH,52.8612295,11.9822053,"Werben (Elbe), Arneburg-Goldbeck, Stendal, Sachsen-Anhalt, Deutschland",True
+Y-Wuergassen,TENNETGMBH,51.6445021,9.4071653,"Würgassen, Beverungen, Kreis Höxter, Nordrhein-Westfalen, Deutschland",True
+Zolling,TENNETGMBH,48.4514051,11.7727339,"Zolling, Zolling (VGem), Landkreis Freising, Bayern, 85406, Deutschland",True

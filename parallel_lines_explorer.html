@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>V5 Parallel Line Groups Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: flex; height: 100vh; }
+
+        /* Sidebar */
+        #sidebar {
+            width: 380px; min-width: 380px; height: 100vh; background: #1a1a2e;
+            color: #e0e0e0; display: flex; flex-direction: column; overflow: hidden;
+        }
+        #sidebar-header {
+            padding: 16px; border-bottom: 1px solid #333;
+            background: #16213e; flex-shrink: 0;
+        }
+        #sidebar-header h1 { font-size: 15px; color: #fff; margin-bottom: 8px; }
+        #sidebar-header p { font-size: 11px; color: #888; line-height: 1.4; }
+
+        /* Filters */
+        #filters {
+            padding: 10px 16px; border-bottom: 1px solid #333;
+            background: #1a1a2e; flex-shrink: 0; display: flex; gap: 8px; align-items: center;
+            flex-wrap: wrap;
+        }
+        #filters label { font-size: 12px; color: #aaa; }
+        #filters select, #filters input {
+            background: #2a2a4a; color: #e0e0e0; border: 1px solid #444;
+            border-radius: 4px; padding: 4px 8px; font-size: 12px;
+        }
+        .filter-group { display: flex; align-items: center; gap: 4px; }
+        #group-count { font-size: 11px; color: #888; margin-left: auto; }
+
+        /* Voltage sections */
+        #group-list { flex: 1; overflow-y: auto; }
+        .voltage-section { border-bottom: 1px solid #222; }
+        .voltage-header {
+            padding: 10px 16px; cursor: pointer; display: flex; align-items: center;
+            justify-content: space-between; position: sticky; top: 0; z-index: 2;
+            font-size: 13px; font-weight: 600;
+        }
+        .voltage-header:hover { filter: brightness(1.15); }
+        .voltage-header .arrow { transition: transform 0.2s; font-size: 10px; }
+        .voltage-header .arrow.collapsed { transform: rotate(-90deg); }
+        .voltage-header .count {
+            font-size: 11px; font-weight: 400; opacity: 0.7;
+            background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 10px;
+        }
+        .v380 .voltage-header { background: #5c1a1a; }
+        .v220 .voltage-header { background: #1a3d1a; }
+        .v110 .voltage-header { background: #1a2d4d; }
+
+        .voltage-body { display: block; }
+        .voltage-body.collapsed { display: none; }
+
+        /* Parallel count sub-headers */
+        .parallel-subheader {
+            padding: 6px 16px 6px 24px; font-size: 11px; font-weight: 600;
+            color: #999; background: rgba(255,255,255,0.03); cursor: pointer;
+            display: flex; align-items: center; justify-content: space-between;
+            position: sticky; top: 38px; z-index: 1;
+        }
+        .parallel-subheader:hover { background: rgba(255,255,255,0.06); }
+        .parallel-subheader .arrow { transition: transform 0.2s; font-size: 9px; margin-right: 6px; }
+        .parallel-subheader .arrow.collapsed { transform: rotate(-90deg); }
+        .parallel-subgroup { display: block; }
+        .parallel-subgroup.collapsed { display: none; }
+
+        /* Group items */
+        .group-item {
+            padding: 8px 16px 8px 32px; cursor: pointer; border-bottom: 1px solid #1f1f3a;
+            transition: background 0.15s;
+        }
+        .group-item:hover { background: #2a2a4a; }
+        .group-item.active { background: #3a3a6a; border-left: 3px solid #7c8cf8; padding-left: 29px; }
+        .group-item .group-title {
+            font-size: 12px; font-weight: 500; color: #ddd;
+            display: flex; align-items: center; gap: 6px;
+        }
+        .group-item .group-title .par-badge {
+            font-size: 10px; font-weight: 700; padding: 1px 6px;
+            border-radius: 8px; color: #fff;
+        }
+        .group-item .group-detail {
+            font-size: 11px; color: #777; margin-top: 3px; line-height: 1.3;
+        }
+        .group-item .group-detail .sub-tag {
+            color: #b39ddb; font-weight: 500;
+        }
+        .group-item .group-detail .junction-tag {
+            color: #666;
+        }
+
+        /* Badge colors by parallel count */
+        .par-2 { background: #555; }
+        .par-3 { background: #6d4c00; }
+        .par-4 { background: #f39c12; }
+        .par-5 { background: #e67e22; }
+        .par-6 { background: #d35400; }
+        .par-7 { background: #c0392b; }
+        .par-8 { background: #8e44ad; }
+        .par-9 { background: #2c3e50; }
+        .par-10 { background: #16a085; }
+        .par-high { background: #e91e63; }
+
+        /* Map */
+        #map-container { flex: 1; position: relative; }
+        #map { width: 100%; height: 100%; }
+
+        /* Info panel */
+        #info-panel {
+            position: absolute; top: 10px; right: 10px; background: white;
+            padding: 14px; border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+            z-index: 1000; max-width: 320px; font-size: 12px; display: none;
+        }
+        #info-panel h3 { font-size: 14px; margin-bottom: 8px; }
+        #info-panel .info-row { margin: 4px 0; }
+        #info-panel .info-label { font-weight: 600; color: #555; }
+        #info-panel .close-btn {
+            position: absolute; top: 8px; right: 10px; cursor: pointer;
+            font-size: 16px; color: #999; background: none; border: none;
+        }
+        #info-panel .close-btn:hover { color: #333; }
+
+        /* Map controls */
+        .map-controls {
+            position: absolute; top: 10px; left: 10px; z-index: 1000;
+            display: flex; flex-direction: column; gap: 6px;
+        }
+        .map-control-btn {
+            background: white; border: none; padding: 8px 12px; border-radius: 4px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.2); cursor: pointer; font-size: 12px;
+            font-weight: 500;
+        }
+        .map-control-btn:hover { background: #f0f0f0; }
+        .map-control-btn.active { background: #3498db; color: white; }
+
+        /* Loading */
+        #loading {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(26,26,46,0.95); display: flex; align-items: center;
+            justify-content: center; z-index: 9999; color: white; font-size: 18px;
+        }
+        #loading.hidden { display: none; }
+
+        /* Scrollbar */
+        #group-list::-webkit-scrollbar { width: 6px; }
+        #group-list::-webkit-scrollbar-track { background: #111; }
+        #group-list::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+        #group-list::-webkit-scrollbar-thumb:hover { background: #666; }
+    </style>
+</head>
+<body>
+    <div id="loading">Loading V5 network data...</div>
+
+    <div id="sidebar">
+        <div id="sidebar-header">
+            <h1>V5 Parallel Line Groups</h1>
+            <p>Click a group to fly to it on the map. Parallel lines share the same bus pair &mdash;
+               they represent redundant circuits (often multiple cables in the same corridor).</p>
+        </div>
+        <div id="filters">
+            <div class="filter-group">
+                <label>Min parallels:</label>
+                <select id="minParallel">
+                    <option value="2">2+</option>
+                    <option value="3" selected>3+</option>
+                    <option value="4">4+</option>
+                    <option value="5">5+</option>
+                    <option value="6">6+</option>
+                    <option value="8">8+</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Search:</label>
+                <input type="text" id="searchBox" placeholder="bus ID or name..." style="width: 120px;">
+            </div>
+            <span id="group-count"></span>
+        </div>
+        <div id="group-list"></div>
+    </div>
+
+    <div id="map-container">
+        <div id="map"></div>
+        <div class="map-controls">
+            <button class="map-control-btn" id="toggleAllLines" onclick="toggleBaseNetwork()">
+                Show full network
+            </button>
+            <button class="map-control-btn" id="toggleBuses" onclick="toggleBusMarkers()">
+                Show buses
+            </button>
+        </div>
+        <div id="info-panel">
+            <button class="close-btn" onclick="closeInfoPanel()">&times;</button>
+            <h3 id="info-title"></h3>
+            <div id="info-content"></div>
+        </div>
+    </div>
+
+    <script>
+        // ── State ──────────────────────────────────────────────────────────
+        let busIndex = {};
+        let allLines = [];
+        let parallelGroups = [];  // {key, ba, bb, lines[], v_nom, count, busA, busB}
+        let activeGroupKey = null;
+
+        // Map layers
+        let baseLineLayer = null;
+        let busLayer = null;
+        let highlightLayer = L.layerGroup();
+        let showBase = false;
+        let showBuses = false;
+
+        const voltageColors = {380: '#e74c3c', 220: '#27ae60', 110: '#3498db'};
+        const voltageWeights = {380: 3, 220: 2, 110: 1.5};
+        const voltageNames = {380: '380 kV (eHV)', 220: '220 kV (HV)', 110: '110 kV (HV)'};
+        const highlightColor = '#ffeb3b';
+
+        const parBadgeClass = n => n >= 11 ? 'par-high' : n >= 2 ? `par-${n}` : 'par-2';
+
+        // ── Map setup ──────────────────────────────────────────────────────
+        const map = L.map('map', {zoomSnap: 0.5}).setView([51.1657, 10.4515], 6);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OSM', maxZoom: 19
+        }).addTo(map);
+        highlightLayer.addTo(map);
+
+        // ── Data loading ───────────────────────────────────────────────────
+        async function loadData() {
+            const [busResp, lineResp] = await Promise.all([
+                fetch('buses_v5.csv').then(r => r.text()),
+                fetch('lines_v5.csv').then(r => r.text()),
+            ]);
+
+            const busParsed = Papa.parse(busResp, {header: true, dynamicTyping: true});
+            busParsed.data.filter(r => r.bus_id).forEach(b => { busIndex[b.bus_id] = b; });
+
+            allLines = Papa.parse(lineResp, {header: true, dynamicTyping: true})
+                .data.filter(r => r.line_id);
+
+            // Group by bus pair
+            const groupMap = {};
+            allLines.forEach(line => {
+                const ba = Math.min(line.bus0, line.bus1);
+                const bb = Math.max(line.bus0, line.bus1);
+                const key = `${ba}-${bb}`;
+                if (!groupMap[key]) {
+                    groupMap[key] = {
+                        key, ba, bb,
+                        v_nom: line.v_nom,
+                        lines: [],
+                        busA: busIndex[ba],
+                        busB: busIndex[bb],
+                    };
+                }
+                groupMap[key].lines.push(line);
+            });
+
+            parallelGroups = Object.values(groupMap)
+                .map(g => ({...g, count: g.lines.length}))
+                .filter(g => g.count >= 2)
+                .sort((a, b) => b.count - a.count);
+
+            buildSidebar();
+            document.getElementById('loading').classList.add('hidden');
+        }
+
+        // ── Sidebar ────────────────────────────────────────────────────────
+        function buildSidebar() {
+            const minPar = parseInt(document.getElementById('minParallel').value);
+            const search = document.getElementById('searchBox').value.toLowerCase().trim();
+
+            let filtered = parallelGroups.filter(g => g.count >= minPar);
+
+            if (search) {
+                filtered = filtered.filter(g => {
+                    const nameA = (g.busA?.substation_name || '').toLowerCase();
+                    const nameB = (g.busB?.substation_name || '').toLowerCase();
+                    return String(g.ba).includes(search) ||
+                           String(g.bb).includes(search) ||
+                           nameA.includes(search) ||
+                           nameB.includes(search);
+                });
+            }
+
+            // Group by voltage, then by parallel count
+            const byVoltage = {380: [], 220: [], 110: []};
+            filtered.forEach(g => {
+                const v = g.v_nom;
+                if (byVoltage[v]) byVoltage[v].push(g);
+            });
+
+            const container = document.getElementById('group-list');
+            container.innerHTML = '';
+
+            let totalShown = 0;
+
+            [380, 220, 110].forEach(v => {
+                const groups = byVoltage[v];
+                if (groups.length === 0) return;
+                totalShown += groups.length;
+
+                // Group by parallel count
+                const byCount = {};
+                groups.forEach(g => {
+                    if (!byCount[g.count]) byCount[g.count] = [];
+                    byCount[g.count].push(g);
+                });
+                const counts = Object.keys(byCount).map(Number).sort((a, b) => b - a);
+
+                const section = document.createElement('div');
+                section.className = `voltage-section v${v}`;
+
+                // Voltage header
+                const header = document.createElement('div');
+                header.className = 'voltage-header';
+                header.innerHTML = `
+                    <span><span class="arrow">&#9660;</span> ${voltageNames[v]}</span>
+                    <span class="count">${groups.length} groups</span>
+                `;
+                const body = document.createElement('div');
+                body.className = 'voltage-body';
+
+                header.onclick = () => {
+                    body.classList.toggle('collapsed');
+                    header.querySelector('.arrow').classList.toggle('collapsed');
+                };
+
+                // Sub-groups by parallel count
+                counts.forEach(n => {
+                    const subGroups = byCount[n];
+
+                    const subHeader = document.createElement('div');
+                    subHeader.className = 'parallel-subheader';
+                    subHeader.innerHTML = `
+                        <span><span class="arrow">&#9660;</span> ${n}x parallel</span>
+                        <span class="count">${subGroups.length}</span>
+                    `;
+                    const subBody = document.createElement('div');
+                    subBody.className = 'parallel-subgroup';
+
+                    subHeader.onclick = (e) => {
+                        e.stopPropagation();
+                        subBody.classList.toggle('collapsed');
+                        subHeader.querySelector('.arrow').classList.toggle('collapsed');
+                    };
+
+                    subGroups.forEach(g => {
+                        const item = document.createElement('div');
+                        item.className = 'group-item';
+                        item.dataset.key = g.key;
+                        if (g.key === activeGroupKey) item.classList.add('active');
+
+                        const nameA = busLabel(g.busA);
+                        const nameB = busLabel(g.busB);
+
+                        item.innerHTML = `
+                            <div class="group-title">
+                                <span class="par-badge ${parBadgeClass(g.count)}">${g.count}x</span>
+                                Bus ${g.ba} &harr; Bus ${g.bb}
+                            </div>
+                            <div class="group-detail">
+                                ${nameA} &harr; ${nameB}
+                            </div>
+                        `;
+
+                        item.onclick = () => selectGroup(g, item);
+                        subBody.appendChild(item);
+                    });
+
+                    body.appendChild(subHeader);
+                    body.appendChild(subBody);
+                });
+
+                section.appendChild(header);
+                section.appendChild(body);
+                container.appendChild(section);
+            });
+
+            document.getElementById('group-count').textContent = `${totalShown} groups`;
+        }
+
+        function busLabel(bus) {
+            if (!bus) return '<span class="junction-tag">unknown</span>';
+            const name = bus.substation_name || 'Unnamed';
+            if (bus.is_substation === 1) {
+                const shortName = name.length > 30 ? name.substring(0, 28) + '...' : name;
+                return `<span class="sub-tag">${shortName}</span>`;
+            }
+            return `<span class="junction-tag">junction</span>`;
+        }
+
+        // ── Group selection ────────────────────────────────────────────────
+        function selectGroup(group, itemEl) {
+            // Update active state in sidebar
+            document.querySelectorAll('.group-item.active').forEach(el => el.classList.remove('active'));
+            if (itemEl) itemEl.classList.add('active');
+            activeGroupKey = group.key;
+
+            // Clear previous highlight
+            highlightLayer.clearLayers();
+
+            const busA = group.busA;
+            const busB = group.busB;
+            if (!busA || !busB || !busA.lat || !busB.lat) return;
+
+            const latA = busA.lat, lonA = busA.lon;
+            const latB = busB.lat, lonB = busB.lon;
+
+            // Draw highlighted lines (spread slightly for visibility)
+            const count = group.count;
+            const spread = 0.0004 * Math.min(count, 8);
+
+            group.lines.forEach((line, i) => {
+                const offset = count === 1 ? 0 : (i / (count - 1) - 0.5) * spread;
+
+                // Perpendicular offset
+                const dx = lonB - lonA;
+                const dy = latB - latA;
+                const len = Math.sqrt(dx * dx + dy * dy) || 1;
+                const nx = -dy / len * offset;
+                const ny = dx / len * offset;
+
+                const polyline = L.polyline(
+                    [[latA + nx, lonA + ny], [latB + nx, lonB + ny]],
+                    { color: highlightColor, weight: 4, opacity: 0.9 }
+                );
+                polyline.bindTooltip(`Line ${line.line_id}`, {permanent: false});
+                highlightLayer.addLayer(polyline);
+            });
+
+            // Bus markers at endpoints
+            [busA, busB].forEach(bus => {
+                const isSub = bus.is_substation === 1;
+                const marker = L.circleMarker([bus.lat, bus.lon], {
+                    radius: isSub ? 8 : 6,
+                    fillColor: isSub ? '#9b59b6' : voltageColors[group.v_nom],
+                    color: '#fff', weight: 2, fillOpacity: 0.9,
+                });
+                const name = bus.substation_name || 'Unnamed';
+                marker.bindTooltip(
+                    `<strong>Bus ${bus.bus_id}</strong><br>${group.v_nom} kV<br>${isSub ? name : 'Junction'}`,
+                    {permanent: false, direction: 'top'}
+                );
+                highlightLayer.addLayer(marker);
+            });
+
+            // Fly to the midpoint
+            const midLat = (latA + latB) / 2;
+            const midLon = (lonA + lonB) / 2;
+            const dist = map.distance([latA, lonA], [latB, lonB]);
+            // Pick zoom based on line length
+            let zoom = 14;
+            if (dist > 50000) zoom = 9;
+            else if (dist > 20000) zoom = 10;
+            else if (dist > 10000) zoom = 11;
+            else if (dist > 5000) zoom = 12;
+            else if (dist > 1000) zoom = 13;
+
+            map.flyTo([midLat, midLon], zoom, {duration: 0.8});
+
+            // Show info panel
+            showInfoPanel(group);
+        }
+
+        function showInfoPanel(group) {
+            const panel = document.getElementById('info-panel');
+            const busA = group.busA || {};
+            const busB = group.busB || {};
+            const nameA = busA.substation_name || 'Unnamed';
+            const nameB = busB.substation_name || 'Unnamed';
+            const typeA = busA.is_substation === 1 ? 'Substation' : 'Junction';
+            const typeB = busB.is_substation === 1 ? 'Substation' : 'Junction';
+
+            const dist = (busA.lat && busB.lat)
+                ? map.distance([busA.lat, busA.lon], [busB.lat, busB.lon])
+                : null;
+            const distStr = dist !== null
+                ? (dist < 1000 ? dist.toFixed(0) + ' m' : (dist / 1000).toFixed(2) + ' km')
+                : '?';
+
+            const lineIds = group.lines.map(l => l.line_id).join(', ');
+
+            document.getElementById('info-title').textContent =
+                `${group.count}x Parallel \u2014 ${group.v_nom} kV`;
+
+            document.getElementById('info-content').innerHTML = `
+                <div class="info-row"><span class="info-label">Bus A:</span> ${group.ba} \u2014 ${typeA}</div>
+                <div class="info-row" style="margin-left: 12px; color: #666;">${nameA}</div>
+                <div class="info-row"><span class="info-label">Bus B:</span> ${group.bb} \u2014 ${typeB}</div>
+                <div class="info-row" style="margin-left: 12px; color: #666;">${nameB}</div>
+                <div class="info-row" style="margin-top: 6px;"><span class="info-label">Distance:</span> ${distStr}</div>
+                <div class="info-row"><span class="info-label">Lines:</span> ${group.count}</div>
+                <div class="info-row" style="color: #888; font-size: 11px;">IDs: ${lineIds}</div>
+            `;
+            panel.style.display = 'block';
+        }
+
+        function closeInfoPanel() {
+            document.getElementById('info-panel').style.display = 'none';
+        }
+
+        // ── Base network layer ─────────────────────────────────────────────
+        function buildBaseNetwork() {
+            baseLineLayer = L.layerGroup();
+            allLines.forEach(line => {
+                const b0 = busIndex[line.bus0], b1 = busIndex[line.bus1];
+                if (!b0 || !b1 || !b0.lat || !b1.lat) return;
+                const polyline = L.polyline([[b0.lat, b0.lon], [b1.lat, b1.lon]], {
+                    color: voltageColors[line.v_nom] || '#999',
+                    weight: voltageWeights[line.v_nom] || 1,
+                    opacity: 0.35,
+                });
+                baseLineLayer.addLayer(polyline);
+            });
+
+            busLayer = L.layerGroup();
+            Object.values(busIndex).forEach(bus => {
+                if (!bus.lat || !bus.lon) return;
+                const marker = L.circleMarker([bus.lat, bus.lon], {
+                    radius: 1.5,
+                    fillColor: voltageColors[bus.v_nom] || '#999',
+                    color: '#fff', weight: 0.5, fillOpacity: 0.6,
+                });
+                busLayer.addLayer(marker);
+            });
+        }
+
+        function toggleBaseNetwork() {
+            showBase = !showBase;
+            const btn = document.getElementById('toggleAllLines');
+            if (showBase) {
+                if (!baseLineLayer) buildBaseNetwork();
+                baseLineLayer.addTo(map);
+                baseLineLayer.bringToBack();
+                btn.classList.add('active');
+                btn.textContent = 'Hide full network';
+            } else {
+                if (baseLineLayer) map.removeLayer(baseLineLayer);
+                btn.classList.remove('active');
+                btn.textContent = 'Show full network';
+            }
+        }
+
+        function toggleBusMarkers() {
+            showBuses = !showBuses;
+            const btn = document.getElementById('toggleBuses');
+            if (showBuses) {
+                if (!busLayer) buildBaseNetwork();
+                busLayer.addTo(map);
+                btn.classList.add('active');
+                btn.textContent = 'Hide buses';
+            } else {
+                if (busLayer) map.removeLayer(busLayer);
+                btn.classList.remove('active');
+                btn.textContent = 'Show buses';
+            }
+        }
+
+        // ── Event listeners ────────────────────────────────────────────────
+        document.getElementById('minParallel').addEventListener('change', buildSidebar);
+        document.getElementById('searchBox').addEventListener('input', buildSidebar);
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+
+            // Find all visible group items
+            const items = [...document.querySelectorAll('.group-item')].filter(
+                el => el.offsetParent !== null
+            );
+            if (items.length === 0) return;
+
+            const activeIdx = items.findIndex(el => el.classList.contains('active'));
+
+            if (e.key === 'ArrowDown' || e.key === 'j') {
+                e.preventDefault();
+                const next = activeIdx < items.length - 1 ? activeIdx + 1 : 0;
+                items[next].click();
+                items[next].scrollIntoView({block: 'nearest', behavior: 'smooth'});
+            } else if (e.key === 'ArrowUp' || e.key === 'k') {
+                e.preventDefault();
+                const prev = activeIdx > 0 ? activeIdx - 1 : items.length - 1;
+                items[prev].click();
+                items[prev].scrollIntoView({block: 'nearest', behavior: 'smooth'});
+            }
+        });
+
+        // ── Init ───────────────────────────────────────────────────────────
+        loadData();
+    </script>
+</body>
+</html>
