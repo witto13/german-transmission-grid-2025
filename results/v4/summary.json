@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-03-04T10:33:38.051971",
+  "source": "eGon2025v3",
+  "target": "eGon2025v4",
+  "v3_counts": {
+    "buses": 8756,
+    "lines": 15060,
+    "trafos": 535,
+    "links": 3,
+    "generators": 0,
+    "loads": 0
+  },
+  "v4_counts": {
+    "buses": 7687,
+    "lines": 12911,
+    "trafos": 544,
+    "links": 3,
+    "generators": 0,
+    "loads": 0
+  },
+  "clustering": {
+    "radii": {
+      "110": 400,
+      "220": 0,
+      "380": 0
+    },
+    "buses_removed": 2138,
+    "lines_removed": 2149
+  },
+  "similarity": {
+    "ehv_updates": 1082,
+    "hv_updates": 0,
+    "total": 1082
+  },
+  "missing_trafos": 9,
+  "validation": {
+    "components": {
+      "pre": 4,
+      "post": 4,
+      "ok": true
+    },
+    "self_loops": {
+      "lines": 0,
+      "trafos": 0,
+      "ok": true
+    },
+    "voltage_mismatch": {
+      "count": 0,
+      "ok": true
+    },
+    "orphans": {
+      "count": 0,
+      "ok": true
+    },
+    "hvdc": {
+      "links": 3,
+      "foreign_buses": 3
+    },
+    "line_params": {
+      "bad_r": 0,
+      "bad_x": 0,
+      "bad_s": 0,
+      "ok": true
+    },
+    "issues": [],
+    "passed": true
+  }
+}

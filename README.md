@@ -1,252 +1,342 @@
 # German Transmission Grid Model 2025
 
-A PyPSA-compatible power flow model of the German high-voltage transmission grid (110/220/380 kV) for the year 2025, built from OpenStreetMap topology and official registry data.
+A PyPSA-compatible power flow model of the German high-voltage transmission grid
+(110 / 220 / 380 kV) for the year 2025, built from OpenStreetMap topology,
+official registry data (MaStR, BNetzA), and TSO grid parameters (JAO / CORE).
 
-## Key Numbers
+The pipeline starts from the [eGon-data](https://github.com/openego/eGon-data)
+OSM extraction, reduces it through several simplification stages, populates it
+with 18 793 generators and 12 154 loads from official 2025 data, and produces
+a calibrated 8 760 h merit-order dispatch that matches every category of real
+2025 generation within ±10 %.
 
-| Component | Count |
-|-----------|-------|
-| Buses (v3) | 8,753 |
-| Lines (v3) | 15,060 |
-| Transformers | 535 |
-| Generators | 24,972 (270 GW installed) |
-| Loads | 7,256 (76 GW peak, 448 TWh/yr) |
+## Headline numbers (`grid_beta`)
 
-## Pipeline Overview
+| Component        | Count   | Notes                                                       |
+| ---------------- | ------- | ----------------------------------------------------------- |
+| Buses            | 7 723   | 110 / 220 / 380 kV                                          |
+| AC lines         | 12 911  | OSM topology + JAO electrical parameters                    |
+| Transformers     | 567     | Includes 19 phase-shifters                                  |
+| HVDC links       | 14      | Incl. ALEGRO, NordLink, Baltic Cable, internal corridors    |
+| Generators       | 18 793  | 296.5 GW installed (incl. 9.8 GW offshore wind)             |
+| Storage units    | 2 444   | 12.6 GW (pumped hydro + battery)                            |
+| Loads            | 12 154  | 76.2 GW peak / 448 TWh annual                               |
+| Generator TS     | 10 838  | 8 760 h profiles (CHP + renewables)                         |
+| Load TS          | 12 154  | 8 760 h BDEW standard load profiles                         |
+
+Merit-order dispatch matches **all 13 validation metrics** (per-carrier energy,
+mean price, imports, exports) within **±10 %** of Energy-Charts 2025 after
+behind-the-meter corrections. See [`docs/merit_order_analysis.md`](docs/merit_order_analysis.md).
+
+## Pipeline overview
 
 ```
 OpenStreetMap (via eGon-data)
         |
         v
- eGon2025 (v1) ---- 14,494 buses, 26,489 lines
+ eGon2025      v1   14 494 buses,  26 489 lines   (raw OSM extraction)
         |
-        | simplify_substations.py (spatial clustering)
+        | substation simplification (spatial clustering, 110 kV / EHV)
         v
- eGon2025v2 ------- 8,925 buses, 15,516 lines
+ eGon2025v2          8 925 buses,  15 516 lines
         |
-        | simplify_degree2.py (waypoint elimination)
+        | aggressive voltage-specific clustering + degree-2 elimination
         v
- eGon2025v3 ------- 8,753 buses, 15,060 lines
+ eGon2025v3          8 756 buses,  15 060 lines
         |
-        | generator_mapping.py (MaStR -> buses)
-        | load_mapping.py (448 TWh -> buses)
+        | 110 kV re-clustering, JAO parameter transfer (95 % bus match)
         v
- Complete model ---- ready for power flow
+ eGon2025v4          7 687 buses,  12 911 lines,  535 trafos,   3 HVDC
         |
-        | run_powerflow.py (LOPF, CBC solver)
+        | add HVDC corridors, 10 offshore wind clusters
         v
- Results ----------- dispatch, line loading, maps
+ eGon2025v5          7 704 buses,  12 911 lines,  548 trafos,  14 HVDC
+        |
+        | 19 phase-shifting transformers + 56 import/export bus pairs
+        |   + 8 760 h timeseries
+        v
+ eGon2025v6          7 723 buses,  12 911 lines,  567 trafos,  14 HVDC
+        |
+        | MaStR generator + storage allocation (Huelk et al. 2017)
+        v
+ grid_alpha          + 18 793 generators (296.5 GW) + 2 444 storage
+        |
+        | municipality demand split (PostGIS spatial join + bus degree)
+        |   + BDEW standard load profiles
+        v
+ grid_beta           + 12 154 loads (76.2 GW peak / 448 TWh)
+        |
+        | merit-order calibration (SRMC, BTM corrections, seasonal CHP)
+        v
+ Annual dispatch     8 760 h merit-order, all metrics within +/-10 %
 ```
 
-## Quick Start
+Each step is reproducible with a single script. See **[docs/grid_pipeline_v1_v5.md](docs/grid_pipeline_v1_v5.md)**,
+[`docs/grid_alpha_build.md`](docs/grid_alpha_build.md), and
+[`docs/grid_beta.md`](docs/grid_beta.md) for the per-step methodology.
+
+## Quick start
 
 ### Prerequisites
 
 - Python 3.10 with conda
 - PostgreSQL 16 + PostGIS (via Docker)
-- CBC solver
+- CBC solver (`apt install coinor-cbc` or `conda install -c conda-forge coincbc`)
 
-### Environment Setup
+### Environment
 
 ```bash
-# Create conda environment
 conda create -n egon2025 python=3.10
 conda activate egon2025
-pip install pypsa==0.20.1 pandas geopandas sqlalchemy psycopg2-binary scipy shapely folium
+pip install pypsa==0.20.1 pandas==2.3.3 geopandas==1.1.2 \
+            sqlalchemy psycopg2-binary scipy shapely folium
+```
 
-# Start database (restore from release dump)
+### Database
+
+```bash
 docker run -d --name egon-data-local-database-container \
   -p 59734:5432 \
   -e POSTGRES_USER=egon \
   -e POSTGRES_PASSWORD=data \
   -e POSTGRES_DB=egon-data \
   postgis/postgis:16-3
-
-# Import database dump (download from GitHub Releases)
-tar xzf german_grid_v3_database.tar.gz
-# See db_dump/README.md for import instructions
 ```
 
-### Database Connection
+A filtered database dump containing all scenarios (v1 – grid_beta) is published
+as a **GitHub Release** asset. Restore with:
+
+```bash
+gunzip -c german_grid_2025.sql.gz | \
+  docker exec -i egon-data-local-database-container \
+    psql -U egon -d egon-data
+```
+
+### Load a scenario in Python
 
 ```python
 from sqlalchemy import create_engine
+import pandas as pd
+
 engine = create_engine('postgresql+psycopg2://egon:data@127.0.0.1:59734/egon-data')
+
+scn = 'grid_beta'  # or eGon2025v6, grid_alpha, etc.
+buses = pd.read_sql(
+    f"SELECT * FROM grid.egon_etrago_bus WHERE scn_name = '{scn}'", engine
+)
+lines = pd.read_sql(
+    f"SELECT * FROM grid.egon_etrago_line WHERE scn_name = '{scn}'", engine
+)
 ```
 
-## Project Structure
+### Run the merit-order comparison
 
-```
-german-grid-model-2025/
-|
-|-- scripts/                    # Core pipeline scripts
-|   |-- simplify_substations.py # v1 -> v2: spatial clustering (Union-Find + KDTree)
-|   |-- simplify_degree2.py     # v2 -> v3: degree-2 waypoint elimination
-|   |-- generator_mapping.py    # MaStR power plants -> grid buses
-|   |-- load_mapping.py         # Municipality demand -> grid buses
-|   |-- jao_matching.py         # JAO/CORE-TSO parameter transfer
-|   |-- apply_jao_params.py     # Apply JAO electrical parameters to grid
-|   |-- add_parallel_circuits.py     # Add missing parallel circuits
-|   |-- compare_parallel_circuits.py # JAO vs eGon circuit comparison
-|   |-- run_powerflow.py        # Linear optimal power flow (LOPF)
-|   |-- analyze_grid_completeness.py # Grid coverage analysis
-|   |-- analyze_orphans.py      # Orphan bus/line detection
-|   |-- create_grid_map.py      # Interactive grid topology map
-|   |-- create_powerflow_map.py # Power flow results visualization
-|   |-- create_simplification_map.py # Simplification comparison map
-|   |-- create_version_comparison.py # Version side-by-side comparison
-|   |-- create_combined_map.py  # Combined grid + power flow map
-|   |-- lib/                    # Reusable libraries
-|   |   |-- metrics.py          #   Grid statistics capture
-|   |   |-- node_mapping.py     #   Bus remapping utilities
-|   |-- utils/                  # Utility modules
-|   |   |-- name_matching.py    #   German substation name matching
-|   |   |-- spatial_matching.py #   KDTree nearest-neighbor matching
-|   |-- sql/                    # SQL helper scripts
-|       |-- 01_create_mastr_location_hierarchy.sql
-|       |-- 02_create_substation_reference.sql
-|       |-- 03_create_plz_to_bus_mapping.sql
-|       |-- 04_update_generator_matches.sql
-|
-|-- reduce_network.py           # v1 -> v2 (alternative clustering approach)
-|-- reduce_network_v3.py        # v2 -> v3 (voltage-specific clustering)
-|-- demand_heatmap.py           # Municipality demand heatmap generator
-|-- analyze_mastr_data.py       # MaStR technology breakdown
-|-- analyze_topology_differences.py  # eGon vs JAO comparison
-|
-|-- data/
-|   |-- jao/                    # JAO/CORE-TSO reference data
-|   |   |-- jao_grid_model.xlsx #   Official TSO grid model
-|   |   |-- german_lines.csv    #   Extracted German lines
-|   |   |-- german_substations.csv  # Extracted substations
-|   |   |-- jao_substations_geocoded.csv  # Geocoded substations
-|   |   |-- our_buses_380_220.csv   # Reference bus list
-|   |-- jao_core_tso/           # Processed JAO data for parameter transfer
-|   |   |-- buses.csv           #   588 German substations
-|   |   |-- lines.csv           #   Line parameters
-|   |   |-- transformers.csv    #   Transformer parameters
-|   |   |-- georef.csv          #   Georeference (OSM IDs + coords)
-|   |-- mastr/                  # MaStR power plant data (HV-filtered)
-|   |   |-- solar_2025_hv.csv   #   HV-connected solar (336 KB)
-|   |-- processed/              # Processed intermediates
-|
-|-- docs/                       # Technical documentation
-|   |-- PROJECT_METHODOLOGY.md  #   Complete methodology (30 KB)
-|   |-- MASTR_DATABASE_LINKAGES.md  # MaStR data model (25 KB)
-|   |-- jao_matching_summary.md #   JAO parameter transfer process
-|   |-- load_mapping.md         #   Demand allocation methodology
-|
-|-- documentation/              # Setup and import documentation
-|   |-- EGON_DATABASE_ANALYSIS.md
-|   |-- MASTR_DATA_COMPLETENESS_ANALYSIS.md
-|   |-- MASTR_DOWNLOAD_COMPLETE.md
-|   |-- MASTR_GENERATOR_SUMMARY.md
-|   |-- MASTR_POSTGRESQL_IMPORT_COMPLETE.md
-|   |-- topology_analysis.md
-|
-|-- handing_over/               # Handover documentation
-|   |-- substation_simplification_17.2.26.md  # v1->v2 algorithm docs
-|
-|-- tests/                      # Test suite (pytest)
-|   |-- test_simplify_substations.py  # Substation merging tests
-|   |-- test_simplify_degree2.py      # Degree-2 elimination tests
-|   |-- test_topology.py              # Graph topology tests
-|   |-- test_electrical_params.py     # Electrical parameter tests
-|   |-- test_database_connection.py   # DB connectivity tests
-|
-|-- results/                    # Analysis outputs
-|   |-- simplification/         #   v1->v2 reduction outputs
-|   |-- degree2_elimination/    #   v2->v3 reduction outputs
-|   |-- jao_matching/           #   JAO matching reports
-|   |-- jao_params/             #   Parameter transfer logs
-|   |-- powerflow_april15.nc    #   Power flow results (netCDF)
-|   |-- dispatch_april15.csv    #   Hourly generation dispatch
-|   |-- line_loading_april15.csv #  Per-line loading statistics
-|
-|-- buses.csv ... buses_v3.csv  # Network snapshots per version
-|-- lines.csv ... lines_v3.csv
-|-- transformers.csv ... transformers_v3.csv
-|-- reduction_info.json         # v1->v2 merge metadata
-|-- reduction_info_v3.json      # v2->v3 merge metadata
-|-- demand_by_municipality_2025.csv  # 11,135 municipalities
-|-- demand_by_nuts3_2025.csv    # 401 NUTS-3 regions
+```bash
+python scripts/simulation/merit_order_comparison.py
 ```
 
-## Pipeline Stages
+Produces dispatch summary, validation metrics vs. SMARD / Energy-Charts 2025,
+and prints the carrier-by-carrier breakdown.
 
-### Stage 1: Substation Simplification (v1 -> v2)
+## Repository layout
 
-**Script:** `scripts/simplify_substations.py`
+```
+.
+├── scripts/
+│   ├── pipeline/        v1 → grid_beta build scripts (one per stage)
+│   ├── reduction/       Substation merging, degree-2 elimination, JAO transfer
+│   ├── simulation/      Power flow, dispatch, merit-order calibration
+│   ├── tso_grid/        Independent JAO-backbone TSO grid builder
+│   ├── visualization/   Comparison maps + profile dashboards
+│   ├── lib/             Reusable metrics + node-mapping utilities
+│   ├── utils/           Name matching + KDTree spatial matching
+│   └── sql/             MaStR / substation reference SQL setup
+│
+├── docs/
+│   ├── methodology.md                Top-level project methodology
+│   ├── grid_pipeline_v1_v5.md        Detailed v1 → v5 stages
+│   ├── grid_alpha_build.md           Generator + storage allocation
+│   ├── grid_beta.md                  Load allocation + BDEW profiles
+│   ├── merit_order_methodology.md    Calibration approach
+│   ├── merit_order_analysis.md       Validation results (vs. SMARD)
+│   ├── jao_matching_summary.md       JAO/CORE-TSO parameter transfer
+│   ├── load_mapping.md               Demand allocation across municipalities
+│   ├── mastr_*.md                    MaStR data model + completeness
+│   ├── network_reduction.md          Reduction algorithms
+│   ├── topology_analysis.md          eGon vs. JAO comparison
+│   ├── database_import.md            DB restore + schema notes
+│   └── handover/                     Stage-by-stage handover docs
+│
+├── app/                  FastAPI + JS grid-explorer web app
+├── tests/                pytest unit tests (topology, parameters, DB)
+├── data/                 Reference + processed input data (large files via Release)
+└── results/              Per-version snapshots (large outputs gitignored)
+```
 
-Merges multiple OSM nodes that represent a single physical substation into one representative bus. Uses Union-Find clustering with KDTree spatial indexing, with voltage-specific merge radii (110 kV: 200m, 220-380 kV: 1000m). Protected nodes (substations, transformer buses) are never merged with each other.
+## Pipeline stages
 
-**Result:** 14,494 -> 8,925 buses (-38.4%)
+### Stage 1 — Substation simplification (v1 → v2)
 
-### Stage 2: Degree-2 Elimination (v2 -> v3)
+`scripts/pipeline/reduce_network.py` — Merges OSM nodes that represent a single
+physical substation. Union-Find clustering with KDTree spatial index; per-voltage
+merge radii (110 kV: 200 m, 220 / 380 kV: 1 000 m). Result: **14 494 → 8 925 buses (−38 %)**.
 
-**Script:** `scripts/simplify_degree2.py`
+### Stage 2 — Voltage-specific clustering + degree-2 elimination (v2 → v3)
 
-Removes pass-through buses on 220/380 kV lines that connect exactly two lines in series. These waypoint nodes add no branching or switching capability. Their two incident lines are merged into a single equivalent line with aggregated impedance (series r/x, bottleneck s_nom).
+`scripts/pipeline/reduce_network_v3.py` — Aggressive clustering per voltage level
+and removal of pass-through buses on 220 / 380 kV lines. Two incident lines are
+merged into one equivalent line (series r / x, bottleneck s_nom). Result: **8 925 → 8 756 buses**.
 
-**Result:** 8,925 -> 8,753 buses (-1.9%), with significantly fewer redundant line segments
+### Stage 3 — v4 build (110 kV re-clustering + JAO parameters)
 
-### Stage 3: Generator Mapping
+`scripts/pipeline/build_v4.py --apply` (2026-03-02) — Re-clusters 110 kV at
+400 m, applies JAO electrical parameters to **95 % of buses** and 71 % of lines,
+fills 1 082 EHV lines with similarity-based parameters, flags 28 missing
+transformers. Adds 3 HVDC links (ALEGRO, NordLink, Baltic Cable). Result: **7 687 buses, 12 911 lines, 535 trafos, 3 HVDC**.
 
-**Script:** `scripts/generator_mapping.py`
+### Stage 4 — v5 build (HVDC + offshore wind)
 
-Maps 24,972 power plants from the MaStR registry to grid buses using KDTree nearest-neighbor matching. Plants are classified by carrier (solar, onwind, gas, etc.) and assigned to voltage levels using Hulk et al. (2017) capacity thresholds (>120 MW -> 380 kV, >20 MW -> 220 kV, else 110 kV).
+`scripts/pipeline/build_v5.py` — Adds 11 internal HVDC corridors and 10 offshore
+wind cluster connections. Result: **7 704 buses, 548 trafos, 14 HVDC**.
 
-**Installed capacity:** 270 GW (solar 105 GW, onwind 68 GW, gas 34 GW, coal 14 GW, lignite 14 GW, ...)
+### Stage 5 — v6 build (phase-shifters + imports / exports + 8 760 h)
 
-### Stage 4: Load Mapping
+`scripts/pipeline/build_v6.py --apply` (2026-03-04) — Adds **19 phase-shifting
+transformers** on 380 kV cross-corridor lines, **56 import generators + 56
+export loads** at foreign buses, and full **8 760 h timeseries**. Result: **7 723 buses, 567 trafos, 14 HVDC, 66 generators, 56 loads**.
 
-**Script:** `scripts/load_mapping.py`
+### Stage 6 — grid_alpha (generator + storage allocation)
 
-Distributes 448 TWh annual demand from 11,135 German municipalities to 7,256 load points. Demand is split by sector (households 134 TWh, CTS 124 TWh, industry 190 TWh) and assigned to voltage levels using the same Hulk et al. thresholds.
+`scripts/pipeline/build_grid_alpha.py --apply` (2026-03-11) — Maps 18 793 MaStR
+generators (296.5 GW, incl. 9.8 GW offshore wind) and 2 444 storage units
+(12.6 GW) to grid buses using the **MaStR SEL → SAN join chain** with
+Huelk et al. (2017) voltage allocation. Companion script
+`grid_alpha_offshore_and_map.py --apply` handles offshore connections.
 
-**Peak load:** 76.2 GW (consistent with historical German system peak)
+### Stage 7 — grid_beta (loads + BDEW profiles)
 
-### Stage 5: Power Flow
+`scripts/pipeline/build_grid_beta.py --apply` (2026-03-11) — Splits demand from
+12 154 municipalities to bus loads via PostGIS spatial join and bus-degree
+weighting. Generates **8 760 h BDEW standard load profiles**. 376 large
+industrial consumers attached directly from MaStR. Result: **12 154 loads, 76.2 GW peak, 448 TWh / year**.
 
-**Script:** `scripts/run_powerflow.py`
+### Stage 8 — Merit-order dispatch + calibration
 
-Runs linear optimal power flow (LOPF) with CBC solver for a typical April day (24 snapshots). Uses synthetic capacity factor profiles for solar (bell curve, peak 0.40), wind (diurnal, avg 0.25), and a standard German weekday load shape.
+`scripts/pipeline/build_merit_order.py --apply` and
+`scripts/simulation/merit_order_comparison.py` — Sub-classifies gas into
+`gas_ccgt` (18 units, 9.8 GW) and `gas_chp` (739 units, 23.4 GW); computes
+SRMC from fuel costs, CO₂, and efficiency; generates CHP seasonal must-run
+profiles; computes renewable p_max_pu from **SMARD 2024 regionally-scaled
+profiles** (121 solar bins, 114 wind bins). All 13 validation metrics land
+within ±10 % of real 2025 after behind-the-meter corrections to the benchmark
+(EC `public_power` undercounts ~70 TWh of BTM CHP + rooftop PV).
 
-**Result:** Merit-order dispatch works correctly. At noon, renewables displace all fossil generation. System cost: 12.8 EUR/MWh average.
+## Validation (2026-04-26)
 
-## Data Sources
+| Carrier         | Model TWh | Real TWh   | Δ %      |
+| --------------- | --------: | ---------: | -------: |
+| Solar           | 101.1     | ~100       | +1 %     |
+| Wind onshore    | 105.3     | ~100–110   | ±5 %     |
+| Wind offshore   |  26.1     | ~25        | +4 %     |
+| Biomass         |  49.1     | ~50        | −2 %     |
+| Hydro           |  16.7     | ~17        | <1 %     |
+| Pumped storage  |   9.9     | ~10        | <1 %     |
+| Gas (corrected) |  92.3     | ~88        | +5 %     |
+| Hard coal       |  28.5     | ~28        | +2 %     |
+| Lignite         |  72.6     | ~72        | +1 %     |
+| Imports         |  49.9     |  45.6 (CBPF) | +9.4 % |
+| Exports         |  59.4     |  63.9 (CBPF) | −7 %   |
+| Mean price      | 97.0 €/MWh | 89.3 €/MWh | +9 %    |
 
-| Source | Content | License |
-|--------|---------|---------|
-| [eGon-data](https://egon-data.readthedocs.io) | Grid topology from OSM | AGPL v3 |
-| [MaStR](https://www.marktstammdatenregister.de) | German power plant registry | Open Data |
-| [JAO/CORE-TSO](https://www.jao.eu) | TSO grid model (electrical parameters) | Public |
-| [DemandRegio](https://opendata.ffe.de/project/demandregio) | Regional electricity demand | GPL v3 |
-| [BKG VG250](https://gdz.bkg.bund.de) | Municipality boundaries | Open Data |
-| [BDEW/BNetzA](https://www.smard.de) | National demand totals 2025 | Public |
+See [`docs/merit_order_analysis.md`](docs/merit_order_analysis.md) for the full
+breakdown and the BTM correction rationale.
 
-## Database
+## Data sources
 
-The PostgreSQL database (14 GB) contains all grid components, MaStR registry data, and geographic boundaries. A filtered dump of the v1-v3 grid scenarios (104 MB) is available as a [GitHub Release](../../releases) asset.
+| Source                                                                    | Content                              | License    |
+| ------------------------------------------------------------------------- | ------------------------------------ | ---------- |
+| [eGon-data](https://egon-data.readthedocs.io)                             | Grid topology from OpenStreetMap     | AGPL v3    |
+| [MaStR](https://www.marktstammdatenregister.de)                           | German power plant + load registry   | Open Data  |
+| [JAO / CORE-TSO](https://www.jao.eu)                                      | TSO grid model (electrical params)   | Public     |
+| [SMARD](https://www.smard.de)                                             | 2024 generation + load profiles      | Public     |
+| [Energy-Charts](https://www.energy-charts.info)                           | 2025 dispatch validation             | Public     |
+| [BDEW](https://www.bdew.de)                                               | Standard load profiles (SLP)         | Public     |
+| [BNetzA](https://www.bnetza.de)                                           | National totals + curtailment 2025   | Public     |
+| [DemandRegio](https://opendata.ffe.de/project/demandregio)                | Regional demand baseline             | GPL v3     |
+| [BKG VG250](https://gdz.bkg.bund.de)                                      | Municipality boundaries              | Open Data  |
 
-**Schemas:**
-- `grid` -- Network components (buses, lines, transformers, generators, loads)
-- `mastr` -- MaStR power plant registry (31 tables)
-- `boundaries` -- Geographic boundaries (municipalities, NUTS regions)
-- `scenario` -- Scenario metadata
+## Database schemas
 
-All grid tables use `scn_name` for scenario filtering:
-- `eGon2025` -- Raw OSM extraction (14,494 buses)
-- `eGon2025v2` -- After substation simplification (8,925 buses)
-- `eGon2025v3` -- After degree-2 elimination (8,753 buses)
+PostgreSQL + PostGIS. Schema follows eTraGo conventions; every grid component
+table is filtered by `scn_name`.
+
+| Schema       | Purpose                                                    |
+| ------------ | ---------------------------------------------------------- |
+| `grid`       | Buses, lines, transformers, generators, loads, storage     |
+| `mastr`      | MaStR registry (31 tables, unit / location / contracts)    |
+| `boundaries` | Municipalities, NUTS regions, state outlines               |
+| `scenario`   | Scenario parameters and metadata                           |
+| `openstreetmap`, `osmtgmod_results` | Raw + processed OSM topology      |
+
+Available `scn_name` values (newest first):
+
+- `grid_beta`       — generators + loads + 8 760 h profiles (final)
+- `grid_alpha`      — generators + storage, no loads yet
+- `eGon2025v6`      — pure grid (PSTs, imports / exports, timeseries)
+- `eGon2025v5`, `v4`, `v3`, `v2`, `eGon2025` — earlier pipeline snapshots
+- `eGon2025_tso`    — independent JAO-backbone TSO grid (12 093 buses)
+
+## Reproducing the pipeline
+
+```bash
+# Stage 1–2: substation merging + degree-2 elimination
+python scripts/pipeline/reduce_network.py --apply
+python scripts/pipeline/reduce_network_v3.py --apply
+
+# Stage 3–5: JAO parameters, HVDC, phase-shifters
+python scripts/pipeline/build_v4.py --apply
+python scripts/pipeline/build_v5.py --apply
+python scripts/pipeline/build_v6.py --apply
+
+# Stage 6: generators + storage
+python scripts/pipeline/build_grid_alpha.py --apply
+python scripts/pipeline/grid_alpha_offshore_and_map.py --apply
+
+# Stage 7: loads + BDEW profiles
+python scripts/pipeline/build_grid_beta.py --apply
+
+# Stage 8: merit-order calibration + 8 760 h dispatch
+python scripts/pipeline/build_merit_order.py --apply
+python scripts/simulation/merit_order_comparison.py
+```
+
+Each `--apply` script supports `--dry-run` for inspection without writing
+to the database.
+
+## Known limitations
+
+- **LOPF on full `grid_beta` is slow.** PyPSA 0.20.1's LP-build phase (~5 min
+  per snapshot before CBC even starts) is the bottleneck on 18 793 generators
+  × 12 911 lines. The merit-order comparison uses an aggregated model. Consider
+  upgrading to PyPSA / linopy for interactive power flow on the full network.
+- HiGHS CLI is not bundled — PyPSA 0.20.1 needs the CLI binary. Use CBC.
+- Some dev DB credentials are hard-coded as `egon:data` — fine for local dev,
+  do not deploy as-is.
 
 ## References
 
-- Hulk, L. et al. (2017). "Allocation of annual electricity consumption and power generation capacities across multiple voltage levels in a high spatial resolution." *Int. J. Sustainable Energy Planning and Management*, 13:79-92.
+- Huelk, L. et al. (2017). “Allocation of annual electricity consumption and
+  power generation capacities across multiple voltage levels in a high spatial
+  resolution.” *Int. J. Sustainable Energy Planning and Management*, 13: 79–92.
 - [eGon-data documentation](https://egon-data.readthedocs.io)
 - [eTraGo documentation](https://etrago.readthedocs.io)
-- [PyPSA](https://pypsa.org) -- Python for Power System Analysis
+- [PyPSA](https://pypsa.org) — Python for Power System Analysis
+- [SMARD](https://www.smard.de) — Strommarktdaten of the BNetzA
 
 ## License
 
-This project builds on [eGon-data](https://github.com/openego/eGon-data) (AGPL v3) and [eTraGo](https://github.com/openego/eTraGo) (AGPL v3). The scripts and documentation in this repository are provided for research purposes.
+The scripts and documentation in this repository are released under **AGPL v3**
+to match the licensing of the upstream
+[eGon-data](https://github.com/openego/eGon-data) and
+[eTraGo](https://github.com/openego/eTraGo) projects from which this work
+derives.

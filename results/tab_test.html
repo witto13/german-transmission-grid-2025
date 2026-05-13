@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tab test</title>
+<style>
+  body { font: 14px sans-serif; padding: 32px; background: #f6f7fb; color: #1a2332; }
+  nav { display: flex; gap: 4px; border-bottom: 1px solid #ddd; margin-bottom: 22px; }
+  nav button { background: transparent; border: none; padding: 10px 18px; cursor: pointer;
+               border-bottom: 2px solid transparent; }
+  nav button.active { color: #2f6fed; border-bottom-color: #2f6fed; font-weight: 600; }
+  section { display: none; }
+  section.active { display: block; }
+  #status { padding: 8px 12px; background: #ecfeff; border: 1px solid #67e8f9;
+            border-radius: 6px; margin: 12px 0; }
+  #click-log { font-family: monospace; }
+</style>
+</head>
+<body>
+
+<h1>Tab test — does this work in your browser?</h1>
+
+<div id="status">Boot status: <b id="boot-msg">JS has not run</b></div>
+
+<nav>
+  <button class="active" data-tab="a">Tab A</button>
+  <button data-tab="b">Tab B</button>
+  <button data-tab="c">Tab C</button>
+</nav>
+
+<section id="tab-a" class="active">
+  <h2>You are on Tab A</h2>
+  <p>If you can see this and the tab buttons highlighted blue, JS is running.</p>
+  <p>Click counter: <b id="clicks">0</b></p>
+  <p>Click log: <span id="click-log"></span></p>
+</section>
+<section id="tab-b">
+  <h2>You are on Tab B</h2>
+  <p>If switching to here works, tabs are functional in your browser.</p>
+</section>
+<section id="tab-c">
+  <h2>You are on Tab C</h2>
+  <p>And this one too.</p>
+</section>
+
+<script>
+let clicks = 0;
+function setup() {
+  const buttons = document.querySelectorAll('nav button');
+  const sections = document.querySelectorAll('section');
+  document.getElementById('boot-msg').textContent =
+    `JS ran. Found ${buttons.length} buttons and ${sections.length} sections. UA: ${navigator.userAgent.slice(0,60)}…`;
+  buttons.forEach(b => {
+    b.addEventListener('click', () => {
+      clicks++;
+      document.getElementById('clicks').textContent = clicks;
+      document.getElementById('click-log').textContent += ' → ' + b.dataset.tab;
+      buttons.forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      sections.forEach(s => s.classList.remove('active'));
+      document.getElementById('tab-' + b.dataset.tab).classList.add('active');
+    });
+  });
+}
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setup);
+else setup();
+</script>
+
+</body></html>

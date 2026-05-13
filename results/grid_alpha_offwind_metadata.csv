@@ -1,0 +1,10 @@
+bus_id,p_nom_mw,n_units,carrier,is_aggregated
+200104,200.0,40,offwind,False
+200105,608.46,98,offwind,False
+200107,3468.925,652,offwind,False
+200108,113.4,30,offwind,False
+200109,207.9,18,offwind,False
+200110,2077.5,355,offwind,False
+200111,196.35000000000002,17,offwind,False
+200112,899.25,156,offwind,False
+200113,2057.558,320,offwind,False

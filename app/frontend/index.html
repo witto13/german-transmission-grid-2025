@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Grid Data Explorer · grid_beta</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+  <div id="header">
+    <div class="brand">
+      <span class="brand-title">Grid Data Explorer</span>
+      <span class="brand-sub">scenario: <code>grid_beta</code> · year 2025</span>
+    </div>
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="production">1. Production</button>
+      <button class="tab-btn" data-tab="loads">2. Load by County</button>
+      <button class="tab-btn" data-tab="topology">3. Topology + Filters</button>
+      <button class="tab-btn" data-tab="capacity">4. Capacity & Load</button>
+      <button class="tab-btn" data-tab="pf">5. Power Flow</button>
+    </nav>
+  </div>
+
+  <aside id="sidebar"></aside>
+  <main id="map"></main>
+  <aside id="detail-panel" class="hidden"></aside>
+
+  <div id="toast" class="hidden"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/tab_production.js"></script>
+  <script src="/js/tab_loads.js"></script>
+  <script src="/js/tab_topology.js"></script>
+  <script src="/js/tab_capacity.js"></script>
+  <script src="/js/tab_pf.js"></script>
+  <script>
+    // Boot: register all tabs and activate the first one
+    App.registerTab('production', TabProduction);
+    App.registerTab('loads',      TabLoads);
+    App.registerTab('topology',   TabTopology);
+    App.registerTab('capacity',   TabCapacity);
+    App.registerTab('pf',         TabPf);
+    App.init();
+  </script>
+</body>
+</html>
