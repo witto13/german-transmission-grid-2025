@@ -1,0 +1,19 @@
+{
+  "tag": "baseline_no_fixes",
+  "snapshots_sample": 2016,
+  "annual_scale": 4.345238095238095,
+  "max_load_DA_pct": 739.0,
+  "max_load_after_s1_pct": 570.8,
+  "max_load_after_s2_pct": 570.8,
+  "lines_overloaded_DA": 64,
+  "lines_overloaded_after_s1": 50,
+  "lines_overloaded_after_s2": 89,
+  "overloaded_line_hours_s1_annualized": 37717,
+  "overloaded_line_hours_s2_annualized": 35874,
+  "stage1_RES_curtailed_TWh_annualized": 0.607,
+  "stage1_ramp_up_TWh_annualized": 2.891,
+  "stage1_ramp_down_TWh_annualized": 2.216,
+  "total_RES_curtailed_TWh_annualized": 2.109,
+  "total_ramp_up_TWh_annualized": 7.016,
+  "total_ramp_down_TWh_annualized": 6.05
+}

@@ -1,0 +1,16 @@
+{
+  "scenario": "grid_beta",
+  "snapshots": 8760,
+  "hours_with_overload_pre": 7401,
+  "hours_solved": 7401,
+  "hours_infeasible": 0,
+  "hours_residual_overload_post": 7309,
+  "total_ramp_up_TWh": 1.651735782623291,
+  "total_ramp_down_TWh": 1.964900016784668,
+  "RES_curtailed_TWh": 0.7994123101234436,
+  "conventional_ramped_up_TWh": 1.5971652269363403,
+  "total_cost_MEUR": 3832.230224609375,
+  "BNetzA_2024_benchmark_TWh": 30.3,
+  "BNetzA_2024_benchmark_RES_TWh": 9.4,
+  "BNetzA_2024_benchmark_cost_MEUR": 2776
+}

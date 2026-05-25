@@ -1,0 +1,29 @@
+{
+  "scenario": "grid_beta + gen_voltage_v2 + single-stage combined LP",
+  "snapshots": 24,
+  "n_contingencies_avg": 124.08333333333333,
+  "n_contingencies_max": 212,
+  "hrs_overload_da": 24,
+  "hrs_overload_post": 4,
+  "hrs_n1_binding": 24,
+  "overloaded_line_hours_da": 33,
+  "overloaded_line_hours_post": 45,
+  "total_ramp_up_TWh": 0.101,
+  "total_ramp_down_TWh": 0.077,
+  "RES_curtailed_TWh": 0.049,
+  "RES_ramped_up_TWh": 0.011,
+  "wind_curtailed_TWh": 0.035,
+  "solar_curtailed_TWh": 0.001,
+  "conventional_ramped_up_TWh": 0.072,
+  "conventional_ramped_down_TWh": 0.026,
+  "real_redispatch_cost_MEUR": 9.0,
+  "lp_objective_total_MEUR": 40913.01953125,
+  "residual_slack_MWsum": 40853.5,
+  "BNetzA_2024": {
+    "total_TWh": 30.3,
+    "RES_TWh": 5.95,
+    "wind_TWh": 4.56,
+    "solar_TWh": 1.39,
+    "cost_MEUR": 2776
+  }
+}

@@ -1,0 +1,29 @@
+unit,bus,v_nom,model_MW,nearest_real,nearest_km,real_MW,real_kV,cap_ratio,verdict
+1082,25378,110,1538.0,Walchensee,75.7,124,110,12.4,GHOST (>30 km from any real plant)
+381,4639,380,1294.0,Vianden (LU),29.2,1296,380,1.0,ok
+726,13762,380,1052.0,Goldisthal,0.7,1060,380,0.99,ok
+708,12943,380,1045.0,Markersbach,0.1,1050,380,1.0,ok
+2004,37397,110,789.0,Walchensee,22.8,124,110,6.36,AGGREGATION (>1.5x real MW)
+1904,36814,380,635.0,Wehr,3.2,910,380,0.7,ok
+151,667,380,480.0,Waldeck I+II,3.5,480,380,1.0,ok
+2167,38445,380,455.0,Wehr,3.7,910,380,0.5,ok
+2240,38866,110,368.0,Witznau,7.8,220,220,1.67,AGGREGATION (>1.5x real MW)
+707,12933,220,318.0,Hohenwarte II,3.6,320,220,0.99,ok
+846,17970,380,200.0,Erzhausen,5.6,220,220,0.91,voltage mismatch
+2166,38444,220,180.0,Säckingen,2.9,360,220,0.5,ok
+2081,37913,110,164.0,Langenprozelten,7.9,164,110,1.0,ok
+834,17777,110,162.0,Koepchenwerk Herdecke,1.7,153,110,1.06,ok
+2292,39357,110,160.0,Happurg,1.9,160,110,1.0,ok
+1731,36017,110,145.0,Waldeck I+II,3.6,480,380,0.3,voltage mismatch
+2088,37993,110,138.0,Rönkhausen,13.3,140,110,0.99,ok
+1037,24928,110,128.0,Reisach-Tanzmühle,1.5,105,110,1.22,ok
+1415,32778,110,119.0,Geesthacht,0.5,120,110,0.99,ok
+437,5524,110,92.0,Leitzachwerke,16.8,91,110,1.01,ok
+1076,25302,110,90.0,Glems,1.6,90,110,1.0,ok
+796,16286,110,88.0,Witznau,14.4,220,220,0.4,voltage mismatch
+800,16560,110,80.0,Wendefurth,6.3,80,110,1.0,ok
+2299,39412,110,80.0,Bleiloch,5.8,80,110,1.0,ok
+2276,39193,110,60.0,Witznau,1.0,220,220,0.27,voltage mismatch
+2537,40354,110,22.0,Forbach,0.7,65,110,0.33,ok
+1110,25633,110,12.0,Glems,109.0,90,110,0.13,GHOST (>30 km from any real plant)
+2297,39391,110,7.0,Reisach-Tanzmühle,91.9,105,110,0.06,GHOST (>30 km from any real plant)

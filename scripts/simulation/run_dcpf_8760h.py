@@ -27,6 +27,7 @@ Usage:
 """
 import argparse
 import logging
+import os
 import time
 from pathlib import Path
 
@@ -132,9 +133,14 @@ def main_subnetwork_ptdf(n):
     B = len(sub_buses)
     L = len(sub_lines)
 
-    # Lines: incidence + susceptance for output PTDF
+    # Lines: incidence + susceptance for output PTDF.
+    # IMPORTANT: use the PER-UNIT reactance x_pu (= x / (v_nom^2 / S_base)), NOT the
+    # raw ohmic x. Raw ohms mix 110/220/380 kV buses on inconsistent bases and make
+    # 110 kV lines look ~(380/110)^2 ≈ 12x more conductive than they should, which
+    # routes huge spurious flows through the 110 kV grid.  x_pu is populated by
+    # n.calculate_dependent_values() in main().
     lines_in_main = n.lines.loc[sub_lines]
-    x_arr = lines_in_main["x"].values.astype(np.float64)
+    x_arr = lines_in_main["x_pu"].values.astype(np.float64)
     b0_arr = np.array([bus_idx[b] for b in lines_in_main["bus0"]])
     b1_arr = np.array([bus_idx[b] for b in lines_in_main["bus1"]])
     b_susc = 1.0 / x_arr
@@ -148,7 +154,7 @@ def main_subnetwork_ptdf(n):
 
     if sub_trafos:
         trafos_in_main = n.transformers.loc[sub_trafos]
-        tx = trafos_in_main["x"].values.astype(np.float64)
+        tx = trafos_in_main["x_pu"].values.astype(np.float64)   # per-unit, same base as lines
         # Avoid division by zero
         tx = np.where(tx > 0, tx, 1.0)
         tb0 = np.array([bus_idx[b] for b in trafos_in_main["bus0"]])
@@ -207,7 +213,11 @@ def main_subnetwork_ptdf(n):
     # For our purposes: PTDF_red = diag(b) @ K_red @ B_red_inv  ⇒  in matrix form:
     # PTDF_red = (diag(b) @ K_red) @ B_red_inv. We compute PTDF_red.T = B_red_inv.T @ (diag(b) @ K_red).T
     # which is B_red_inv applied to each column of (diag(b) @ K_red).T. (We use B_red symmetric so .T = self.)
-    rhs = (b_susc[:, None] * K_red).T    # (B-1, L)
+    # K_red ALREADY carries the susceptance (K_data = ±b_susc), i.e. K = diag(b) @ A^T.
+    # The correct PTDF is diag(b) @ A^T @ B^-1, so we must solve with K_red.T directly.
+    # (The previous code multiplied by b a SECOND time → diag(b^2) @ A^T, over-counting
+    #  susceptance by a factor b on every branch and inflating PTDF entries.)
+    rhs = K_red.T    # (B-1, L) — already = (diag(b) @ A^T)^T
     ptdf_red_T = np.empty_like(rhs)
     block = 256
     for start in range(0, L, block):
@@ -279,6 +289,29 @@ def main():
     if args.snapshots:
         n.set_snapshots(n.snapshots[:args.snapshots])
         log.info(f"Truncated to first {args.snapshots} snapshots")
+
+    # ---- Data cleaning before PTDF ----
+    # Floor non-physical tiny line reactances. Line 33300 is a 0.01 km / x=0.001
+    # "dummy connector" between two duplicate buses (6700 & 13371, ~50 m apart,
+    # same substation); its near-zero reactance acts as a short circuit and, under
+    # the per-unit formulation, would dominate the susceptance matrix. A 0.05 ohm
+    # floor corresponds to a realistic very-short 110 kV span and affects only that line.
+    n_tiny = int((n.lines["x"] < 0.05).sum())
+    if n_tiny:
+        log.info(f"Flooring {n_tiny} line(s) with x < 0.05 ohm to 0.05 (e.g. dummy connector 33300).")
+        n.lines["x"] = n.lines["x"].clip(lower=0.05)
+
+    # Optional topology fixes (adds missing EHV/110 transformers at radial pockets).
+    if os.environ.get("APPLY_TOPOLOGY_FIXES", "0") == "1":
+        from _topology_fix import apply_fixes
+        apply_fixes(n)
+    # Optional generator-voltage rule (≥150 MW units on 110 kV → nearest EHV bus).
+    if os.environ.get("APPLY_GEN_VOLTAGE_FIX", "0") == "1":
+        from _gen_voltage_fix import apply_gen_voltage_rule
+        apply_gen_voltage_rule(n)
+
+    # Populate per-unit reactances x_pu used by the PTDF (per-unit DC power flow).
+    n.calculate_dependent_values()
 
     inj, all_bus_ids = compute_injection(n)
     ptdf, sub_lines, sub_buses = main_subnetwork_ptdf(n)

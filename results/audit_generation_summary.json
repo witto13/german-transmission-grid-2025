@@ -1,0 +1,126 @@
+{
+  "total_flagged": 83,
+  "total_flagged_MW": 34458.200000000004,
+  "by_carrier": {
+    "battery": 0.0,
+    "coal": 9738.0,
+    "gas_ccgt": 4709.0,
+    "gas_chp": 13060.0,
+    "import_AT": 363.0,
+    "import_CH": 562.0,
+    "oil": 2179.0,
+    "pumped_hydro": 3207.0,
+    "reservoir": 640.0
+  },
+  "by_issue": {
+    "AGGREGATION": 1157.0,
+    "AGGREGATION_CONV": 6086.0,
+    "EVAC_DEFICIT": 0.0,
+    "GHOST": 1557.0,
+    "GHOST_CONV": 13784.0,
+    "OVERSIZED": 1818.0,
+    "VOLT_MISMATCH": 10055.0
+  },
+  "top10_flags": [
+    {
+      "type": "generator",
+      "id": "13692",
+      "carrier": "gas_ccgt",
+      "bus": "36532",
+      "v_nom": 380,
+      "p_nom_MW": 1645.0,
+      "state": "Niedersachsen",
+      "issues": "AGGREGATION_CONV (1.9x nearest real Emsland-D)"
+    },
+    {
+      "type": "storage",
+      "id": "1082",
+      "carrier": "pumped_hydro",
+      "bus": "25378",
+      "v_nom": 110,
+      "p_nom_MW": 1538.0,
+      "state": "Bayern",
+      "issues": "GHOST (>76 km from any real pumped-hydro plant); OVERSIZED (1538 MW > 250 MW threshold for 110 kV)"
+    },
+    {
+      "type": "generator",
+      "id": "11323",
+      "carrier": "gas_ccgt",
+      "bus": "34767",
+      "v_nom": 380,
+      "p_nom_MW": 1326.0,
+      "state": "Nordrhein-Westfalen",
+      "issues": "AGGREGATION_CONV (1.7x nearest real Knapsack); VOLT_MISMATCH (model 380 vs real Knapsack's 220 kV)"
+    },
+    {
+      "type": "generator",
+      "id": "12987",
+      "carrier": "coal",
+      "bus": "36079",
+      "v_nom": 380,
+      "p_nom_MW": 1102.0,
+      "state": "Hessen",
+      "issues": "GHOST_CONV (>78 km from any real hard_coal plant); VOLT_MISMATCH (model 380 vs real Mannheim GKM's 220 kV)"
+    },
+    {
+      "type": "generator",
+      "id": "6362",
+      "carrier": "coal",
+      "bus": "19951",
+      "v_nom": 380,
+      "p_nom_MW": 1098.0,
+      "state": "Baden-W\u00fcrttemberg",
+      "issues": "VOLT_MISMATCH (model 380 vs real Mannheim GKM's 220 kV)"
+    },
+    {
+      "type": "generator",
+      "id": "13729",
+      "carrier": "gas_chp",
+      "bus": "36558",
+      "v_nom": 110,
+      "p_nom_MW": 893.3,
+      "state": "Rheinland-Pfalz",
+      "issues": "AGGREGATION_CONV (3.0x nearest real Block Mainz K6); VOLT_MISMATCH (model 110 vs real Block Mainz K6's 220 kV); OVERSIZED (893 MW > 250 MW threshold for 110 kV)"
+    },
+    {
+      "type": "generator",
+      "id": "18184",
+      "carrier": "gas_chp",
+      "bus": "40118",
+      "v_nom": 110,
+      "p_nom_MW": 826.4,
+      "state": "Nordrhein-Westfalen",
+      "issues": "VOLT_MISMATCH (model 110 vs real Lausward (DUS)'s 380 kV); OVERSIZED (826 MW > 250 MW threshold for 110 kV)"
+    },
+    {
+      "type": "generator",
+      "id": "12140",
+      "carrier": "gas_chp",
+      "bus": "35481",
+      "v_nom": 110,
+      "p_nom_MW": 824.0,
+      "state": "Bayern",
+      "issues": "GHOST_CONV (>80 km from any real gas plant); VOLT_MISMATCH (model 110 vs real Irsching 4/5's 380 kV); OVERSIZED (824 MW > 250 MW threshold for 110 kV)"
+    },
+    {
+      "type": "storage",
+      "id": "2004",
+      "carrier": "pumped_hydro",
+      "bus": "37397",
+      "v_nom": 110,
+      "p_nom_MW": 789.0,
+      "state": "Bayern",
+      "issues": "AGGREGATION (6.4x nearest real); EVAC_DEFICIT (bus capacity 780 MVA < gen+stor 798 MW); OVERSIZED (789 MW > 250 MW threshold for 110 kV)"
+    },
+    {
+      "type": "generator",
+      "id": "17334",
+      "carrier": "coal",
+      "bus": "39445",
+      "v_nom": 380,
+      "p_nom_MW": 778.0,
+      "state": "Baden-W\u00fcrttemberg",
+      "issues": "VOLT_MISMATCH (model 380 vs real Heilbronn's 220 kV)"
+    }
+  ]
+}

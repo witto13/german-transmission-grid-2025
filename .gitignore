@@ -32,6 +32,9 @@ db_dump/
 
 # Large/regenerable results
 results/*.nc
+results/*.npz
+results/*.mmap
+results/.*.mmap
 results/*_map.html
 results/grid_alpha_map.html
 results/grid_beta_map.html
